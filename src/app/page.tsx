@@ -1,19 +1,15 @@
-import { useState } from 'react';
 import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Hero from './components/Hero';
 
-function App() {
-
+export default function Home() {
   return (
     <>
       <Navbar/>
-      <Home/>
+      <Hero/>
       <ProjectSection/>
       <Footer/>
     </>
-  )
+  );
 }
-
-export default App;

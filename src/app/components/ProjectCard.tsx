@@ -1,14 +1,14 @@
 type ProjectCard = {
   title: string
   description: string
-  thumbnailPath: string
+  thumbnail: string
   tags: string[]
 }
 
-function ProjectCard({title, description, thumbnailPath, tags}: ProjectCard) {
+function ProjectCard({title, description, thumbnail, tags}: ProjectCard) {
   return (
     <div>
-      <img src={thumbnailPath}/>
+      <img src={thumbnail}/>
       <h1>{title}</h1>
       <div>{description}</div>
       {tags.map(tag => {

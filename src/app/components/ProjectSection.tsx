@@ -1,17 +1,17 @@
-import { useState } from "react";
+'use client';
+
+import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
-import fs from "fs";
 
 type ProjectType = "all" | "programming" | "engineering";
 
-async function getProjectList(type : ProjectType) {
-  
-}
-
-function ProjectSection() {
+export default function ProjectSection() {
   const [ type, setType ] = useState<ProjectType>("all");
+  const [ projects, setProjects ] = useState<any[]>([]);
 
-  const projects = [""];
+  useEffect(() => {
+     
+  }, [type])
 
   return (
     <section id="projects" className="bg-[url('/low-poly-grid-haikei.svg')]">
@@ -23,14 +23,17 @@ function ProjectSection() {
       </div>
 
       <div>
-        {/* {projects.map((project) => {
+        {projects.map((project) => {
           return (
-            <ProjectCard />
+            <ProjectCard 
+              title={project.title}
+              description={project.description}
+              thumbnail={project.thumbnail}
+              tags={project.tags}
+            />
           )
-        })} */}
+        })}
       </div>
     </section>
-  )
+  );
 }
-
-export default ProjectSection;

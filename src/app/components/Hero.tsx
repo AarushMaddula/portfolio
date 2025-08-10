@@ -1,4 +1,4 @@
-function Home() {
+function Hero() {
   return (
     <section id="home" className="w-full h-screen bg-[url('/low-poly-grid-haikei.svg')] bg-cover bg-center">
       <div></div>
@@ -6,4 +6,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default Hero;

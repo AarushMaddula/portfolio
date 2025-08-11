@@ -17,7 +17,7 @@ export default function ProjectSection() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch("data/projectList.json")
+    fetch("/projects/projectList.json")
       .then((response) => response.json())
       .then((data) => {
         if (type === "all") {

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="w-full mt-4 fixed">
+    <nav className="w-full mt-4 fixed z-50">
       <div
         className="mx-auto px-6 py-3 w-fit bg-gray-900/90 flex items-center 
       justify-center rounded-xl outline-2 outline-blue-900/90 backdrop-blur-sm"
@@ -12,19 +12,19 @@ export default function Navbar() {
 
         <div className="text-white flex gap-3 items-center font-semibold">
           <Link
-            href="#home"
+            href="/#home"
             className="py-1 px-2 hover:bg-gray-600 rounded-md transition-all duration-100"
           >
             Home
           </Link>
           <Link
-            href="#about-me"
+            href="/#about-me"
             className="py-1 px-2 hover:bg-gray-600 rounded-md transition-all duration-100"
           >
             About Me
           </Link>
           <Link
-            href="#projects"
+            href="/#projects"
             className="py-1 px-2 hover:bg-gray-600 rounded-md transition-all duration-100"
           >
             Projects

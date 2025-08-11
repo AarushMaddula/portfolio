@@ -1,7 +1,7 @@
 [{
   "title": "3D Printed Brick",
   "description": "I designed and modeled a 2x4 Lego Brick using the Autodesk Fusion 360 software and 3D printing it using Afinia Studio and an Afinia H400+ 3D printer as part of a design project in my Engineering Class.",
-  "thumbnail": "data/projects/3d-printed-brick/images",
+  "thumbnail": "/data/projects/3d-printed-brick/images/brick.jpeg",
   "type": "engineering",
   "tags": ["Fusion 360", "3D Printing"]
 }]

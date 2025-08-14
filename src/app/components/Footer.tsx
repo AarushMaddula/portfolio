@@ -1,8 +1,10 @@
 function Footer() {
   return (
     <>
-      <footer className="w-full p-4 text-center">
-        &copy;2025 Aarush Maddula 
+      <footer className="flex justify-center items-center gap-2 w-full p-4 text-white">
+        <p>Made with ❤️ & Next.js</p>
+        <span>|</span>
+        <p>&copy;2025 Aarush Maddula</p>
       </footer>
     </>
   )

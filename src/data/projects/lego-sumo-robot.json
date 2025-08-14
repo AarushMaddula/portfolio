@@ -1,0 +1,54 @@
+{
+  "title": "Lego Sumo Robot",
+  "description": "In this project, I and Autumn Ludwig were tasked to make a Lego sumo robot with three motors that could fit a 12 in x 12 in x 12 in box. This robot will compete against other robots in our class for two rounds of competition in the ring where 2 robots have to fight to push each other off the table edge.",
+  "thumbnail": "/projects/lego-sumo-robot/images/robot.jpeg",
+  "type": "engineering",
+  "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Brainstorming",
+      "description": "Me and Autumn had different ideas for our robot, with my designs consisting of a robot that \"punches\" the robot off the edge and a robot that scoops the other robot from underneath and flips it, both with sensors that activate the puncher/scoop if a robot is in front of it. Autumn's idea was to use a rotating piece on the front to hit the other robots. \n\n We worked together on a compromise: to use my scoop design, but remove the sensor since we thought it would be more effective if we manually activated the scoop ourselves. We also wanted it to have 2 wheels in the front and a rolling ball in the back so it could maneuver properly. We would add some weight to make the robot hard to move around when flipping something over or getting attacked by an opponent.",
+      "images": [
+        "/projects/lego-sumo-robot/images/mysketch.jpeg",
+        "/projects/lego-sumo-robot/images/sketch.jpeg",
+        "/projects/lego-sumo-robot/images/autumnsketch.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Initial Design",
+      "description": "We built our initial design, shown right. It has 2 wheels and a rolling ball in the back, a scoop, and an Ev3 for weight. When we were testing our design, we realized there were a few issues. When our robot tried to pick something up, the car body would flip since it wasn't heavy enough. Also, the wheels kept slipping, reducing the overall traction.",
+      "images": [
+        "/projects/lego-sumo-robot/images/wheels.jpeg",
+        "/projects/lego-sumo-robot/images/tracks.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Revised Design",
+      "description": "To fix these issues, we replaced the wheels for a track design for increased traction. We also added another Ev3 brick on the top to increase the weight and traction of the robot. Lastly, we increased the scoop size and distance from the ground to increase the efficiency of the robot.",
+      "images": [
+        "/projects/lego-sumo-robot/images/wheels.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Competition #1",
+      "description": "We competed with other robots our class made in the first competition, placing in 3rd place. However, we encountered many issues during the competition. During one round, both tracks came off the sumo robot since they weren’t properly secured, rendering the robot unmoveable. Our controller was often glitchy and slow to respond to input, causing the robot to unexpectedly move backwards, causing the robot to fall off. The treads were too loose, slowing us down and allowing the opponent to rip off our tracks.",
+      "images": [
+        "/projects/lego-sumo-robot/images/tracks.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Redesign Process",
+      "description": "To fix these issues, we improved the track assembly by adding more connections with the body so it doesn't disconnect and making the assembly longer so the track can fit snuggly with the assembly. In addition, we added spikes to our scoop to make it easier for the scoop to go under robots. To fix our controller, we switched the joystick to a D-pad since when we used the joystick, angling it to a diagonal would glitch it between one of the adjacent axes.",
+      "images": [
+        "/projects/lego-sumo-robot/images/robot.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Competition #2",
+      "description": "We competed for a second time where we did worse, placing in 4th place. We think this is because our opponents' scoops were bigger, sharper, and lower to the ground than ours, with 1 opponent using a 3d printed part to achieve this. This caused our robot to get caught on the scoop and get easily pushed off the edge.",
+      "images": []
+    }
+  ],
+  "resources": ["/projects/lego-sumo-robot/resources/LEGO_Sumo_Robot_Project_Report.pdf"]
+}
+

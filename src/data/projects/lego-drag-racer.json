@@ -1,0 +1,61 @@
+{
+  "title": "Lego Drag Racer",
+  "description": "Our group (Me, Gavin Grundei, Aiden Shanks) was tasked with building a Lego Drag Racer that would later compete with other groups' cars to see which car could reach the finish line the fastest. Throughout the project, we collaborated as a team to investigate and analyze various factors such as wheel size and gear ratios to determine how multiple factors impacted the top velocity and acceleration of the vehicle using Vernier Graphical Analysis, as well as model the car's performance using MATLAB to predict which gear ratio performed the best. We also experimented with changing the number of motors on the car. On race #1, we placed 2nd out of the class after a close finale. To do better in the next race, we changed aspects of our design to improve its performance. These improvements helped as on race #2, we placed 1st out of the whole class. Overall, I've gained a lot from this experience.",
+  "thumbnail": "/projects/lego-drag-racer/images/improvements.jpeg",
+  "type": "engineering",
+  "tags": ["Physics", "Data Analysis", "Code", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Investigating Wheel Size",
+      "description": "After building our test rig, we tested 4 different wheel sizes (68.8mm, 56mm, 43.2mm, 22.2mm) by running the car for 5 seconds and recording how far it went. We also found the predicted distance by using the motor's rpm, the radius of the wheel, and dimensional analysis to find it.  We determined that bigger wheels go farther and faster than smaller wheels.",
+      "images": [
+        "/projects/lego-drag-racer/images/wheel.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Investigating Gear Ratios",
+      "description": "We tested 4 different gear ratios (8:40, 24:40, 8:24 x 24:40, 24:40 x 8:40) by attaching a Vernier cart to generate a V-T graph. We analyzed this graph to find the top speed and acceleration. We also found the predicted top speeds by using the rpm of the motor, the gear ratio, and the radius of the wheels. We determined that a large gear ratio has slow acceleration and larger top speeds, while a small gear ratio had the opposite effect.",
+      "images": [
+        "/projects/lego-drag-racer/images/gear.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Investigating Motors",
+      "description": "We tried adding another motor to our design in the back, which resulted in the car depicted in image #1. The issue with this design is that the car was struggling to move as we thought the width of the car decreased the efficiency of the motors. Afterward, we moved the motor to the front to distribute the load and to make the car more structurally stable.",
+      "images": [
+        "/projects/lego-drag-racer/images/motor.jpeg",
+        "/projects/lego-drag-racer/images/allmotor.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Modeling Car Configurations",
+      "description": "We used a MATLAB program to input the top speeds and accelerations for each gear ratio and graphed it on Google Sheets to find which gear ratio reached the end of the 8-foot race the quickest. The 8:40 gear ratio with 2 motors performed the best, so we decided to use that.",
+      "images": [
+        "/projects/lego-drag-racer/images/graph.png"
+      ]
+    }, 
+    {
+      "heading": "Race Day #1",
+      "description": "We finally got to race our car against the other cars our class made. We placed 2nd after a close race (video left).",
+      "images": [
+        "/projects/lego-drag-racer/videos/race1.mp4"
+      ]
+    }, 
+    {
+      "heading": "Improvements",
+      "description": "Since the winning car had the same gear ratio and motors, we thought our car was slightly too heavy. We decided to remove one of the front wheels and move the other wheel to the front to reduce weight.",
+      "images": [
+        "/projects/lego-drag-racer/images/improvements.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Race Day #2",
+      "description": "We raced again with our class, where we finally secured a victory!",
+      "images": [
+        "/projects/lego-drag-racer/videos/race2.mp4"
+      ]
+    }
+  ],
+  "resources": ["/projects/lego-drag-racer/resources/LEGO_Dragster_Project_Report_Submission.pdf"]
+}
+

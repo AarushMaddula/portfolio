@@ -1,0 +1,40 @@
+{
+  "title": "Lego Mass Launcher",
+  "description": "Our group was tasked to build a Lego Mass Launcher designed to launch a projectile  away from the launcher using only potential energy. We also had to find the initial launch velocity by collecting data and using basic principles of projectile motion.",
+  "thumbnail": "/projects/lego-mass-launcher/images/launcher.jpeg",
+  "type": "engineering",
+  "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Brainstorming",
+      "description": "After starting, each group member came up with their design and we discussed with the group. Our ideas were similar, consisting of a catapult-like design, but with a few differences. After compromising, we came up with a catapult with an arm pivoting around a center beam and a counterweight on the end to propel the ball forward. The mass would be on the other side of the arm.",
+      "images": [
+        "/projects/lego-mass-launcher/images/sketch.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Initial Build",
+      "description": "We soon built the first iteration of our launcher, which had many issues. First, the counterweight (Ev3 brick) was exerting too much stress on the structure.  Also, the launcher wasn't structurally stable enough to properly hold the brick. Lastly, the launcher kept falling off the table anytime we tried to launch it.",
+      "images": [
+        "/projects/lego-mass-launcher/images/launcher-brick.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Final Build",
+      "description": "We changed the design of the build to solve our problems, such as scrapping the counterweight in favor of rubber bands connecting the front of the arm to the base, adding more Lego to make the structure more stable, and adding a back clip to keep the launcher from falling. In the end, we built a working launcher.",
+      "images": [
+        "/projects/lego-mass-launcher/images/launcher-bands.jpeg",
+        "/projects/lego-mass-launcher/images/launcher.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Data Analysis",
+      "description": "After completing our Launcher, we recorded a video of the ball launching into the air and uploaded it onto Vernier Video Analysis Software to generate a Velocity-Time graph. Using this information, we determined the initial velocity of the ball was 4.023m/s.",
+      "images": [
+        "/projects/lego-mass-launcher/images/graph.png"
+      ]
+    }
+  ],
+  "resources": ["/projects/lego-mass-launcher/resources/Lego_Mass_Launcher_Lab_Report.pdf"]
+}
+

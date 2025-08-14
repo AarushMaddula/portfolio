@@ -3,7 +3,7 @@
 import Image from "next/image";
 import ImageCarousel from "./ImageCarousel";
 
-function renderImages(section : any) {
+function renderImages(section) {
   switch (section.images.length) {
     case 1:
       return (
@@ -30,14 +30,14 @@ function renderImages(section : any) {
   }
 }
 
-export default function Timeline({ pageData }: any) {
+export default function Timeline({ pageData }) {
   return (
     <>
       <div>The Process</div>
       <div className="flex gap-4">
         <div className="bg-white w-4 mx-8"></div>
         <ol className="flex flex-col gap-8">
-          {pageData.timeline.map((section : any) => {
+          {pageData.timeline.map((section) => {
             return (
               <li key={section.heading} className="relative">
                 <div className="absolute bg-white w-12 h-0.5 top-4 -translate-x-full"></div>

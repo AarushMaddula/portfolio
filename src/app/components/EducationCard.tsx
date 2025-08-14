@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 type EducationCardProps = {
   title: string;
   description: string;

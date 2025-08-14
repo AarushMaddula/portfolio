@@ -52,7 +52,7 @@ function About() {
       <div>
         <h2 className="text-3xl font-semibold text-white mb-6">Education</h2>
         <div className="flex flex-col gap-4">
-          {educationData.map((data: any) => {
+          {educationData.map((data) => {
             return <EducationCard key={data.title} {...data} />;
           })}
         </div>
@@ -61,7 +61,7 @@ function About() {
       <div>
         <h2 className="text-3xl font-semibold text-white mb-6">Experience</h2>
         <div className="flex flex-col gap-4">
-          {experienceData.map((data: any) => {
+          {experienceData.map((data) => {
             return <ExperienceCard key={data.title} {...data} />;
           })}
         </div>

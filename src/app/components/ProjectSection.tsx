@@ -11,26 +11,21 @@ type Project = {
   type: ProjectType;
   tags: string[];
   path: string;
+  github: string;
+  website: string;
 };
 
-export default function ProjectSection() {
-  const [type, setType] = useState<ProjectType>("all");
-  const [projects, setProjects] = useState<Project[]>([]);
+function getFilteredProjects(type: ProjectType, data: Project[]) {
+  if (type === "all") {
+    return data;
+  } else {
+    return data.filter((project: Project) => project.type === type);
+  }
+}
 
-  useEffect(() => {
-    fetch("/projects/projectList.json")
-      .then((response) => response.json())
-      .then((data) => {
-        if (type === "all") {
-          setProjects(data);
-        } else {
-          const filteredProjects = data.filter(
-            (project: Project) => project.type === type
-          );
-          setProjects(filteredProjects);
-        }
-      });
-  }, [type]);
+export default function ProjectSection({ projectsData }) {
+  const [type, setType] = useState<ProjectType>("all");
+  const projects = getFilteredProjects(type, projectsData);
 
   return (
     <section id="projects" className="bg-dark py-8 px-8 max-w-7xl mx-auto">
@@ -61,11 +56,7 @@ export default function ProjectSection() {
           return (
             <ProjectCard
               key={project.title}
-              title={project.title}
-              description={project.description}
-              thumbnail={project.thumbnail}
-              tags={project.tags}
-              path={project.path}
+              {...project}
             />
           );
         })}

@@ -8,7 +8,7 @@ function Hero() {
       <div className="left-2/3 top-2/3 absolute -translate-x-1/2 -translate-y-1/2 inset-0 bd blur-3xl rounded-full"></div>
 
       <div className="left-1/2 top-1/2 absolute -translate-x-1/2 -translate-y-1/2 animate-[pop_300ms_ease-out] flex flex-col">
-        <h2 className="text-2xl font-bold mb-2 text-center text-white">
+        <h2 className="text-2xl font-bold mb-2 text-center text-highlight">
           Salutations
           <span className="inline-block animate-[wave_1000ms_ease-in-out_infinite_alternate] origin-bottom-right">
             👋
@@ -18,19 +18,19 @@ function Hero() {
         <h1 className="text-5xl font-bold mb-2 text-center bg-gradient-to-l from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
           Aarush Maddula
         </h1>
-        <h2 className="text-2xl font-bold text-center text-white mb-10">
+        <h2 className="text-2xl font-bold text-center text-highlight mb-10">
           Aspiring Computer Engineer
         </h2>
         <div className="flex gap-4 justify-center items-center">
           <Link
             href="/#projects"
-            className="px-4 py-2 font-medium border border-white rounded-md text-white duration-150 hover:scale-[105%] hover:bg-gray-500 hover:cursor-pointer"
+            className="px-4 py-2 font-medium border border-highlight rounded-md text-highlight duration-150 hover:scale-[105%] hover:border-accent hover:cursor-pointer"
           >
             Projects
           </Link>
           <Link
             href="/downloads/resume.pdf"
-            className="px-4 py-2 font-medium border border-white rounded-md text-white duration-150 hover:scale-[105%] hover:bg-gray-500 hover:cursor-pointer"
+            className="px-4 py-2 font-medium border border-highlight rounded-md text-highlight duration-150 hover:scale-[105%] hover:border-accent hover:cursor-pointer"
             download={true}
           >
             Resume

@@ -1,31 +1,20 @@
-import Image from 'next/image'
 import pageData from '@/data/projects/lego-sumo-robot.json';
 import Timeline from '../components/Timeline';
+import ResourceSection from '../components/ResourceSection';
+import Footer from '@/app/components/Footer';
+import Header from '../components/Header';
+import PageThumbnail from '../components/PageThumbnail';
 
 export default function Page() {
   return ( 
     <>
-      <div className='relative w-full aspect-5/3 object-cover'>
-        <Image src={pageData.thumbnail} alt="Lego Sudo Robot" fill/>
-      </div>
-      <h1>{pageData.title}</h1>
-      <p>{pageData.description}</p>
-
-      <Timeline pageData={pageData} />
-
-      <div>
-        <h2>Resources</h2>
-        
-        <ul>
-          {pageData.resources.map((resource) => {
-            return (
-              <li key={resource}>
-                <a href={resource} download>{resource}</a>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
+      <PageThumbnail thumbnail={pageData.thumbnail} />
+      <div className='px-4'>
+        <Header title={pageData.title} description={pageData.description} />
+        <Timeline timeline={pageData.timeline} />
+        <ResourceSection resources={pageData.resources} />
+        <Footer/>
+      </div>   
     </>      
   )
 }

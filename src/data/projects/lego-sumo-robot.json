@@ -49,6 +49,12 @@
       "images": []
     }
   ],
-  "resources": ["/projects/lego-sumo-robot/resources/LEGO_Sumo_Robot_Project_Report.pdf"]
+  "resources": [
+    {
+      "name": "Lego Sumo Robot Project Report",
+      "icon": "/file.svg",
+      "path": "/projects/lego-sumo-robot/resources/LEGO_Sumo_Robot_Project_Report.pdf"
+    }
+  ]
 }
 

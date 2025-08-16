@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="w-full mt-4 fixed z-50 animate-[slide-down_300ms_ease-out]">
       <div
         className="mx-auto px-6 py-3 w-fit bg-gray-900/50 flex items-center 
-      justify-center rounded-xl outline-2 outline-accent backdrop-blur-lg
+      justify-center rounded-xl outline-2 outline-accent/70 backdrop-blur-lg
       shadow-[inset_0_2px_5px_rgba(177,177,177,0.25)]"
       >
         <div className="text-white font-bold text-lg">Aarush Maddula</div>

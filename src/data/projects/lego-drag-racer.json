@@ -56,6 +56,12 @@
       ]
     }
   ],
-  "resources": ["/projects/lego-drag-racer/resources/LEGO_Dragster_Project_Report_Submission.pdf"]
+  "resources": [
+    {
+      "name": "Lego Dragster Project Report",
+      "icon": "/file.svg",
+      "path": "/projects/lego-drag-racer/resources/LEGO_Dragster_Project_Report_Submission.pdf"
+    }
+  ]
 }
 

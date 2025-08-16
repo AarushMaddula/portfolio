@@ -35,6 +35,12 @@
       ]
     }
   ],
-  "resources": ["/projects/lego-mass-launcher/resources/Lego_Mass_Launcher_Lab_Report.pdf"]
+  "resources": [
+    {
+      "name": "Lego Mass Launcher Lab Report",
+      "icon": "/file.svg",
+      "path": "/projects/lego-mass-launcher/resources/Lego_Mass_Launcher_Lab_Report.pdf"
+    }
+  ]
 }
 

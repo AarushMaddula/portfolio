@@ -1,0 +1,26 @@
+{
+  "title": "Soldering",
+  "description": "In this project, our group were tasked with soldering a PCB together to create a working product.",
+  "thumbnail": "/projects/soldering/images/soldering1.png",
+  "type": "engineering",
+  "tags": ["Soldering", "Collaboration"],
+  "timeline": [
+    {
+      "heading": "Learning to Solder",
+      "description": "Me and my group worked together to assemble this PCB to learn how to solder components. Before assembling the components, we had to first practice how to solder as none of us had done it before. The kit we were using had practice strips of copper on the back of the PCB (slide 2) for us to practice on. Initially, I had some trouble figuring out how to apply the solder on the copper plates, but my group members helped me throughout the process. I soon got the hang of it and we started practicing other things, like separating bridges and soldering wires. Soon after that, we felt confident to start assembling the PCB, so we took turns soldering each piece onto the board until we finished.",
+      "images": [
+        "/projects/soldering/images/soldering1.png",
+        "/projects/soldering/images/soldering2.png"
+      ]
+    }, 
+    {
+      "heading": "Final Results",
+      "description": "Overall, I think our group did a good job soldering considering we had never done it before. We learned how to solder and apply our skills by soldering a PCB to create a working product. Other than that, I developed teamwork and collaboration skills as we managed to work together to help each other solder. I believe soldering is a valuable skill in actually bringing designs to life as we can solder parts together to get a functional product. Overall, I'm glad I had the opportunity to learn this skill and I think it will be useful in the future.",
+      "videos": [
+        "/projects/soldering/videos/run.mp4"
+      ]
+    }
+  ],
+  "resources": []
+}
+

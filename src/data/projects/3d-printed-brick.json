@@ -42,12 +42,12 @@
   "resources": [
     {
       "name": "Tutorial: How to 3D Model a Lego Brick in Fusion 360",
-      "icon": "/youtube.svg",
+      "icon": "/icons/youtube.svg",
       "path": "https://www.youtube.com/watch?v=H9ShjT8wer4"
     },
     {
       "name": "Lego Brick STL File",
-      "icon": "/file.svg",
+      "icon": "/icons/file.svg",
       "path": "/projects/3d-printed-brick/resources/Lego Brick.stl"
     }
   ]

@@ -48,7 +48,7 @@ function ProjectCard({ title, description, thumbnail, tags, path, github, websit
               rel="noopener noreferrer"
               className="px-2 py-2 font-medium rounded-md text-white duration-150 hover:bg-accent/50 hover:cursor-pointer"
             >
-              <img src="/github-white.svg" alt="view github" className="w-6 h-6" />
+              <img src="/icons/github-white.svg" alt="view github" className="w-6 h-6" />
             </Link>
           )
         }
@@ -60,7 +60,7 @@ function ProjectCard({ title, description, thumbnail, tags, path, github, websit
               rel="noopener noreferrer"
               className="px-2 py-2 font-medium rounded-md text-white duration-150 hover:bg-accent/50 hover:cursor-pointer"
             >
-              <img src="/new-tab.svg" alt="view website" className="invert w-6 h-6" />
+              <img src="/icons/new-tab.svg" alt="view website" className="invert w-6 h-6" />
             </Link>
           )
         }

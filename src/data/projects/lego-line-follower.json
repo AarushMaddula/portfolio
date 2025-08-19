@@ -1,0 +1,70 @@
+{
+  "title": "Lego Line Follower",
+  "description": "In this project, our group (Me, Kevin, Angel) were tasked with creating a Lego designed to navigate through a course through the use of a color sensor. We had to completely program the robot to use inputs from the sensor to stay within the taped boundries, with different colors marking the inner and outer boundries. Throughout the project, we would compete with other robots in our class to see which robot can compete the course the fastest.",
+  "thumbnail": "/projects/lego-rail-mounted-robot/images/task4robot.jpeg",
+  "type": "engineering",
+  "tags": ["Code", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Brainstorming",
+      "description": "We discussed together to come up with a small, lightweight, maneuverable design to reliably navigate through the course. We had 2 wheels in the back with a rolling ball in the front to make turning easy. The color sensor was in front of the vehicle since we wanted to detect the tape ahead of time so the robot could turn before it went past the tape.",
+      "images": [
+        "/projects/lego-line-follower/images/sketch.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Initial Build",
+      "description": "After brainstorming, we built the car as outlined in our brainstorming session, pictured to the right. We tested the design to make sure the motors and wheels worked, which it did.",
+      "images": [
+        "/projects/lego-line-follower/images/prototype.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Programming",
+      "description": "Our table had blue tape in the shape of a rectangle, which allowed us to quickly test and modify our robot. \n\n We thought making the robot go along the blue edge would be simpler, so Version 1 of our code did just that. It constantly checked if it was on the blue tape: if it was, it went straight, otherwise, it turned left. In version 2 of our design, we wanted to try inverting the logic to keep the robot inside the box instead of along the edge. We found this worked better, so we stuck with this design.",
+      "images": [
+        "/projects/lego-line-follower/images/codev1.jpeg",
+        "/projects/lego-line-follower/images/codev2.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Testing on the track",
+      "description": "Afterward, we started testing on the actual track in the middle of the room. It mostly adapted well to the track after tweaks to the code, but there was an issue where when the robot encountered a corner, the robot didn't turn enough for the sensor to remain inside the track, causing it to go off the track. We tried lowering the speed, which worked but significantly made our robot slower. Instead, we changed the code to make only one wheel turn when turning instead of both wheels and turning the wheels for a preset amount of time to ensure the robot turns enough for the sensor to stay on the track. After making the changes, the robot worked properly.",
+      "images": [
+        "/projects/lego-line-follower/images/code.png"
+      ]
+    }, 
+    {
+      "heading": "Test Run #1 & Revisions",
+      "description": "The day of the tournament came and we raced our robot with the other robots in the class, where we completed in 24.39s, getting first place, crushing the other robots, with 2nd place finishing around 30s and half of the class getting DNF. \n\nWith our good time, we significantly changed our design to see if the robot would go faster by moving the motors below the brick to make it more compact. We didn't have enough time to properly finish the design. ",
+      "images": []
+    }, 
+    {
+      "heading": "Test Run #2 & Revisions",
+      "description": "In our 2nd run, we got a DNF since our robot went off the edge.\n\nWe decided to scrap the previous design since the sensor wasn't aligning well with the ground and detecting the tape properly. We went back to the previous design but added a small gear ratio (24:16) to give the robot a boost. Like last time, we didn't have enough time to change the timings and speeds in our code, so we didn't get to finish our robot.",
+      "images": [
+        "/projects/lego-line-follower/images/robot.jpeg"
+      ]
+    },
+    {
+      "heading": "Test Run #3",
+      "description": "Since we didn't finish our robot, we also got a DNF in this round. However, our first time trial still made us first out of the entire class, making us the champions.\n\nAfter some tweaks, we got the robot to work",
+      "videos": [
+        "/projects/lego-line-follower/videos/run.mp4"
+      ]
+    },
+    {
+      "heading": "Takeaways",
+      "description": ">A small and compact car is best for maneuverability\n>Sacrificing some speed to have better consistent turns is better than risking not finishing the race at all.\n>Do not significantly modify the design before a race.",
+      "images": []
+    }
+  ],
+  "resources": [
+    {
+      "name": "Lego Line Follower Robot Project Report",
+      "icon": "/icons/file.svg",
+      "path": "/projects/lego-line-follower/resources/Lego_Line_Follower_Project_Report.pdf"
+    }
+  ]
+}
+

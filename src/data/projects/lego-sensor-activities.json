@@ -1,0 +1,48 @@
+{
+  "title": "Lego Sensor Activities",
+  "description": "Our group (Aarush Maddula, Aiden Shanks, and Jake Guzzo) was tasked with investigating the various sensors offered by the Lego Mindstorm system. These sensors were the distance sensor, touch sensor, gyroscope, and color sensor. Each group member was assigned a different set of 3 tasks that required us to use one of the mentioned sensors to perform the required action. We had to work individually to code the robot for this project.",
+  "thumbnail": "/projects/lego-sensor-activities/images/robot.jpeg",
+  "type": "engineering",
+  "tags": ["Fusion 360", "3D Printing"],
+  "timeline": [
+    {
+      "heading": "Initial Build",
+      "description": "Since this project was mainly code-oriented, we decided to make the robot fairly basic. We opted to have 2 wheels and a rolling ball in the front to allow the robot to turn easily. We placed a touch sensor in the front, pointed in front of the robot, as well as the color sensor, pointed towards the ground. We then placed the range sensor on the side. This configuration worked well for most of the tasks. If a sensor needs to be moved, then it could be easily removed and placed elsewhere.",
+      "images": [
+        "/projects/lego-sensor-activities/images/robot.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Task 1",
+      "description": "My first task required me to use a range sensor to drive along a line of tape. The tape changes distance every 3 feet.\n\nI found coding this part the hardest out of the three. The robot would often do unexpected things like start going around in circles all of a sudden. Also, using the range sensor in this sense was buggy since whenever the robot would turn, the sensor would turn along it, causing the sensor to read out a distance bigger than the distance the robot was from the wall due to Pythagoras' theorem. I managed to problem-solve and sort out many of these issues in my final product.\n\nMy code has 3 forever loops that check if the robot is close or far away from the wall, depending on the distance of the wall at that loop. If it is too close, the robot moves away from the wall, else it moves towards the wall.",
+      "images": [
+        "/projects/lego-sensor-activities/images/task1bottom.png", 
+        "/projects/lego-sensor-activities/images/task1top.png"
+      ],
+      "videos": [
+        "/projects/lego-sensor-activities/videos/Range_Sensor.mp4"
+      ]
+    }, 
+    {
+      "heading": "Task 2",
+      "description": "My second task required the robot to drive straight, even with outside influence trying to get the robot off course using the Gyroscope sensor.\n\nThis task was pretty simple, in my opinion. My code checks if the robot's yaw is past 0. If the angle is less than -1, it moves to the right. If it is greater than 1, it moves to the left.",
+      "images": [
+        "/projects/lego-sensor-activities/images/task2.png"
+      ],
+      "videos": [
+        "/projects/lego-sensor-activities/videos/Gyroscope.mp4"
+      ]
+    }, 
+    {
+      "heading": "Task 3",
+      "description": "Task 3 required me to use the touch sensor to make a robot move straight until it hit a barrier. If it does, then it should turn and avoid that barrier. This goes on forever.\n\nThis task was the simplest of the three tasks. My code constantly checks if the button is pressed. If it is, then it turns to avoid the wall.",
+      "images": [
+        "/projects/lego-sensor-activities/images/task3.png"
+      ],
+      "videos": [
+        "/projects/lego-sensor-activities/videos/Touch_Sensor.mp4"
+      ]
+    }
+  ],
+  "resources": []
+}

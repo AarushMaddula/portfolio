@@ -34,13 +34,13 @@ export default function ImageCarousel({ images }: { images: string[] }) {
         onClick={prev}
         className="absolute top-1/2 left-3 transform -translate-y-1/2 bg-light/70 rounded-full p-2 cursor-pointer hover:bg-light/90 hover:transition-color hover:duration-150"
       >
-        <img src="/down-arrow.svg" alt="" className="invert transform rotate-90 size-6"/>
+        <img src="/icons/down-arrow.svg" alt="" className="invert transform rotate-90 size-6"/>
       </button>
       <button
         onClick={next}
         className="absolute top-1/2 right-3 transform -translate-y-1/2 bg-light/70 rounded-full p-2 cursor-pointer hover:bg-light/90 hover:transition-color hover:duration-150"
       >
-        <img src="/down-arrow.svg" alt="" className="invert transform -rotate-90 size-6"/>
+        <img src="/icons/down-arrow.svg" alt="" className="invert transform -rotate-90 size-6"/>
       </button>
     </div>
   );

@@ -37,7 +37,7 @@
     {
       "heading": "Race Day #1",
       "description": "We finally got to race our car against the other cars our class made. We placed 2nd after a close race (video left).",
-      "images": [
+      "videos": [
         "/projects/lego-drag-racer/videos/race1.mp4"
       ]
     }, 
@@ -51,7 +51,7 @@
     {
       "heading": "Race Day #2",
       "description": "We raced again with our class, where we finally secured a victory!",
-      "images": [
+      "videos": [
         "/projects/lego-drag-racer/videos/race2.mp4"
       ]
     }
@@ -59,7 +59,7 @@
   "resources": [
     {
       "name": "Lego Dragster Project Report",
-      "icon": "/file.svg",
+      "icon": "/icons/file.svg",
       "path": "/projects/lego-drag-racer/resources/LEGO_Dragster_Project_Report_Submission.pdf"
     }
   ]

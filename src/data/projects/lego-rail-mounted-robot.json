@@ -1,0 +1,86 @@
+{
+  "title": "Lego Rail-Mounted Robot",
+  "description": "In this project, we (Clarence Vaz, Aarush Maddula, and Jacob Braye) were tasked with building and coding a Lego Rail-Mounted Robot designed to carry an object with a small mass to a designated spot, drop it, and go back to its starting position. This robot would be mounted on a PVC pipe with black tape on both ends of the pipes and three different color tapes in the middle, marking the designated dropping spots.",
+  "thumbnail": "/projects/lego-rail-mounted-robot/images/task4robot.jpeg",
+  "type": "engineering",
+  "tags": ["Code", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Brainstorming",
+      "description": "Aarush: #1 - For my first design, I came up with a robot with 2 wheels on the top and bottom to hold the robot. The PVC pipes would feed in between those wheels. The brick would be placed on the side. The color sensor would be placed in front of it.#2 - For my second design, I came up with a robot with 4 wheels grabbing the sides of the pipe rather than the top. The brick would be on top, and the sensor would be in front of the robot Code - I was initially thinking of making a program that loops continuously to check the color. If it is black, then that means it reached the end of the pipe and should therefore change directions. Otherwise, keep going. Clarence: My first design had a base on the top with a sensor underneath the base and one wheel connected to the bottom so that the robot could move from one end to the other. My second design featured multiple wheels. These wheels would be placed up, on the side, and down, balancing the stress with multiple wheels. These wheels would be motorized using many motors, which would help feature enhanced functionality. Jacob: My brainstorming was just a robot with a wheel on top stabilized on the rail with a color sensor in front. It was pretty basic but was sort of what we did for the finished product. For the code just talked about loops which is what our code was. Compromise: Our group decided to build the wheels on the side since the brick can go on top and be symmetrical and not tip over, unlike the designs with the wheels on top and the brick on the side. This also allowed us to put the sensor in the center of the robot on the bottom instead of in front of it since placing it in front of the robot causes it to detect the colors differently depending on the direction the robot is going in.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/sketch.jpeg",
+        "/projects/lego-rail-mounted-robot/images/sketchClarence.jpeg",
+        "/projects/lego-rail-mounted-robot/images/sketchJacob.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Task 1 - Robot",
+      "description": "Task 1 requires us to construct a robot that travels back and forth between the back tape on each end of the pipe while carrying a small mass. \n\nWe built the robot by placing the brick on top, as well as the two small motors connected to the two axles that drive the four wheels. We designed our wheels to grip the side of the PVC pipe so that the corners of each of the wheels would contact the pipe, allowing the PVC pipe to exert an upward normal force on the wheels, holding the robot up. The sensor is in the middle of the bottom, allowing for consistent color detection regardless of the direction it’s going in.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task1robot1.jpeg",
+        "/projects/lego-rail-mounted-robot/images/task1robot2.jpeg",
+        "/projects/lego-rail-mounted-robot/images/task1robot3.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Task 1 - Code",
+      "description": "Our code tells the robot to go straight until it detects the black tape at the end of the pipe, where the robot starts moving in the opposite direction. We did this by creating a speed variable that keeps track of the current direction of the robot with negative and positive signs. The robot then starts moving forward, continuously checking to see if the robot is over the black tape. If it is, we multiply the speed variable by -1 to change the direction of the robot and set the movement speed to the speed variable to make the robot move in the opposite direction. We tell the robot to stop checking the tape for 0.5 seconds so it doesn’t immediately detect the black tape again and get stuck.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task1code.png"
+      ]
+    }, 
+    {
+      "heading": "Task 2 - Robot",
+      "description": "For Task 2, we have to make the robot stop at a specified stopping color for 5 seconds. Afterward, the robot will continue going back and forth. For this task, we didn’t need to make major changes. However, we decided to change the underside of the robot since to place the robot on the pipe, we needed to take the whole bottom off, which was tedious to do each time, so we made it smaller and easier to take off each time. Also, when the robot was traveling along the pipe, the robot would flip over since the robot was top-heavy, so we decided to turn our robot around to stop the robot from flipping each time.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task2robot.jpeg"
+      ]
+    }, 
+    {
+      "heading": "Task 2 - Code",
+      "description": "We kept the code from Task 1, but we added some new stuff. We created a new variable, hasVisited, to keep track of whether the robot already stopped at the specified color. The variable is initially set to 0 to mark that it hasn’t visited the color. The robot always checks to see if it is on the black tape or on the specified color. If it is on black, it turns around. If the robot is on the specified color and it hasn’t visited it before, it stops for 5 seconds and it is set to 1 to mark the robot has visited the color. It then keeps moving between the black tapes forever.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task2code.png"
+      ]
+    }, 
+    {
+      "heading": "Task 3",
+      "description": "For task 3, we were assigned a color pattern ( Blue / Yellow / Blue / Yellow / Green ) that we had to make our robot follow, stopping at each color for 5 seconds before resuming in that order.\n\n We took the code from Task 2 and adapted it to keep track of each color the robot visited. hasVisited keeps track of the current stage the robot is in. For example, 0 marks no colors visited, 1 mark 1 color visited, 2 marks 2 colors visited, etc. We then set up an if statement checking if the robot is over the color that the robot is currently on in the current stage as dictated by hasVisited. If so, it stops for 5 seconds, increments hasVisited by 1, and resumes. The behavior with the black tape is maintained.\n\nWe then changed our code to use function blocks, which take in the position that color is in the pattern (for example, blue is in position 1 since it's the first color it stops at) and check to see if the robot is over the color in the current stage. If so, it stops for 5 seconds, increments hasVisited by 1, and resumes. The behavior with the black tape is maintained.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task3code1.png",
+        "/projects/lego-rail-mounted-robot/images/task3code2.png"
+      ]
+    },
+    {
+      "heading": "Task 4 - Robot",
+      "description": "For task 4, our robot now had to carry a ball to a specified color and drop the ball successfully into the receptacle. Our robot then has to return to the end wall, stopping between 5 - 20 cm from the wall using a distance sensor.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task4robot.jpeg"
+      ]
+    },
+    {
+      "heading": "Task 4 - Code",
+      "description": "We kept the code from Task 3 and changed the code in the forever loop. The robot checks to see if the robot is over the specified color and hasn’t visited it already. It then stops and executes a new function called Drop Ball that extends and retracts the bottom motors to drop the ball, then retracts it. The robot then changes directions to go back to the wall it came from. The if statement in the forever loop only checks how far the robot is from the wall if the robot already visited the specified color. If it has, then the robot stops.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task4code.png"
+      ]
+    },
+    {
+      "heading": "Task 5",
+      "description": "For Task 5, we had to make our robot, while carrying a LEGO ball, travel the specified color pattern ( Blue / Yellow / Blue / Yellow / Green ) and drop the ball successfully into the receptacle when it stops at a color for the second time. Afterward, the robot has to return to the end wall, stopping between 5-20 cm from the wall. \n\nWe took the code from Task 3 and added the drop function to it. In the beginning, we created three variables that kept track of how many times the robot visited each color. The forever loop continuously checks to see if it visited a color twice. If it has, then it drops the ball and enters another forever loop inside the if statement. Inside this loop, the robot runs until the distance sensor detects if the robot is close to the wall. If it is, then it stops. The forever loop still makes the robot turn around once it detects the black tape.",
+      "images": [
+        "/projects/lego-rail-mounted-robot/images/task5.png"
+      ]
+    },
+    {
+      "heading": "Final Product",
+      "description": "",
+      "videos": [
+        "/projects/lego-rail-mounted-robot/videos/run.mp4"
+      ]
+    }
+  ],
+  "resources": []
+}
+

@@ -3,11 +3,15 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="w-full mt-4 fixed z-50 animate-[slide-down_300ms_ease-out]">
+    <nav className="w-full top-4 fixed z-50 animate-[slide-down_300ms_ease-out]">
+      <div className="fixed top-4 left-4 sm:hidden">
+        <img src="/icons/menu.svg" alt="" className="invert size-6" />
+      </div>
+      
       <div
-        className="mx-auto px-6 py-3 w-fit bg-gray-900/50 flex items-center 
+        className="mx-auto px-6 py-3 w-fit bg-gray-900/50 items-center 
       justify-center rounded-xl outline-2 outline-accent/70 backdrop-blur-lg
-      shadow-[inset_0_2px_5px_rgba(177,177,177,0.25)]"
+      shadow-[inset_0_2px_5px_rgba(177,177,177,0.25)] hidden sm:flex"
       >
         <div className="text-white font-bold text-lg">Aarush Maddula</div>
 
@@ -43,7 +47,12 @@ export default function Navbar() {
             href="https://github.com/AarushMaddula"
             className="py-1 px-1 rounded-md hover:bg-gray-600 hover:scale-[105%] transition-all duration-150 ease-out"
           >
-            <Image src="/github-white.svg" alt="Github" width={22} height={22}/>
+            <Image
+              src="/icons/github-white.svg"
+              alt="Github"
+              width={22}
+              height={22}
+            />
           </Link>
           <Link
             target="_blank"
@@ -51,7 +60,7 @@ export default function Navbar() {
             href="https://www.linkedin.com/in/aarush-maddula-6b3172301/"
             className="py-1 px-1 rounded-md hover:bg-gray-600 hover:scale-[105%] relative transition-all duration-150 ease-out"
           >
-            <Image src="/In-white.png" alt="Linkedin" width={22} height={22}/>
+            <Image src="/icons/In-white.png" alt="Linkedin" width={22} height={22} />
           </Link>
 
           <Link
@@ -60,7 +69,13 @@ export default function Navbar() {
             href=""
             className="py-1 px-1 rounded-md hover:bg-gray-600 hover:scale-[105%] relative transition-all duration-150 ease-out"
           >
-            <Image src="/email.svg" alt="Email" width={22} height={22} className="invert"/>
+            <Image
+              src="/icons/email.svg"
+              alt="Email"
+              width={22}
+              height={22}
+              className="invert"
+            />
           </Link>
         </div>
       </div>

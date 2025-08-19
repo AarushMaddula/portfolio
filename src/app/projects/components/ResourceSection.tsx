@@ -1,14 +1,18 @@
 export default function ResourceSection({ resources }) {
+  if (!resources || resources.length === 0) {
+    return null;
+  }
+
   return (
-    <div className="my-6">
+    <div className="py-6">
       <h2 className="text-3xl font-semibold mb-4">Resources</h2>
 
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-4 pl-4">
         {resources.map((resource) => {
           return (
             <div
               key={resource.path}
-              className="inline-block py-4 px-6 bg-normal rounded-xl"
+              className="inline-block py-3 px-4 bg-normal rounded-xl"
             >
               <a
                 href={resource.path}

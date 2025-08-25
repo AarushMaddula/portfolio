@@ -1,0 +1,139 @@
+{
+  "title": "Bridges & Trusses",
+  "creators": ["Aarush Maddula", "Kevin Zarate Nonato"],
+  "date": "April 4, 2025",
+  "description": "As part of an engineering project, we were tasked with building, analyzing, and testing three unique truss designs. Our findings would be used to contruct a full bridge that we would build, analyze, test, and revise. We compared Warren, Howe, and Pratt truss designs using free-body diagrams and stress analysis to predict failure points, then constructed two full bridge iterations. The first bridge supported only 2 kg before the connections between the trusses failed. After redesigning the bridge with a triangular cross-section, reinforcing joints, and removing non-load-bearing sticks, the second bridge successfully held 10 kg. Throughout this project, I've improved my understanding of structural analysis, load distribution, and iterative design, as well as my collaboration and problem-solving skills.",
+  "thumbnail": "/projects/bridge-and-truss/images/bridge2.jpg",
+  "type": "engineering",
+  "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Truss #1: Warren Truss",
+      "description": "We first built the Warren Truss as it was one of our required truss designs. The design of this is pretty simple as it relies primarily on the power of triangles. We did a truss analysis on the bridge (shown right). Based on our truss analysis, we found that joints 3 and 5 had the greatest stress on it. We predicted that this joint would fail first due to this fact. When we tested, this truss only managed to hold around 6kg of weight, which makes it our worst-performing bridge out of the three. This truss also experienced a joint failure at joints 3 and 5, which aligned with our predictions.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridget1.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/sketcht1.jpg",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "Truss #2: Howe Truss",
+      "description": "We then built the Howe Truss, which was also one of our required truss designs. This design is a little more complex than the Warren truss, as now we have vertical beams holding up the bridge. Based on our truss analysis, we predicted that the beam the weight is attached might break first. Compared to the Warren truss, there is a vertical beam supporting some of the vertical weight at joint 5, making that area more sturdy. We tested our design, which held around 13kg before breaking. The breaking point ended up being the end of the truss, where we glued part of a popsicle stick since our truss ended up being too short. The truss could’ve held more weight if we had built the bridge properly, so we didn’t need the sticks on the end.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridget2.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/sketcht2.jpg",
+          "caption": ""
+        } 
+      ]
+    }, 
+    {
+      "heading": "Truss #3: Pratt Truss",
+      "description": "Finally, our last bridge was our Pratt truss. This was our only design where we could choose our design. Based on a Google search, we decided to build a Pratt truss as it was similar to our Howe truss and we wanted to see if it would perform better than it. We did our truss analysis (shown on the right) and predicted that the beam that which the weight was attached would break first, as the stress appears to be distributed between beams I & M, which makes the beam more likely to break. We tested our bridge and found out that our bridge managed to hold around 19.75kg of weight before breaking. Like we predicted, the beam broke, leading to the bridges’ failure.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridget3.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/sketcht3.jpg",
+          "caption": ""
+        }     
+      ]
+    }, 
+    {
+      "heading": "Truss Comparison and Selection",
+      "description": "Our most successful truss was the Pratt, which was able to support 19.75 kg before succumbing to a beam failure. The next one up was the Howe Truss, which held 13kg before the ends of the bridge snapped off. Then, finally, our Warren truss only held up 6kg before a joint failure. We will use the Pratt truss design since it has held up substantially more weight than the other ones. Also, we believe that beam failures are indicative of a better design than joint failures because joints tend to be weaker than beams, so if the beams fail, then that means our joints are as good as they can be. This means that the Pratt Truss is the best design. For our final bridge, we will try to have symmetrical Pratt truss designs on both sides of the bridge to ensure they can join together well. We will also connect both trusses using popsicle sticks with slits in them and slide them onto both trusses on its small edge to better ensure the bridge will be stable."
+    }, 
+    {
+      "heading": "Bridge #1 Design and Construction",
+      "description": "We chose the Pratt truss because it was our strongest truss when testing. We first sketched out what we wanted to build and then grabbed our supplies: sticks, glue, and clips. Some challenges we faced were figuring out how we wanted to connect both the trusses effectively. We were unsure of how we wanted to do so. We thought of just laying popsicle sticks across to attach them however, Kevin thought that might’ve been too weak and wouldn’t be able to support the bridge well enough. So we ended up just cutting slits on the top of the popsicle sticks to connect them.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridge1.jpg",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "Bridge #1 Performance",
+      "description": "Immediately, we found that the connection between the 2 trusses was very unstable, causing the bridge to bend horizontally instead of vertically. Our bridge was designed to withstand vertical pressures, so it quickly broke under a 2.2kg load. During our truss testing, we found that 1 Pratt truss held around ~20 kg, so clearly, the issue is with the connection between the trusses. This is something we will address with our next bridge. Our failure with our bridge wasn’t our truss or the design of it, but rather how we decided to connect them that led to its failure. The connection was so weak that it caused the bridge to bend into an S shape, ultimately unable to support much weight. This eventually resulted in a Buckling in Compression Failure on the beams connecting the trusses. In the image, the trusses are intact, with the connections between the bridges completely gone as they fell off.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridge1fail.jpg",
+          "caption": ""
+        },
+        {
+          "type": "video",
+          "id": "1-8TF_EazK6w5RdNr5DEPgPadKtJun1Dr",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Bridge #2 Design and Construction",
+      "description": "We kept our truss design mostly the same, as the truss was completely fine after the bridge collapsed. However, according to our truss analysis, we found that 3 beams had no stress, so we got rid of them since they functionally did nothing. Also, we got rid of the top side of our bridge and instead connected the two trusses on the top to form a triangular cross-section, making the bridge way more stable. We saved a lot of sticks by doing that, so we used all the saved sticks to connect the trusses on the bottom of the bridge, making the bridge even more stable.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridge2.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridge2front.jpg",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "Bridge #2 Performance",
+      "description": "Our bridge has a significant improvement in its load capacity. Our bridge held around 10kg before breaking, way more than the 2 kg it held before. This time, the connection between the 2 trusses managed to hold together well since the triangular shape of the cross section prevented the bridge from swaying and bending. Our bridge experienced adhesion failure at the ends of the bridge. In the video, the connections holding the ends of the bridge together came off, causing the ends to bend outwards and break the bridge. This happened on both sides of the bridge. In future iterations of the bridge, the ends need to be further reinforced to prevent this from happening again.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/bridge-and-truss/images/bridge2fail.jpg",
+          "caption": ""
+        },
+        {
+          "type": "video",
+          "id": "1fU_wbYuaVonQnxJNHf7azJXllzia65-5",
+          "caption": ""
+        } 
+      ]
+    },
+    {
+      "heading": "Final Thoughts",
+      "description": "Overall, I learned a lot about bridge design from this project. One takeaway is that triangles are very powerful, as they can withstand a lot of force before breaking. This was really shown in our second iteration of our final bridge, as the triangular cross-section improved our bridge significantly. There were also a few triangles in our truss itself, which helped make the truss stronger. This idea can be applied outside of bridge design in a lot of ways. Another takeaway I got is that I probably don’t like civil engineering, since I didn’t find this project, nor bridges in general, that interesting. There’s a chance I might like it, but I heavily doubt it. I gained a few skills from this project, like a better understanding of the stresses on trusses, as I now know how to calculate the forces on a truss using Newton's second law and free body diagrams. I also improved my collaboration and teamwork skills. Our group worked well together throughout the project. Kevin and I both contributed ideas and built the bridge. We didn’t face many challenges, but one of the challenges we faced was figuring out what to do when we realized that truss #2 was too short. We couldn’t really do much since we didn’t have enough time to rebuild the bridge, so after much consideration, our best option was to extend the bottom of the bridge, which ended up poorly for the truss. Overall, although this project wasn’t as interesting as some of the other projects we did this year, I learned a lot from it."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Bridge #1 Truss Analysis",
+      "icon": "/icons/file.svg",
+      "path": "/projects/bridge-and-truss/resources/Bridge_1_Truss_Analysis.pdf"
+    },
+    {
+      "name": "Bridge #2 Truss Analysis",
+      "icon": "/icons/file.svg",
+      "path": "/projects/bridge-and-truss/resources/Bridge_2_Truss_Analysis.pdf"
+    }
+  ]
+}
+

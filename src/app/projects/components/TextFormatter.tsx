@@ -9,7 +9,7 @@ export default function TextFormatter({ text }: { text: string }) {
       case ">":
         return <span key={index} className="mr-2">{"•"}</span>;
       default:
-        return part; // just text
+        return part; 
     }
   });
 

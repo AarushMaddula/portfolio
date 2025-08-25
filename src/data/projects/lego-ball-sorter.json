@@ -1,0 +1,94 @@
+{
+  "title": "Lego Ball Sorter",
+  "creators": ["Aarush Maddula", "Aiden Shanks"],
+  "date": "April 24, 2025",
+  "description": "The primary objective of this project is to build a functional ball-sorting system that sorts balls based on their color using LEGO SPIKE Prime kits and a custom-designed hopper. The ~15 plastic balls will be in three colors: red, blue, and yellow. We are also allowed to use cardboard in our project. The sorter should be able to sort the balls 100% accurately and with decent speed.",
+  "thumbnail": "/projects/lego-ball-sorter/images/ballsorter.jpg",
+  "type": "engineering",
+  "tags": ["Code", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Brainstorming",
+      "description": "We had a pretty simple design, which we did end up with as our final product. Our idea was to have a hopper funnel balls to one line where some mechanism reads the balls and lets one go out one by one. Then the gates are opened up depending on what color the ball was detected as. Some of Aiden's individual ideas were the hopper design and the use of tires to let one ball out at once. Aarush's individual idea was for the gates to open up so that a ball could fall into that sorting box. We chose this final design because it made the most sense and was fairly basic. The way it is laid out has a very step-by-step basis to it. For example, it starts in the hopper all the way on the left, that is where the balls get funneled into one spot, where they then wait to be detected. Once the color sensor detects the color, the balls then roll to the right side of our build, where they are sorted into different compartments. Basically, we have our build split up into two sections, which makes it very easy to watch and track what is happening.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/brainstorm.jpg",
+          "caption": ""
+        } 
+      ]
+    }, 
+    {
+      "heading": "Hopper Construction",
+      "description": "Originally, the bottom of the hopper was able to fit 3 balls through it (image 1 without the cardboard ramp in the center), but that led to many jams. It was clear that we needed to change the design, so we thought that narrowing the hole to fit one ball would fix the jamming issue (actually image 1 this time), but that still led to clogs. We scrapped that idea and decided to add a motor to shake the balls whenever they get stuck. Basically, balls feed into the hopper, where there is only room for one ball to fall through the hopper. We had a motor inside the hopper that mixes the balls. If no ball is detected by the color sensor, then the motor starts spinning and mixes the balls. One ball will fall through the hole until it gets jammed again.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/hopper1.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/hopper2.jpg",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "System Design",
+      "description": "The balls are first put into the hopper. A motor is there to move the balls around when a jam happens in the hopper. This is triggered when the color sensor at the bottom detects no ball for a significant amount of time. After passing through the hopper, the balls fall into a guided rail system where they stop before 2 tires and a color sensor. The color sensor reads the color of the ball and then adjusts the 2 gates along the rail to the corresponding bin. The motor drives the wheels forward, causing the ball to be pushed through the wheels and into the system, where it will ride the rails and fall into its designated bin.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/ballsorter.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/sortingsystem.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/hoppertop.jpg",
+          "caption": ""
+        } 
+      ]
+    }, 
+    {
+      "heading": "Programming Approach",
+      "description": "1) Here, we set the starting conditions for the hopper motor. The speed is really slow as I wanted to avoid the motor from pushing on the balls at the very bottom, which would cause the front-most ball to unexpectedly go through the wheels. Making it go slow will give enough time for a ball to be detected at the bottom and shut off the hopper motor before such an event happens. Stall detection is turned off to prevent the program from stopping when the hopper motor stalls.\n\n2) Afterwards, we have a do this - and this block, allowing 2 sections of code to run simultaneously. This section handles the logic for the hopper motor. The code waits until the color sensor detects no ball (meaning the hopper got blocked). It checks twice with a 2-second gap to make sure the ball isn’t just falling into the spot. Then, it enters a loop that turns the motor until a ball is detected at the bottom. To make sure the motor also doesn’t get jammed, the code checks if the position of the motor has changed in 1-second intervals. If it hasn’t, then the motor is jammed and will move the other way.\n\n3&4) This section is pretty simple as it waits for a ball to fall into place, then checks the color of the ball using the color sensor, and then moves the gates accordingly so the ball falls into the correct place using 2 motors along the ramp.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/code1.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/code2.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/code3.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/code4.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Performance",
+      "description": "Mr. Ellis ran our machine around 5 times with 15 balls each time to test our machine. Our machine did really well during those tests, as it correctly sorted all the balls into their designated spots. Jams did occur occasionally, but our code managed to detect the jams and start turning to clear the blockages. Our main issue was that the machine took a little bit of time to sort through each ball. On average, the machine would take an average of 5 - 10 seconds, depending on whether the hopper jammed, to sort each ball. There were a few inefficiencies in our code that caused the balls to take longer to sort (like moving the same gates back and forth when 2 same color balls go through the system). These inefficiencies could be fixed to increase sorting speed. Overall, our design stayed consistent with tweaks to the hopper and the structure holding the hopper to improve efficiency and stability. Using cardboard allowed our hopper to have the shape we desired, which probably wouldn’t have been possible with Lego."
+    },
+    {
+      "heading": "Final Thoughts",
+      "description": "Overall, I think this project was a success. Our project managed to sort all the balls with 100% accuracy and at a moderate speed. The machine was also decently sturdy. The aspects that worked well were the accuracy of the machine and the gate system, which worked well from the start and required few modifications. I would say the biggest issue with the final machine was that the balls were sorted too slowly, as it took around 5 - 10 seconds to sort each ball. There were a few inefficiencies, as stated before, which should be addressed to make the machine more efficient. The hopper was a really big problem throughout the project, but after adding the hopper motor, the hopper started to work well. This project helped me improve my teamwork and communication skills with my partner, and also some of my coding skills as I learned about the do this- and this block that runs 2 sections of code simultaneously. We also combined our ideas to create a better solution that’s better than our individual solutions, allowing us to solve problems effectively, like with my gate idea and Aiden’s wheel idea. Overall, we worked well together and worked through problems we faced, like the hopper, to end up with our final solution."
+    }
+  ]
+}
+

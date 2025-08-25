@@ -1,12 +1,17 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [ navbarState, setNavbarState ] = useState<boolean>(false);
+  
   return (
     <nav className="w-full top-4 fixed z-50 animate-[slide-down_300ms_ease-out]">
-      <div className="fixed top-4 left-4 sm:hidden">
-        <img src="/icons/menu.svg" alt="" className="invert size-6" />
-      </div>
+      <button className="fixed top-4 left-4 sm:hidden" onClick={() => setNavbarState(!navbarState)}>
+        <img src="/icons/menu.svg" alt="menu" className="invert size-6" />
+      </button>
       
       <div
         className="mx-auto px-6 py-3 w-fit bg-gray-900/50 items-center 
@@ -66,7 +71,7 @@ export default function Navbar() {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href=""
+            href="mailto:maddula.aarush@gmail.com"
             className="py-1 px-1 rounded-md hover:bg-gray-600 hover:scale-[105%] relative transition-all duration-150 ease-out"
           >
             <Image

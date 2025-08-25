@@ -1,0 +1,210 @@
+{
+  "title": "Lego Mars Rover",
+  "creators": ["Aarush Maddula", "Gavin Grundei", "Pranav Puchha"],
+  "date": "December 18, 2024",
+  "description": "For our final semester project, our group was tasked with constructing a Lego Mars Rover that would traverse the “Martian landscape.” Our robot had to complete various tasks, including dropping a ball into the fuel reactor and pushing a sample into a box, which required us to use all the skills we had developed for the semester. To ensure that these tasks are always going to be completed, we had to use guides placed on the landscape, like different colored tape. We also had to create a communications array with an Arduino that is supposed to activate once it detects the rover. All of these tasks need to be done in 5 minutes.",
+  "thumbnail": "/projects/lego-mars-rover/images/robot.jpg",
+  "type": "engineering",
+  "tags": ["Code", "Arduino", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Brainstorming",
+      "description": "Regarding the order of the tasks, we decided that it would be best to complete all the tasks across the bridge first since it would be close to the fuel reactor, which was our first task since it was extra credit. Then, we would move across the bridge and do all the tasks there. After brainstorming, we came up with this order:\n\n1) Fuel Reactor\n2) Push sample #1\n3) Drill wall\n4) Communications Array\n5) Soil Sample\n6) River Bed (enter & exit on different ramps)\n7) Push sample #2.\n\nI was tasked with coding 1 & 2, Gavin coded 3 - 5, and Pranav coded 6 - 7.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/brainstorming.jpg",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "Initial Build",
+      "description": "Our group design moves around using tracks with rubber grips to ensure the robot doesn’t slip. We did this since we thought the tracks would be good at going up the ramp from the riverbed to the main platform. Also, we thought that the tracks would be better than wheels at ensuring the robot moves straight. Next, at the front of the robot, we added a ball holder connected to a large motor that would hold the ball in a horizontal position while moving to the fuel reactor. After dropping the ball, the holder would be in a vertical position, acting as a wall to push the fuel sample with. A color sensor would be placed in the front, facing down to detect the colors of the tape, and a touch sensor in the front for the wall drilling task. Lastly, we placed a range sensor facing backwards since we thought it would be useful for a task.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/robot.jpg",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "Task 1: Orienting the Robot",
+      "description": "For this task, the robot, which is placed in the black square over a random color, has to rotate and face the bridge, regardless of color.\n\nIn order to do this, I initially decided to have the robot turn clockwise until the robot detects the red tape. Then, the robot turns 45 degrees clockwise using the gyroscope to line up with the bridge.\n\nDuring testing, the robot wasn’t consistently lining up with the bridge since the robot would detect the red tape at different locations depending on where the robot was placed in the black square, causing it to not line up. In order to fix this issue, I chose to have the robot turn a set amount of degrees depending on the color it's over, which fixed the issue.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task1.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task1code.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Task 2: Fuel Reactor",
+      "description": "For these tasks, the robot had to drop the ball into the fuel reactor by lining up with the green tape, move forward until it's in the reactor, and drop the ball. In order to do this, I made the robot go straight across the bridge until it detected the green tape, turn right, and move forward until it detected the black tape. Then, it rotates the large motor 90 degrees to drop the ball.\n\nDuring testing, the robot wasn’t always going straight on the green tape, so I changed the code to follow the edge of the green line to ensure it goes straight.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task2.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task2code.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Task 3: Sample #1",
+      "description": "For this task, the robot has to move back from the fuel reactor until the red tape. Then, it needs to turn right, go straight a little, turn right again, and go straight until the red box, pushing sample #1 in.\n\nFor this task, the robot managed to complete the task after tweaking the distances and turning angles.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task3.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task3code.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Task 4: Drill the Wall",
+      "description": "For this task, the robot needed to travel from sample 1 to the wall. This was a basic movement for the robot, as it needed to turn ~45* and drive into the wall. To stop the robot we wanted to use a button sensor.\n\nThe code for this task was basic: set the yaw angle to 0, turn ~45*, drive forward, and stop for 5 seconds when the button is pressed.\n\nThroughout the project, we had to make minor adjustments to this code to make sure the robot was lined up for the next task.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task4.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task4code.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Task 5: Communications Array",
+      "description": "This task required us to program our Arduino for the Mars Rover project, as well as drive the robot into position. The Arduino needed to blink two colors for 10 seconds and then turn green when it detected the robot.\n\nTo drive the robot to the Arduino, we set it to back up until it sees red, turn 90*, drive until it sees black, back into the Arduino area, and stop to ensure the Arduino detects the robot.\n\nThroughout the project, we needed to adjust where the robot backed into the Arduino’s zone so that the distance sensor could always detect the robot.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task5.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task5a.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task5code.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Task 6: Soil Sample",
+      "description": "Our task was to stop the robot on the yellow square for 5 seconds. This was very basic for our robot because it required it to drive forward until it saw yellow simply.\n\nAt the beginning of our project, we had the robot simply drive forward after activating the Arduino and stopping on yellow; however, as we progressed, we decided to push sample #2 prior to drilling the yellow square for a more reliable program. To reach the yellow square, we decided to move the range sensor to the front-facing down to detect when the robot was close to the edge. This allowed us to detect the edge of the board, so after completing sample #2, we can simply move forward until the robot reaches the edge, and then turn left and move straight until it is in the yellow box.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task6.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task6code.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Task 7: River Bed Sample",
+      "description": "For this task, the rover had to go down one ramp onto the Dry River Bed, wait 5 seconds, and come back up on another ramp.  There were various lines of yellow tape on the ground that could be used to turn and orient the rover.  This part of the course was mostly for extra credit, but we decided to attempt to get all the points we could.\n\nFor this section, we tried a few different things with the code.  Going onto the other ramp relied heavily on the robot going straight, so we tried a different way of using the gyroscope to go straight to hopefully get the robot to go as straight as possible while also trying new methods of coding. The straight MyBlock when paired with a repeat until loop turned back to yaw 0 if off.  We also tried using the pitch to find when the robot angles down, then back up.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task7.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task7code.png",
+          "caption": ""
+        } 
+      ]
+    },
+    {
+      "heading": "Task 8: Sample #2",
+      "description": "At first, we had the rover pushing sample 2 after it had gone around the dry river bed.  This path was difficult as it was hard to get the robot to go straight across the whole board to hit the soil sample on target.  It would often curve to the left or right and be slightly off to push the sample.  To solve this problem, we moved this part of the code to after it activated the Arduino.  After we edited the code, we found that it was much easier to get the second sample when the robot was closer.\n\nAfter the robot had activated the communications array, we added a section of code where it turned slightly, and moved forward until it hit black.  From there, the robot simply moved forward, turned right, and moved the sample into place.  We then made it traverse across the board until the range sensor detected a cliff.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task8.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/task8code.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Fail Safe Code",
+      "description": "In the event our robot does something unexpected, we created a fail safe file that allows us to control the robot to move forward or turn so it can return back to its intended path.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-mars-rover/images/failsafe.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Launches",
+      "description": "On launch day, we tested our robot a few times before launch by running all our code at once, which the robot did successfully. However, when we did the launch, we decided to make the robot stop at certain checkpoints to allow us to make corrections if necessary. This caused the robot to fail since splitting the code up into different sections caused our yaw measurements to reset unexpectedly, causing the robot to move in the wrong direction. During our second attempt, we tried to prevent this by running the code all at once, as we did during testing, but the robot immediately fell off the ramp, which essentially ruined our attempt. This time, we learned that stopping the robot was necessary to prevent mistakes like this.",
+      "resources": [
+        {
+          "type": "video",
+          "id": "13bbi_QQoEMuViiTTCXhJo4OyxtLw-yHE",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Final Thoughts",
+      "description": "Overall, this project was a great way to end the semester. Throughout this project, I had to use the various concepts we learned during the semester to complete the various tasks. The sensor project we had earlier in the semester was very useful as I relied heavily on the stuff I learned in that project to complete the tasks. However, getting the robot to complete the tasks was a huge challenge for our group. Not only was the robot behaving unexpectedly at certain times, but it was also very inconsistent and imprecise. To counter these issues, our group had to take advantage of the sensors and use the features of the track to guide the robot through. While it did take some time, we managed to get the robot to complete all the tasks on sol 16.  In the end, I think this could’ve been prevented by simulating the launch conditions before launching the robot and testing all our failsafes to make sure we knew what to do on the actual launch. Despite our failures, this project has been very fun and I learned a lot from it that I could use for other engineering projects in the future."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Mars Rover Code",
+      "icon": "/icons/file.svg",
+      "path": "public/projects/lego-mars-rover/resources/MarsRoverAllCodeV3.lms"
+    },
+    {
+      "name": "Arduino Code",
+      "icon": "/icons/file.svg",
+      "path": "public/projects/lego-mars-rover/resources/MarsRover_Arduino_IDE.ino"
+    },
+    {
+      "name": "Fail Safe File",
+      "icon": "/icons/file.svg",
+      "path": "public/projects/lego-mars-rover/resources/FailSafe1.lms"
+    }
+  ]
+}
+

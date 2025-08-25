@@ -1,57 +1,27 @@
 "use client";
 
-import Image from "next/image";
 import ImageCarousel from "./ImageCarousel";
 import TextFormatter from "./TextFormatter";
+import ResourceView from "./ResourceView";
 
-function renderImages(images) {
-  if (!images) return;
+function renderResources(resources) {
+  if (!resources) return;
 
-  switch (images.length) {
+  switch (resources.length) {
     case 1:
       return (
-        <div className="relative flex flex-col justify-center align-middle overflow-clip rounded-xl">
-          <div className="absolute inset-0 aspect-4/3 overflow-hidden blur-3xl scale-100">
-            <Image
-              src={images[0]}
-              alt=""
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          <div className="relative rounded-xl h-60 aspect-4/3 overflow-hidden">
-            <Image
-              src={images[0]}
-              alt=""
-              fill
-              className="object-contain"
-            />
-          </div>
-        </div>
+        <>
+          <ResourceView resource={resources[0]} />
+          <p className="text-center text-sm text-muted italic mt-4">{resources[0].caption}</p>
+        </>
       );
     case 0:
       return;
     default:
       return (
-        <div className="flex flex-col align-middle">
-          <ImageCarousel images={images} />
-        </div>
+        <ImageCarousel resources={resources} />
       );
   }
-}
-
-function renderVideos(video) {
-  if (!video) return;
-
-  return (
-    <div className="h-60 aspect-4/3 flex justify-center items-center rounded-xl bg-normal">
-      <video className="max-h-full" controls muted preload="metadata">
-        <source src={video[0]} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  );
 }
 
 export default function Timeline({ timeline }) {
@@ -78,10 +48,13 @@ export default function Timeline({ timeline }) {
                       <TextFormatter text={section.description} />
                     </p>
                   </div>
-                  <div className="flex flex-col gap-4">
-                    {renderImages(section.images)}
-                    {renderVideos(section.videos)}
-                  </div>
+                  {
+                    section.resources && (
+                      <div className="flex flex-col">
+                        {renderResources(section.resources)}
+                      </div>
+                    )
+                  }
                 </section>
               </li>
             );

@@ -1,5 +1,7 @@
 {
   "title": "Train Whistle",
+  "creators": ["Aarush Maddula"],
+  "date": "November 22, 2024",
   "description": "For this project, I needed to create a train whistle using a block of wood and a 2\" x 4\" x 8\" wooden dowel using various woodworking equipment.",
   "thumbnail": "/projects/train-whistle/images/whistle.jpeg",
   "type": "engineering",
@@ -8,52 +10,103 @@
     {
       "heading": "Safety Tests",
       "description": "In order to operate the machines, I needed to complete the safety trainings on https://www.iteea-safety.org/index.htm to make sure I stay safe while operating these machines. I successfully completed all the training videos and tests, as shown left.",
-      "images": [
-        "/projects/train-whistle/images/safety1.png", 
-        "/projects/train-whistle/images/safety2.png", 
-        "/projects/train-whistle/images/safety3.png", 
-        "/projects/train-whistle/images/safety4.png", 
-        "/projects/train-whistle/images/safety5.png" 
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/safety1.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/safety2.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/safety3.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/safety4.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/safety5.png",
+          "caption": ""
+        } 
       ]
     }, 
     {
       "heading": "Cutting the Mouthpiece",
       "description": "To start off, I chopped off 5/8\" of the end of the wooden block using a miter saw. This was my second time attempt since during a previous attempt, I accidently stopped the miter saw while it was in contact with the wood, causing the mouthpiece to fly off and hit the blade, damaging the mouthpiece.\n\nAfterwards, I used a drill press to drill out the top cavity cutout with a 1 1/8\" Forstner bit.",
-      "images": [
-        "/projects/train-whistle/images/cutting1.jpeg", 
-        "/projects/train-whistle/images/cutting2.jpeg"
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/cutting1.jpeg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/cutting2.jpeg",
+          "caption": ""
+        }    
       ]
     }, 
     {
       "heading": "Drilling the Resonance Holes",
       "description": "To drill out the resonance holes, I marked the location of the holes with a pencil and used a drill press to drill the holes. I used a 3/8\" drill bit for each holes. I drilled 4 holes of depth 2 3/4\", 3 1/4\", 3 7/8\", and 4 1/2\".",
-      "images": [
-        "/projects/train-whistle/images/drilling1.jpeg",
-        "/projects/train-whistle/images/drilling2.jpeg"
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/drilling1.jpeg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/drilling2.jpeg",
+          "caption": ""
+        }    
       ]
     }, 
     {
       "heading": "Cutting the Side Cavities",
       "description": "To cut the cavities, I marked the borders of them using a pencil and ruler and cut the lines using a band saw by placing the wooden block on a 45 degree angle.",
-      "images": [
-        "/projects/train-whistle/images/cutting_mouth_1.jpeg", 
-        "/projects/train-whistle/images/cutting_mouth_2.jpeg"
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/cutting_mouth_1.jpeg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/cutting_mouth_2.jpeg",
+          "caption": ""
+        } 
       ]
     },
     {
       "heading": "Placing the Reeds",
       "description": "For the reeds, I used a belt sander to flatten the edge of the reed and used a scroll saw to cut the reeds into 4, 2 inch pieces. I placed the reeds into each resonance hole and adjusted them to allow for optimal sound. Afterwards, I used woodglue to glue each rod in and used a miter saw to cut off the excess.",
-      "images": [
-        "/projects/train-whistle/images/reed.jpeg"
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/reed.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "heading": "Final Result",
       "description": "I glued the mouthpiece from earlier onto the top to finish this whistle off. I gave it a test blow and it sounded like an actual train whistle.\n\nOverall, this project was successful since I managed to create a functional train whistle and learned a lot about woodworking in the process. In this project, I learned how to use the miter saw, the drill press, the band saw, the band sander, and the scroll saw. I also learned to stop the machine after it stops touching the material as learned by my first attempt. I think in future projects, I could add little indents where a drill bit will first come in contact since when drilling, I noticed the drill bit sliding a little bit, causing the holes to get misaligned. Another consideration is finding a better way to hold the wooden block while drilling since finding a good way to properly and securely hold the block was challenging.\n\nOverall, I grew a lot as a person since I now have experience and familarity with woodworking in general, opening me up to considering woodworking as an option in future projects. I could use these skills to help improve the esthetics of my projects if I wanted it to be displayed in a visible location.",
-      "images": [
-        "/projects/train-whistle/images/whistle.jpeg" 
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/whistle.jpeg",
+          "caption": ""
+        }
       ]
     }
-  ],
-  "resources": []
+  ]
 }

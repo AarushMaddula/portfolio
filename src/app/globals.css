@@ -5,7 +5,7 @@
   --color-normal: oklch(0.2 0.03 248);
   --color-light: oklch(0.35 0.03 248);
   --color-highlight: hsl(0, 0%, 95%);
-  --color-neutral: hsl(0, 0%, 90%);
+  --color-neutral: hsl(0, 0%, 85%);
   --color-muted: hsl(0, 0%, 50%);
   --color-accent: var(--color-sky-600);
   --ease-in-quart: cubic-bezier(0.5, 0, 0.75, 0);

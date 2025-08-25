@@ -1,66 +1,128 @@
 {
   "title": "Lego Drag Racer",
-  "description": "Our group (Me, Gavin Grundei, Aiden Shanks) was tasked with building a Lego Drag Racer that would later compete with other groups' cars to see which car could reach the finish line the fastest. Throughout the project, we collaborated as a team to investigate and analyze various factors such as wheel size and gear ratios to determine how multiple factors impacted the top velocity and acceleration of the vehicle using Vernier Graphical Analysis, as well as model the car's performance using MATLAB to predict which gear ratio performed the best. We also experimented with changing the number of motors on the car. On race #1, we placed 2nd out of the class after a close finale. To do better in the next race, we changed aspects of our design to improve its performance. These improvements helped as on race #2, we placed 1st out of the whole class. Overall, I've gained a lot from this experience.",
+  "creators": ["Aarush Maddula", "Gavin Grundei", "Aiden Shanks"],
+  "date": "September 29, 2024",
+  "description": "Our group built a Lego Drag Racer that placed 1st in our class competition for the fastest to cross the finish line, analyizing factors like wheel size, gear ratios, and motor quantities and modeling the performance of different car configuations using a MATLAB simulation to optimize our drag racer.",
   "thumbnail": "/projects/lego-drag-racer/images/improvements.jpeg",
   "type": "engineering",
-  "tags": ["Physics", "Data Analysis", "Code", "Collaboration", "Lego"],
+  "tags": ["MATLAB", "Data Analysis", "Spreadsheets", "Collaboration", "Lego"],
   "timeline": [
     {
       "heading": "Investigating Wheel Size",
-      "description": "After building our test rig, we tested 4 different wheel sizes (68.8mm, 56mm, 43.2mm, 22.2mm) by running the car for 5 seconds and recording how far it went. We also found the predicted distance by using the motor's rpm, the radius of the wheel, and dimensional analysis to find it.  We determined that bigger wheels go farther and faster than smaller wheels.",
-      "images": [
-        "/projects/lego-drag-racer/images/wheel.jpeg"
+      "description": "After building our test rig, we found the top speeds for 4 different wheel sizes (68.8mm, 56mm, 43.2mm, 22.2mm) by running the car for 5 seconds and measuring the distance it travelled and time it took. We compared that to the theoretical top speeds, found using the formula (2 * pi * radius * rpm) in Google Sheets with the formulas feature to make data processing easier. We found that cars with larger wheels travel faster than ones with smaller wheels.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/wheel.jpeg",
+          "caption": "68.8mm Wheel Size car"
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/data1.png",
+          "caption": "Wheel Sizes Data Table"
+        } 
       ]
     }, 
     {
       "heading": "Investigating Gear Ratios",
-      "description": "We tested 4 different gear ratios (8:40, 24:40, 8:24 x 24:40, 24:40 x 8:40) by attaching a Vernier cart to generate a V-T graph. We analyzed this graph to find the top speed and acceleration. We also found the predicted top speeds by using the rpm of the motor, the gear ratio, and the radius of the wheels. We determined that a large gear ratio has slow acceleration and larger top speeds, while a small gear ratio had the opposite effect.",
-      "images": [
-        "/projects/lego-drag-racer/images/gear.jpeg"
+      "description": "We tested 4 different gear ratios (8:40, 24:40, 8:24 x 24:40, 24:40 x 8:40) by attaching a Vernier Motion Sensor Cart to generate a V-T graph, which we analyzed to find the top speed (max) and acceleration (slope). We compared that to the theoretical top speeds for each car, calculated using the equation (rpm x ratio x 2 * pi * top speed). We found that larger gear ratios have slower acceleration and larger top speeds, while a smaller gear ratio have the opposite effect.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/15gear.jpg",
+          "caption": "8:40 (1:5) Gear Ratio Car"
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/35gear.jpg",
+          "caption": "24:40 (3:5) Gear Ratio Car w/ cart"
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/325gear.jpg",
+          "caption": "24:40 x 8:40 (3:25) Gear Ratio Car"
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/data2.png",
+          "caption": "Gear Ratios Data Table"
+        }
       ]
     }, 
     {
       "heading": "Investigating Motors",
-      "description": "We tried adding another motor to our design in the back, which resulted in the car depicted in image #1. The issue with this design is that the car was struggling to move as we thought the width of the car decreased the efficiency of the motors. Afterward, we moved the motor to the front to distribute the load and to make the car more structurally stable.",
-      "images": [
-        "/projects/lego-drag-racer/images/motor.jpeg",
-        "/projects/lego-drag-racer/images/allmotor.jpeg"
+      "description": "We tried adding another motor to our design in the back, however the car struggled to move. We believed the additional weight and width added to the back of the car decreased the efficiency of the motors. In response, we moved the motor to the front to distribute the load and to make the car more structurally stable.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/motor.jpeg",
+          "caption": "Car with Dual Motors in Back"
+        },
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/allmotor.jpeg",
+          "caption": "Car with All Wheel Drive"
+        }    
       ]
     }, 
     {
       "heading": "Modeling Car Configurations",
-      "description": "We used a MATLAB program to input the top speeds and accelerations for each gear ratio and graphed it on Google Sheets to find which gear ratio reached the end of the 8-foot race the quickest. The 8:40 gear ratio with 2 motors performed the best, so we decided to use that.",
-      "images": [
-        "/projects/lego-drag-racer/images/graph.png"
+      "description": "Using a MATLAB program, we modeled the predicted performance of each car configuration based on the top speeds and accelerations we collected and graphed the data produced on Google Sheets to predict which configuration would reach the end of the 3-foot race track the quickest. The 8:40 gear ratio with 2 motors performed the best, so we decided to use that.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/graph.png",
+          "caption": "Position v Time Graph for all car versions"
+        } 
       ]
     }, 
     {
       "heading": "Race Day #1",
-      "description": "We finally got to race our car against the other cars our class made. We placed 2nd after a close race (video left).",
-      "videos": [
-        "/projects/lego-drag-racer/videos/race1.mp4"
+      "description": "We finally got to race our car against the other cars our class made. Prior to the race, we tested our car on the track for four trials and found that our car reached the end in 1.63 seconds. After a close race, we placed 2nd / 6th in our class.",
+      "resources": [
+        {
+          "type": "video",
+          "id": "1WAUK-HdgLZT2Sh4Gh9pCrY5DQvA0Kngh",
+          "caption": "Race Video"
+        }, 
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/data3.png",
+          "caption": "Trial Data Table"
+        } 
       ]
+
     }, 
     {
       "heading": "Improvements",
-      "description": "Since the winning car had the same gear ratio and motors, we thought our car was slightly too heavy. We decided to remove one of the front wheels and move the other wheel to the front to reduce weight.",
-      "images": [
-        "/projects/lego-drag-racer/images/improvements.jpeg"
+      "description": "Since the winning car had the same gear ratio and motors, we thought our car was slightly too heavy. To address this, we removed one of the front wheels and moved the other wheel to the center to reduce weight.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/improvements.jpeg",
+          "caption": "Final Car Design"
+        } 
       ]
     }, 
     {
       "heading": "Race Day #2",
-      "description": "We raced again with our class, where we finally secured a victory!",
-      "videos": [
-        "/projects/lego-drag-racer/videos/race2.mp4"
+      "description": "For this race, the race track was 8 feet long instead of the 3 feet of the previous race. We did 4 trials with our car prior to the tournament, averaging 3.68 seconds. We raced again with our class, where we finally secured a victory!",
+      "resources": [
+        {
+          "type": "video",
+          "id": "1B8fT0RhP3w3YIpgQY6Ydt7TCACmQh9oO",
+          "caption": "Race Video"
+        }, 
+        {
+          "type": "image",
+          "path": "/projects/lego-drag-racer/images/data4.png",
+          "caption": "Trial Data Table"
+        } 
       ]
-    }
-  ],
-  "resources": [
+    },
     {
-      "name": "Lego Dragster Project Report",
-      "icon": "/icons/file.svg",
-      "path": "/projects/lego-drag-racer/resources/LEGO_Dragster_Project_Report_Submission.pdf"
+      "heading": "Final Thoughts",
+      "description": "This project was a sucesss as we successfully built, optimized, and raced a Lego EV3 drag racer. Overall, I learned a lot from this project, like the effect of wheel sizes, gear ratios, and motors on performance. I also improved my collaboration and problem solving skills. If we had to do this project again, I might use bigger wheels and test more gear ratios that are not too high or low to find a gear ratio that performs better. I might try using the new Spike bot system as they are lighter than the Ev3 system. I also might test changing other factors of the car, like the shape of the body or more powerful motors."
     }
   ]
 }

@@ -1,5 +1,21 @@
 [
   {
+    "title": "Lego Ball Sorter",
+    "description": "",
+    "thumbnail": "/projects/lego-ball-sorter/images/ballsorter.jpg",
+    "type": "engineering",
+    "tags": ["Code", "Collaboration", "Lego"],
+    "path": "/projects/lego-ball-sorter"
+  },
+  {
+    "title": "Bridges & Trusses",
+    "description": "Our group designed, analyzed, and tested multiple truss prototypes using popsicle sticks to construct two bridges. We  improved load capacity from 2 kg to 10 kg on the bridges through structural redesign and stress analysis.",
+    "thumbnail": "/projects/bridge-and-truss/images/bridge2.jpg",
+    "type": ["engineering"],
+    "tags": ["Stress Analysis", "Collaboration"],
+    "path": "/projects/bridges-and-trusses"
+  },
+  {
     "title": "Soldering",
     "description": "In this project, our group were tasked with soldering a PCB together to create a working product.",
     "thumbnail": "/projects/soldering/images/soldering1.png",
@@ -8,10 +24,18 @@
     "path": "/projects/soldering"
   },
   {
+    "title": "Lego Mars Rover",
+    "description": "Our group built a Lego Mars Rover to navigate a “Martian landscape” to finish tasks like dropping a ball and  activating a Arduino communications array within five minutes, using tape guides for positioning.",
+    "thumbnail": "/projects/lego-mars-rover/images/robot.jpg",
+    "type": ["engineering", "featured"],
+    "tags": ["Code", "Arduino", "Collaboration", "Lego"],
+    "path": "/projects/lego-mars-rover"
+  },
+  {
     "title": "Train Whistle",
     "description": "For this project, I needed to create a train whistle using a block of wood and a 2\" x 4\" x 8\" wooden dowel using various woodworking equipment.",
     "thumbnail": "/projects/train-whistle/images/whistle.jpeg",
-    "type": ["engineering"],
+    "type": ["engineering", "featured"],
     "tags": ["Woodworking"],
     "path": "/projects/train-whistle"
   },
@@ -48,20 +72,20 @@
     "path": "/projects/lego-line-follower"
   },
   {
-    "title": "Lego Sumo Robot",
-    "description": "Our group built a Lego sumo robot with three motors that fit within a 12×12×12 in box to compete in two rounds against other robots, trying to push opponents off the ring.",
-    "thumbnail": "/projects/lego-sumo-robot/images/robot.jpeg",
-    "type": ["engineering"],
-    "tags": ["Code", "Collaboration", "Lego"],
-    "path": "/projects/lego-sumo-robot"
-  },
-  {
     "title": "3D Printed Brick",
     "description": "I designed and modeled a 2×4 Lego brick in Fusion 360 and 3D printed it using an Afinia H400+ printer.",
     "thumbnail": "/projects/3d-printed-brick/images/brick.jpeg",
     "type": ["engineering"],
     "tags": ["Fusion 360", "3D Printing"],
     "path": "/projects/3d-printed-brick"
+  },
+  {
+    "title": "Lego Sumo Robot",
+    "description": "Our group built a Lego sumo robot with three motors that fit within a 12×12×12 in box to compete in two rounds against other robots, trying to push opponents off the ring.",
+    "thumbnail": "/projects/lego-sumo-robot/images/robot.jpeg",
+    "type": ["engineering"],
+    "tags": ["Code", "Collaboration", "Lego"],
+    "path": "/projects/lego-sumo-robot"
   },
   {
     "title": "Lego Drag Racer",
@@ -73,7 +97,7 @@
   },
   {
     "title": "Lego Mass Launcher",
-    "description": "Our group built a Lego Mass Launcher that uses only potential energy to launch a projectile and calculated its initial velocity using data and basic projectile motion principles.",
+    "description": "Our group built a Lego Mass Launcher designed to launch a projectile using only potential energy, as well as determined the initial launch velocity of the projectile by collecting data and utilizing basic principles of projectile motion.",
     "thumbnail": "/projects/lego-mass-launcher/images/launcher.jpeg",
     "type": ["engineering"],
     "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
@@ -123,7 +147,7 @@
     "title": "To-do List",
     "description": "",
     "thumbnail": "/projects/to-do-list/website.png",
-    "type": ["web"],
+    "type": ["web", "featured"],
     "tags": ["JS", "HTML", "CSS"],
     "path": "",
     "github": "https://github.com/AarushMaddula/to-do-list",

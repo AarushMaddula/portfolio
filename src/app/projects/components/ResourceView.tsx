@@ -1,6 +1,11 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 export default function ResourceView({ resource }) {
+  const [isOpen, setIsOpen] = useState(false);
+  
   return (
     <>
       <div className="relative flex flex-col justify-center align-middle overflow-clip rounded-xl">
@@ -12,7 +17,7 @@ export default function ResourceView({ resource }) {
 
         <div className="relative rounded-xl h-60 aspect-4/3 overflow-hidden">
           {resource.type === "image" && (
-            <Image src={resource.path} alt="" fill className="object-contain" />
+            <Image src={resource.path} alt="" fill className="object-contain cursor-pointer" onClick={() => setIsOpen(true)}/>
           )}
 
           {resource.type === "video" && (
@@ -25,6 +30,18 @@ export default function ResourceView({ resource }) {
 
         </div>
       </div>
+
+      {isOpen && (
+        <div 
+          className="fixed inset-0 bg-dark/80 flex items-center justify-center z-50 cursor-pointer" 
+          onClick={() => setIsOpen(false)}
+        >
+          <img 
+            src={resource.path}  
+            className="max-w-full max-h-full rounded-lg shadow-lg"
+          />
+        </div>
+      )}
     </>
   );
 }

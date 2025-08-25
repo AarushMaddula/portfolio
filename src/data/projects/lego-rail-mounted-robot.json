@@ -9,71 +9,71 @@
   "timeline": [
     {
       "heading": "Brainstorming",
-      "description": "Aarush: #1 - For my first design, I came up with a robot with 2 wheels on the top and bottom to hold the robot. The PVC pipes would feed in between those wheels. The brick would be placed on the side. The color sensor would be placed in front of it.#2 - For my second design, I came up with a robot with 4 wheels grabbing the sides of the pipe rather than the top. The brick would be on top, and the sensor would be in front of the robot Code - I was initially thinking of making a program that loops continuously to check the color. If it is black, then that means it reached the end of the pipe and should therefore change directions. Otherwise, keep going. Clarence: My first design had a base on the top with a sensor underneath the base and one wheel connected to the bottom so that the robot could move from one end to the other. My second design featured multiple wheels. These wheels would be placed up, on the side, and down, balancing the stress with multiple wheels. These wheels would be motorized using many motors, which would help feature enhanced functionality. Jacob: My brainstorming was just a robot with a wheel on top stabilized on the rail with a color sensor in front. It was pretty basic but was sort of what we did for the finished product. For the code just talked about loops which is what our code was. Compromise: Our group decided to build the wheels on the side since the brick can go on top and be symmetrical and not tip over, unlike the designs with the wheels on top and the brick on the side. This also allowed us to put the sensor in the center of the robot on the bottom instead of in front of it since placing it in front of the robot causes it to detect the colors differently depending on the direction the robot is going in.",
+      "description": "I proposed two designs: one with wheels holding PVC pipes from top and bottom, and another with four side wheels, a top brick, using a color sensor to detect colors. Clarence suggested a design with the baseplate on the top and a wheel on the bottom of the pipe to drive the robot, as well as a design with multiple side wheels for better stability. Jacob proposed a design with a wheel on the top of the pipe driving the robot. We compromised on a design with side wheels with the brick on top and the sensor underneath for reliable color detection.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/sketch.jpeg",
-          "caption": ""
+          "caption": "My Sketches"
         },
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/sketchClarence.jpeg",
-          "caption": ""
+          "caption": "Clarence's Sketches"
         },
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/sketchJacob.jpeg",
-          "caption": ""
+          "caption": "Jacob's Sketches"
         }
       ]
     }, 
     {
       "heading": "Task 1 - Robot",
-      "description": "Task 1 requires us to construct a robot that travels back and forth between the back tape on each end of the pipe while carrying a small mass. \n\nWe built the robot by placing the brick on top, as well as the two small motors connected to the two axles that drive the four wheels. We designed our wheels to grip the side of the PVC pipe so that the corners of each of the wheels would contact the pipe, allowing the PVC pipe to exert an upward normal force on the wheels, holding the robot up. The sensor is in the middle of the bottom, allowing for consistent color detection regardless of the direction it’s going in.",
+      "description": "Task 1 requires us to construct a robot that travels back and forth between the back tape on each end of the pipe while carrying a small mass. \n\nWe built the robot by placing the brick on top, as well as the two small motors connected to the two axles that drive the four wheels. We designed our wheels to grip the side of the PVC pipe so that the corners of each wheel would contact the pipe. The sensor is on the bottom center of the robot, allowing for consistent color detection regardless of the direction it’s going in.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/task1robot1.jpeg",
-          "caption": ""
+          "caption": "Rail-Mounted Robot"
         },
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/task1robot2.jpeg",
-          "caption": ""
+          "caption": "Rail-Mounted Robot on Pipe"
         },
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/task1robot3.jpeg",
-          "caption": ""
+          "caption": "Rail-Mounted Robot on Pipe (closer)"
         }
       ]
     }, 
     {
       "heading": "Task 1 - Code",
-      "description": "Our code tells the robot to go straight until it detects the black tape at the end of the pipe, where the robot starts moving in the opposite direction. We did this by creating a speed variable that keeps track of the current direction of the robot with negative and positive signs. The robot then starts moving forward, continuously checking to see if the robot is over the black tape. If it is, we multiply the speed variable by -1 to change the direction of the robot and set the movement speed to the speed variable to make the robot move in the opposite direction. We tell the robot to stop checking the tape for 0.5 seconds so it doesn’t immediately detect the black tape again and get stuck.",
+      "description": "The robot goes straight until it detects the black tape at the end of the pipe, where the robot starts moving in the opposite direction. We did this by creating a speed variable that keeps track of the current direction of the robot with negative and positive signs indicating the direction. When the robot detects the black tape, we multiply the speed variable by -1 to change the direction of the robot. The robot stops checking the tape for 0.5 seconds so it doesn’t immediately detect the black tape again and get stuck.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/task1code.png",
-          "caption": ""
+          "caption": "Task 1 Code"
         }
       ]
     }, 
     {
       "heading": "Task 2 - Robot",
-      "description": "For Task 2, we have to make the robot stop at a specified stopping color for 5 seconds. Afterward, the robot will continue going back and forth. For this task, we didn’t need to make major changes. However, we decided to change the underside of the robot since to place the robot on the pipe, we needed to take the whole bottom off, which was tedious to do each time, so we made it smaller and easier to take off each time. Also, when the robot was traveling along the pipe, the robot would flip over since the robot was top-heavy, so we decided to turn our robot around to stop the robot from flipping each time.",
+      "description": "For Task 2, we have to make the robot stop at a specified stopping color for 5 seconds. Afterward, the robot will continue going back and forth. For this task, we didn’t need to make major changes. However, we decided to change the underside of the robot to make it easier to  remove the robot from the pipe. Also, when the robot was traveling along the pipe, the robot would flip over since the robot was top-heavy, so we decided to turn our robot around to stop the robot from flipping each time.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/lego-rail-mounted-robot/images/task2robot.jpeg",
-          "caption": ""
+          "caption": "Task 2 Robot Design"
         }
       ]
     }, 
     {
       "heading": "Task 2 - Code",
-      "description": "We kept the code from Task 1, but we added some new stuff. We created a new variable, hasVisited, to keep track of whether the robot already stopped at the specified color. The variable is initially set to 0 to mark that it hasn’t visited the color. The robot always checks to see if it is on the black tape or on the specified color. If it is on black, it turns around. If the robot is on the specified color and it hasn’t visited it before, it stops for 5 seconds and it is set to 1 to mark the robot has visited the color. It then keeps moving between the black tapes forever.",
+      "description": "We created a new variable, hasVisited, to keep track of whether the robot already stopped at the specified color. The variable is initially set to 0 to mark that it hasn’t visited the color. The robot moves forward until it detects the specified color. If the robot detects the specified color and it hasn’t visited it before, it stops for 5 seconds and sets hasVisited to 1 to mark the robot has visited the color. Afterwards, the robot continues moving back and forth forever.",
       "resources": [
         {
           "type": "image",

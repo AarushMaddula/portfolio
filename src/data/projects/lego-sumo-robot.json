@@ -2,7 +2,7 @@
   "title": "Lego Sumo Robot",
   "creators": ["Aarush Maddula", "Autumn Ludwig"],
   "date": "October 1, 2024",
-  "description": "Our group built a Lego Sumo Robot with three motors that could fit a 12 in x 12 in x 12 in box. This robot will compete against other robots in our class for two rounds of competition in the ring where 2 robots have to fight to push each other off the table edge.",
+  "description": "Our group built a Lego Sumo Robot that successfully defeated numerous robots in a class competition, refining its effectiveness through multiple iterations while conforming to the 12\" x 12\" x 12\" size and 3 motor constraints.",
   "thumbnail": "/projects/lego-sumo-robot/images/robot.jpeg",
   "type": "engineering",
   "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
@@ -35,7 +35,7 @@
         {
           "type": "image",
           "path": "/projects/lego-sumo-robot/images/wheels.jpeg",
-          "caption": ""
+          "caption": "Initial Sumo Robot Build"
         }
       ]
     }, 
@@ -46,13 +46,13 @@
         {
           "type": "image",
           "path": "/projects/lego-sumo-robot/images/tracks.jpeg",
-          "caption": ""
+          "caption": "Revised Sumo Robot Build"
         }
       ]
     }, 
     {
       "heading": "Competition #1",
-      "description": "We competed with other robots our class made in the first competition, placing in 3rd place. However, we encountered many issues during the competition.\n\n1) During one round, both tracks came off the sumo robot since they weren’t properly secured, rendering the robot unmoveable.\n2) Our controller was often glitchy and slow to respond to input, causing the robot to unexpectedly move backwards and fall off the table.\n3) The treads were too loose, slowing us down and allowing the opponent to rip off our tracks.",
+      "description": "We competed with other robots our class made in the first competition, placing 3rd / 6th. However, we encountered many issues during the competition.\n\n1) During one round, both tracks came off the sumo robot since they weren’t properly secured, rendering the robot unmoveable.\n2) Our controller was often glitchy and slow to respond to input, causing the robot to unexpectedly move backwards and fall off the table.\n3) The treads were too loose, slowing us down and allowing the opponent to rip off our tracks.",
       "resources": [
         {
           "type": "video",
@@ -68,13 +68,17 @@
         {
           "type": "image",
           "path": "/projects/lego-sumo-robot/images/robot.jpeg",
-          "caption": ""
+          "caption": "Final Sumo Robot Build"
         }
       ]
     }, 
     {
       "heading": "Competition #2",
-      "description": "We competed for a second time where we did worse, placing in 4th place. We think this is because our opponents' scoops were bigger, sharper, and lower to the ground than ours, with 1 opponent using a 3d printed part to achieve this. This caused our robot to get caught on the scoop and get pushed off the edge easily."
+      "description": "We competed for a second time where we did worse, placing in 4th / 6th place. We think this is because our opponents' scoops were bigger, sharper, and lower to the ground than ours, with 1 opponent using a 3d printed part to achieve this. This caused our robot to get caught on the scoop and get pushed off the edge easily."
+    },
+    {
+      "heading": "Final Thoughts",
+      "description": "I think this project was a success as we created a Lego Sumo Robot that met the requirements of using 3 motors and fitting in a 12 in by 12 in box. If we did this again, I think we could’ve 3d printed some parts to create a more effective, lower, and bigger scoop that could’ve helped in defeating our opponent. Otherwise, I am proud of our design process since throughout the design process, Autumn and I successfully collaborated and compromised to create this robot and I had plenty of fun throughout it. I learned more about how to program Lego Mindstorm robots and gained experience with communication and teamwork skills."
     }
   ]
 }

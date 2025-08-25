@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ResourceView from "./ResourceView";
 
-export default function ResourceCarousel({ resources }: { resources: any[] }) {
+export default function ResourceCarousel({ resources }) {
   const [current, setCurrent] = useState(0);
 
   const next = () => {

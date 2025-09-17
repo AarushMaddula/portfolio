@@ -2,66 +2,66 @@
   "title": "Phone Case",
   "creators": ["Aarush Maddula"],
   "date": "October 4, 2024",
-  "description": "I designed and modeled a 2x4 Lego Brick using the Autodesk Fusion 360 software and 3D printing the brick using Afinia Studio and an Afinia H400+ 3D printer.",
+  "description": "",
   "thumbnail": "/projects/phone-case/images/case.jpeg",
   "type": "engineering",
-  "tags": ["Fusion 360", "3D Printing"],
+  "tags": ["Fusion", "3D Printing"],
   "timeline": [
     {
       "heading": "Objective",
-      "description": "",
+      "description": "My phone case has two parts: the rubber cushioning and the plastic holding it all together. For this project, I wanted to 3D model and print the plastic part since it is a challenging design to replicate and I could modify the design to give extra functionality to the case, like a wallet holder.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/phone-case/images/originalcase.jpg",
-          "caption": ""
+          "caption": "Plastic phone case cover"
         },
         {
           "type": "image",
           "path": "/projects/phone-case/images/originalcaseon.jpg",
-          "caption": ""
+          "caption": "Phone case cover on phone"
         }
       ]
     }, 
     {
       "heading": "Modeling",
-      "description": "",
+      "description": "At first, I tried to create a flat sheet and extend the edges to model it into the shape of the cover, but I found it was really tedious. I tried looking for different approaches when I realized that I could create a box with the dimensions of the case, hollowing it, and make cuts into it until it looks like the case. I quickly abandoned my original strategy and went ahead with that plan. Throughout the process, I used fillets and chamfers to polish the look.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/phone-case/images/cad1.png",
-          "caption": ""
+          "caption": "Creating the base shape"
         },
         {
           "type": "image",
           "path": "/projects/phone-case/images/cad2.png",
-          "caption": ""
+          "caption": "Making the notches via cuts"
         },
         {
           "type": "image",
           "path": "/projects/phone-case/images/cadfinal.png",
-          "caption": ""
+          "caption": "Final CAD model (outside)"
         },
         {
           "type": "image",
           "path": "/projects/phone-case/images/cadfinalback.png",
-          "caption": ""
+          "caption": "Final CAD model (inside)"
         }
       ]
     }, 
     {
       "heading": "Modifications",
-      "description": "",
+      "description": "I 3D-printed the case and it looked ",
       "resources": [
         {
           "type": "image",
           "path": "/projects/phone-case/images/prototypes.jpeg",
-          "caption": ""
+          "caption": "4 Phone Case Prototypes"
         }
       ]
     },
     {
-      "heading": "Adding Anti-studs",
+      "heading": "Final product",
       "description": "",
       "resources": [
         {
@@ -83,15 +83,6 @@
     }
   ],
   "resources": [
-    {
-      "name": "Tutorial: How to 3D Model a Lego Brick in Fusion 360",
-      "icon": "/icons/youtube.svg",
-      "path": "https://www.youtube.com/watch?v=H9ShjT8wer4"
-    },
-    {
-      "name": "Lego Brick STL File",
-      "icon": "/icons/file.svg",
-      "path": "/projects/3d-printed-brick/resources/Lego Brick.stl"
-    }
+    
   ]
 }

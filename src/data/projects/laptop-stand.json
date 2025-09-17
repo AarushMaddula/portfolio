@@ -2,61 +2,65 @@
   "title": "Laptop Stand",
   "creators": ["Aarush Maddula"],
   "date": "January 15, 2025",
-  "description": "",
+  "description": "I designed and 3D-printed a custom laptop stand in Fusion 360 to improve ventilation during gaming, applying parametric modeling and 3D-printing techniques.",
   "thumbnail": "/projects/laptop-stand/images/finalBuild.jpg",
   "type": "engineering",
-  "tags": ["Fusion 360", "3D Printing"],
+  "tags": ["Fusion", "3D Printing"],
   "timeline": [
     {
-      "heading": "",
-      "description": "",
+      "heading": "Objective",
+      "description": "For this project, I wanted to create a stand to place my laptop on to allow for better ventilation on the bottom of the laptop when I'm gaming. To do this, I decided to model it in Fusion and 3D print it to gain better experience with those skillsets."
+    },  
+    {
+      "heading": "Modeling",
+      "description": "I wanted to learn how to add parameters into my project so I can easily tweak individual values. I had some experience coming into this project, as I 3D modeled a Lego Brick and a box in my Engineering class, but I hadn't applied those skills to a larger project like this. Initially, I was overwhelmed since I didn't know where to start. Soon, I realized that instead of worrying about the whole project, I needed to start small and expand from there. I thought modeling a leg was a good place to start. Then, I mirrored the leg to the other side and connect the legs at multiple points to ensure stability. Throughout the project, I used parameters to control the dimensions of the sketches and extrusions, which could easily be tweaked in the parameters page in Fusion.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/laptop-stand/images/leg.png",
-          "caption": ""
+          "caption": "Model of a Leg"
         },
         {
           "type": "image",
           "path": "/projects/laptop-stand/images/legs.png",
-          "caption": ""
+          "caption": "Mirroring the Legs"
         },
         {
           "type": "image",
           "path": "/projects/laptop-stand/images/finalDesign.png",
-          "caption": ""
+          "caption": "Final CAD Model"
         },
         {
           "type": "image",
           "path": "/projects/laptop-stand/images/parameters.png",
-          "caption": ""
+          "caption": "Parameters used"
         }
       ]
     }, 
     {
-      "heading": "",
-      "description": "",
+      "heading": "3D Printing",
+      "description": "I imported the model into Orcaslicer to customize the print settings. I kept the default print settings for my printer and PLA, but I added supports over the parts of the stand that overhang so the overhand will print properly.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/laptop-stand/images/slicer.png",
-          "caption": ""
+          "caption": "Slicer Settings"
         }
       ]
     }, 
     {
-      "heading": "",
-      "description": "",
+      "heading": "Final Product",
+      "description": "Overall, I think this project turned out well as my laptop fits on the stand and has proper ventilation underneath it. I also learned more about Fusion and 3D modeling, both from a technical standpoint, as well as a mental standpoint. However, there are a few things I could've done better. First, while the support did well at supporting the overhang during printing, it was difficult to remove. I wasn't able to remove some of the support from the final product. I think using tree supports will help address this issue. Also, while I was using the stand, I realized I couldn't route wires underneath the stand as the front bar block it, which was a problem when I was using my keyboard in front of it. I could fix it by atleast creating a gap for wires to go through. Lastly, I could make the stand better by optimizing the thickness of the stand to be as thin as possible and giving the stand the ability to adjust size and fold. I plan to address these issues in future iterations of the stand.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/laptop-stand/images/finalBuild.jpg",
-          "caption": ""
+          "caption": "Laptop Stand"
         },
         {
           "type": "image",
           "path": "/projects/laptop-stand/images/demonstration.jpg",
-          "caption": ""
+          "caption": "Laptop Stand with Laptop"
         }
       ]
     }

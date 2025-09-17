@@ -2,56 +2,56 @@
   "title": "Laser-Cut Box",
   "creators": ["Aarush Maddula"],
   "date": "November 7, 2024",
-  "description": "I had to design an open box using Autodesk Fusion 360 and laser-cut that design on a sheet of cardboard to eventually end up with a physical box.",
+  "description": "I created a box by designing a 3D model in Autodesk Fusion 360 and laser cutting a pattern from a sheet of cardboard, producing an accurately cut cardboard template that was assembled into a clean box.",
   "thumbnail": "/projects/laser-cut-box/images/box.jpeg",
   "type": "engineering",
-  "tags": ["Laser Cutting", "Fusion 360"],
+  "tags": ["Laser Cutting", "Fusion"],
   "timeline": [
     {
-      "heading": "Design",
-      "description": "I designed the box using Autodesk Fusion 360. I started with a simple box by extruding a rectangular sketch. Then, I created the long and short walls by creating new sketches and extruding them. Throughout the process, I used tools I hadn't used before, like constraints, construction lines, and the mirror tool, to create the walls. After I finished, I verified that the dimensions of the box were correct and exported the project as a PDF for the laser cutter.",
+      "heading": "The Design Process",
+      "description": "For this project, I designed the box using Autodesk Fusion to gain a deeper understanding of the software. I started with a simple box by extruding a rectangular sketch. Then, I created the long and short walls by creating new sketches and extruding them. Throughout the process, I used tools I hadn't used before, like constraints, construction lines, and the mirror tool, to create the walls. After I finished, I verified that the dimensions of the box were correct and exported the project as a PDF for the laser cutter.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/laser-cut-box/images/design1.png",
-          "caption": ""
+          "caption": "Creating a Box"
         },
         {
           "type": "image",
           "path": "/projects/laser-cut-box/images/design2.png",
-          "caption": ""
+          "caption": "Adding Notches"
         },
         {
           "type": "image",
           "path": "/projects/laser-cut-box/images/design3.png",
-          "caption": ""
+          "caption": "Creating Walls"
         },
         {
           "type": "image",
           "path": "/projects/laser-cut-box/images/design4.png",
-          "caption": ""
+          "caption": "Mirroring Walls"
         }
       ]
     }, 
     {
       "heading": "Cutting",
-      "description": "I uploaded the PDF I exported to the laser cutter and configured the settings of the cutter. After that, I placed the cardboard sheet in the cutter and started it. I tried running the cutter a few times to ensure the cutter cut through the sheet. I took it out and separated the box pieces from the sheet.",
+      "description": "I uploaded the PDF I exported to the laser cutter and configured the settings of the cutter. After that, I placed the cardboard sheet in the cutter and started the cutter, running it a few times through to ensure the cutter cut through the sheet. After it was doone, I took out the cardboard and separated the box pieces from the sheet.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/laser-cut-box/images/cutting.jpeg",
-          "caption": ""
+          "caption": "Laser Cutter Machine Fufilling its Sole Purpose"
         }
       ]
     }, 
     {
       "heading": "Final Product",
-      "description": "I took all the pieces and assembled them to form a box, shown right. Overall, the box fit well and held together decently on its own. After cutting, I noticed that the laser cutter didn't fully cut through the sheet; it only went most of the way through. Also, there was a lot of ash and burn marks on the edges of the box. I think next time, I could increase the frequency of the laser cutter from 500 to 2000 to decrease the time spent cutting and get a deeper cut. I learned a lot more about Fusion 360 in this project, like constraint and mirroring tools to draw sketches, as well as operating laser cutters and I think this knowledge could be useful when I need to cut material into a 3D structure in a future project.",
+      "description": "I took all the pieces and assembled them to form a box. Overall, the box fit well and held together well on its own. After cutting, I noticed that the laser cutter didn't fully cut through the sheet. Also, there was a lot of ash and burn marks on the edges of the box.\n\nNext time, I could increase the frequency of the laser cutter from 500 to 2000 to decrease the time spent cutting and get a deeper cut. I learned a lot more about Fusion in this project, like constraint and mirroring tools to draw sketches, as well as how to use the laser cutters. I think this knowledge could be useful when I need to cut material into a 3D structure in a future project.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/laser-cut-box/images/box.jpeg",
-          "caption": ""
+          "caption": "Laser-Cut Box"
         }
       ]
     }

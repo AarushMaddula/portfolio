@@ -1,0 +1,130 @@
+{
+  "title": "RC Airplane",
+  "creators": ["Aarush Maddula"],
+  "date": "October 4, 2024",
+  "description": "",
+  "thumbnail": "/projects/3d-printed-brick/images/brick.jpeg",
+  "type": "engineering",
+  "tags": ["Electronics", "Fusion 360", "3D Printing"],
+  "timeline": [
+    {
+      "heading": "Objective",
+      "description": "",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/q400.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Planning",
+      "description": "",
+      "resources": [
+       
+      ]
+    },
+    {
+      "heading": "Modeling: Wings & Tail",
+      "description": "",
+      "resources": [
+       
+      ]
+    },
+    {
+      "heading": "Modeling: Fuselage",
+      "description": "",
+      "resources": [
+        {
+          "type": "",
+          "path": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "System Design",
+      "description": "",
+      "resources": [
+        {
+          "type": "video",
+          "id": "1gEum564kLkzT5zmqvxANclmeGibAl-NA",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "3D Printing",
+      "description": "",
+      "resources": [ 
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/parts.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Assembly",
+      "description": "",
+      "resources": [
+        {
+          "type": "video",
+          "id": "1zGoADNCE-leQ9i8fLI0a7JssZhmP02Ea",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Test Flight 1",
+      "description": "",
+      "resources": [
+        {
+          "type": "video",
+          "id": "1kIZSLJnT1RQjHEryOCM7VpOyvlQ5wUZw",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/TestFlight1.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Revision",
+      "description": "",
+      "resources": [
+        {
+          "type": "",
+          "path": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Test Flight 2",
+      "description": "",
+      "resources": [
+        {
+          "type": "",
+          "path": "",
+          "caption": ""
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Tutorial: How to 3D Model a Lego Brick in Fusion 360",
+      "icon": "/icons/youtube.svg",
+      "path": "https://www.youtube.com/watch?v=H9ShjT8wer4"
+    },
+    {
+      "name": "Lego Brick STL File",
+      "icon": "/icons/file.svg",
+      "path": "/projects/3d-printed-brick/resources/Lego Brick.stl"
+    }
+  ]
+}

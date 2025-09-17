@@ -27,7 +27,7 @@ export default function ProjectSection({ projectsData }) {
 
   return (
     <section id="projects" className="bg-dark py-8 px-8 max-w-7xl mx-auto">
-      <h1 className="inline-block text-white font-bold text-4xl mb-4">Projects</h1>
+      <h1 className="inline-block text-white font-semibold text-4xl mb-4">Projects</h1>
       <div className="text-white flex flex-wrap gap-4 mb-8">
         <button
           onClick={() => setFeatured(!isFeatured)}

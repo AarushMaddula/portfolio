@@ -1,7 +1,7 @@
 "use client";
 
 import ImageCarousel from "./ImageCarousel";
-import TextFormatter from "./TextFormatter";
+import TextFormatter from "../../components/TextFormatter";
 import ResourceView from "./ResourceView";
 
 function renderResources(resources) {
@@ -34,12 +34,12 @@ export default function Timeline({ timeline }) {
           <div className="bg-accent flex-1"></div>
           <div className="bg-linear-to-b from-[var(--color-accent)] to-[var(--color-dark)] h-8 "></div>
         </div>
-        <ol className="flex flex-col gap-16 my-8">
+        <ol className="flex flex-col gap-16 my-8 w-full">
           {timeline.map((section) => {
             return (
               <li key={section.heading} className="relative">
-                <section className="pl-8 flex flex-col justify-between md:flex-row gap-8">
-                  <div className="relative">
+                <section className="pl-8 flex flex-col justify-between md:flex-row gap-8 relative">
+                  <div>
                     <div className="absolute w-full h-full bg-accent/10 blur-3xl rounded-2xl -z-10"></div>
                     <h2 className="relative text-2xl font-medium text-neutral mb-4 dot">
                       {section.heading}

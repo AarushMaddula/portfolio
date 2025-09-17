@@ -14,7 +14,7 @@ function About() {
         <div className="relative">
           <div className="absolute w-full h-full bg-accent/10 blur-3xl rounded-2xl"></div>
           <div className="relative">
-            <h1 className="inline-block text-white font-bold text-4xl mb-6 slide-in">
+            <h1 className="inline-block text-white font-semibold text-4xl mb-6 slide-in">
               About Me!
             </h1>
             <p className="text-muted">

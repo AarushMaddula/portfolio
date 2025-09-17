@@ -1,0 +1,56 @@
+{
+  "title": "Lego Marble Sorter",
+  "creators": ["Aarush Maddula", "Aiden Shanks"],
+  "date": "May 22, 2025",
+  "description": "",
+  "thumbnail": "/projects/lego-marble-sorter/images/marbleSorter.jpg",
+  "type": "engineering",
+  "tags": ["Code", "Collaboration", "Lego"],
+  "timeline": [
+    {
+      "heading": "Brainstorming",
+      "description": "",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-ball-sorter/images/brainstorm.jpg",
+          "caption": "Brainstorming"
+        } 
+      ]
+    },
+    {
+      "heading": "Construction",
+      "description": "",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/lego-marble-sorter/images/marbleSorter.jpg",
+          "caption": "Brainstorming"
+        } 
+      ]
+    },
+    {
+      "heading": "Performance",
+      "description": "",
+      "resources": [
+        {
+          "type": "video",
+          "id": "1-oBVUBWGtR6rJAemmv2zZ7s4bNP3M6Zr",
+          "caption": "Brainstorming"
+        } 
+      ]
+    },
+    {
+      "heading": "Final Thoughts",
+      "description": ""
+    }
+  ],
+  "resources": [
+    {
+      "name": "Lego Ball Sorter Code",
+      "icon": "/icons/file.svg",
+      "path": "/projects/lego-ball-sorter/resources/Lego_Ball_Sorter.lms"
+    }
+  ]
+}
+

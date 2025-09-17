@@ -2,55 +2,55 @@
   "title": "Train Whistle",
   "creators": ["Aarush Maddula"],
   "date": "November 22, 2024",
-  "description": "For this project, I needed to create a train whistle using a block of wood and a 2\" x 4\" x 8\" wooden dowel using various woodworking equipment.",
+  "description": "I crafted a functional train whistle by shaping a block of wood and a 2\" x 4\" x 8\" wooden dowel, utilizing a variety of woodworking tools to safely cut, drill, and refine the final product.",
   "thumbnail": "/projects/train-whistle/images/whistle.jpeg",
   "type": "engineering",
   "tags": ["Woodworking"],
   "timeline": [
     {
       "heading": "Safety Tests",
-      "description": "In order to operate the machines, I needed to complete the safety trainings on https://www.iteea-safety.org/index.htm to make sure I stay safe while operating these machines. I successfully completed all the training videos and tests, as shown left.",
+      "description": "In order to operate the woodworking tools safely, I completed the training videos and passed the tests on https://www.iteea-safety.org/index.htm to ensure I stay safe while operating these machines.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/train-whistle/images/safety1.png",
-          "caption": ""
+          "caption": "Scroll Saw Test"
         },
         {
           "type": "image",
           "path": "/projects/train-whistle/images/safety2.png",
-          "caption": ""
+          "caption": "Miter Saw Test"
         },
         {
           "type": "image",
           "path": "/projects/train-whistle/images/safety3.png",
-          "caption": ""
+          "caption": "Band Saw Test"
         },
         {
           "type": "image",
           "path": "/projects/train-whistle/images/safety4.png",
-          "caption": ""
+          "caption": "Drill Press Test"
         },
         {
           "type": "image",
           "path": "/projects/train-whistle/images/safety5.png",
-          "caption": ""
+          "caption": "Belt / Disc Sander Test"
         } 
       ]
     }, 
     {
       "heading": "Cutting the Mouthpiece",
-      "description": "To start off, I chopped off 5/8\" of the end of the wooden block using a miter saw. This was my second time attempt since during a previous attempt, I accidently stopped the miter saw while it was in contact with the wood, causing the mouthpiece to fly off and hit the blade, damaging the mouthpiece.\n\nAfterwards, I used a drill press to drill out the top cavity cutout with a 1 1/8\" Forstner bit.",
+      "description": "To start off, I chopped off 5/8\" of the end of the wooden block using a miter saw. This was my second time attempt since during a previous attempt, I accidently stopped the miter saw while it was in contact with the wood, causing the mouthpiece to fly off, hit the blade, and damage the mouthpiece.\n\nAfterwards, I used a drill press to drill out the top cavity cutout with a 1 1/8\" Forstner bit.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/train-whistle/images/cutting1.jpeg",
-          "caption": ""
+          "caption": "Cutting the Mouthpiece"
         },
         {
           "type": "image",
           "path": "/projects/train-whistle/images/cutting2.jpeg",
-          "caption": ""
+          "caption": "Drilling the Mouthpiece"
         }    
       ]
     }, 
@@ -61,52 +61,56 @@
         {
           "type": "image",
           "path": "/projects/train-whistle/images/drilling1.jpeg",
-          "caption": ""
+          "caption": "Marking the Holes"
         },
         {
           "type": "image",
           "path": "/projects/train-whistle/images/drilling2.jpeg",
-          "caption": ""
+          "caption": "Drilling the Holes"
         }    
       ]
     }, 
     {
       "heading": "Cutting the Side Cavities",
-      "description": "To cut the cavities, I marked the borders of them using a pencil and ruler and cut the lines using a band saw by placing the wooden block on a 45 degree angle.",
+      "description": "To cut the cavities, I marked the borders of them using a pencil and ruler and cut the lines at a 45 degree angle using a band saw.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/train-whistle/images/cutting_mouth_1.jpeg",
-          "caption": ""
+          "caption": "Marking the Cuts"
         },
         {
           "type": "image",
           "path": "/projects/train-whistle/images/cutting_mouth_2.jpeg",
-          "caption": ""
+          "caption": "Cutting the Lines"
         } 
       ]
     },
     {
       "heading": "Placing the Reeds",
-      "description": "For the reeds, I used a belt sander to flatten the edge of the reed and used a scroll saw to cut the reeds into 4, 2 inch pieces. I placed the reeds into each resonance hole and adjusted them to allow for optimal sound. Afterwards, I used woodglue to glue each rod in and used a miter saw to cut off the excess.",
+      "description": "For the reeds, I used a belt sander to flatten the edge of the reed and used a scroll saw to cut the reeds into 4, 2\" long pieces. I placed the reeds into each resonance hole and adjusted them until they sounded right. Afterwards, I used woodglue to glue each rod in and used a miter saw to cut off the excess.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/train-whistle/images/reed.jpeg",
-          "caption": ""
+          "caption": "Reeds inside Holes"
+        }
+      ]
+    },
+    {
+      "heading": "Gluing the Mouthpiece",
+      "description": "I glued the mouthpiece from earlier onto the top to finish this whistle off. I gave it a test blow and it sounded like an actual train whistle.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/train-whistle/images/whistle.jpeg",
+          "caption": "Final Whistle"
         }
       ]
     },
     {
       "heading": "Final Result",
-      "description": "I glued the mouthpiece from earlier onto the top to finish this whistle off. I gave it a test blow and it sounded like an actual train whistle.\n\nOverall, this project was successful since I managed to create a functional train whistle and learned a lot about woodworking in the process. In this project, I learned how to use the miter saw, the drill press, the band saw, the band sander, and the scroll saw. I also learned to stop the machine after it stops touching the material as learned by my first attempt. I think in future projects, I could add little indents where a drill bit will first come in contact since when drilling, I noticed the drill bit sliding a little bit, causing the holes to get misaligned. Another consideration is finding a better way to hold the wooden block while drilling since finding a good way to properly and securely hold the block was challenging.\n\nOverall, I grew a lot as a person since I now have experience and familarity with woodworking in general, opening me up to considering woodworking as an option in future projects. I could use these skills to help improve the esthetics of my projects if I wanted it to be displayed in a visible location.",
-      "resources": [
-        {
-          "type": "image",
-          "path": "/projects/train-whistle/images/whistle.jpeg",
-          "caption": ""
-        }
-      ]
+      "description": "This project was successful since I managed to create a functional train whistle and learned a lot about woodworking in the process. I learned how to use the miter saw, the drill press, the band saw, the band sander, and the scroll saw. I also learned to stop the machine after it stops touching the material as learned by my first attempt. I think in future projects, I could add little indents where a drill bit will first come in contact since when drilling, I noticed the drill bit sliding a little bit, causing the holes to get misaligned. Another consideration is finding a better way to hold the wooden block while drilling since finding a good way to properly and securely hold the block was challenging.\n\nOverall, I grew a lot as a person since I now have experience and familarity with woodworking in general, opening me up to considering woodworking as an option in future projects. I could use these skills to help improve the esthetics of my projects if I wanted it to be displayed in a visible location."
     }
   ]
 }

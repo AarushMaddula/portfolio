@@ -1,0 +1,76 @@
+{
+  "title": "Laptop Stand",
+  "creators": ["Aarush Maddula"],
+  "date": "January 15, 2025",
+  "description": "",
+  "thumbnail": "/projects/laptop-stand/images/finalBuild.jpg",
+  "type": "engineering",
+  "tags": ["Fusion 360", "3D Printing"],
+  "timeline": [
+    {
+      "heading": "",
+      "description": "",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/laptop-stand/images/leg.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/laptop-stand/images/legs.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/laptop-stand/images/finalDesign.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/laptop-stand/images/parameters.png",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "",
+      "description": "",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/laptop-stand/images/slicer.png",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "heading": "",
+      "description": "",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/laptop-stand/images/finalBuild.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "path": "/projects/laptop-stand/images/demonstration.jpg",
+          "caption": ""
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Laptop Stand Fusion File",
+      "icon": "/icons/file.svg",
+      "path": "/projects/laptop-stand/resources/Laptop Holder.f3d"
+    },
+    {
+      "name": "Laptop Stand STL File",
+      "icon": "/icons/file.svg",
+      "path": "/projects/laptop-stand/resources/Laptop Holder.stl"
+    }
+  ]
+}

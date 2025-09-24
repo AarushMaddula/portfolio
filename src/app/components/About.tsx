@@ -18,22 +18,10 @@ function About() {
               About Me!
             </h1>
             <p className="text-muted">
-              I’m Aarush Maddula, a developer who loves turning ideas into
-              things you can actually use. I’ve built everything from Java games
-              (3D Tak, Othello AI) to web projects with Tailwind/Next.js, and
-              even hardware experiments like modifying a 3D printer into a
-              plotter.
-              <br />
-              <br />
-              I enjoy building tools that are fast, clean, and
-              purposeful—whether that means writing efficient code, designing
-              intuitive interfaces, or teaching others to code (I’ve volunteered
-              at tech camps and help classmates whenever I can).
-              <br />
-              <br />
-              Outside of programming, you’ll probably find me at the gym, on my
-              bike, or deep in some new project that I swore I wouldn’t start…
-              yet somehow did.
+             Hi! I’m Aarush Maddula, a high school student passionate about engineering, coding, and building cool, challenging projects. I love learning new things, whether it’s learning a new programming language, trying a new software, or experimenting with new tools like 3D printing and laser-cutting. I believe that being curious and eager to tackle unfamiliar challenges is the key to success, so I always try to problem solve through difficult situations while never giving up, knowing the journey will be worth it.
+             <br/>
+             <br/>
+             Outside of coding, you’ll find me biking around my community, lifting at the gym, trying new recipes, or exploring new places around my city. 
             </p>
           </div>
         </div>

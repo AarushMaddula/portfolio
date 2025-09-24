@@ -21,11 +21,11 @@ export default function EducationCard({
         <h3 className="text-2xl text-neutral font-semibold mb-2">{title}</h3>
         <p className="text-sm text-muted mb-2">{description}</p>
         <div className="flex gap-4">
-          <div className="flex items-center gap-1">
+          <div className="flex gap-1">
             <img src="/icons/calendar.svg" alt="" className="invert h-4" />
             <p className="text-sm text-muted">{date}</p>
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex gap-1">
             <img src="/icons/pin.svg" alt="" className="invert h-4" />
             <p className="text-sm text-muted">{location}</p>
           </div>

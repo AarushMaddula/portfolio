@@ -1,130 +1,239 @@
 {
   "title": "RC Airplane",
   "creators": ["Aarush Maddula"],
-  "date": "October 4, 2024",
-  "description": "",
-  "thumbnail": "/projects/3d-printed-brick/images/brick.jpeg",
+  "date": "September 23, 2025",
+  "description": "I designed and built a 3D-printed RC airplane modeled after the Bombardier Q400, integrating CAD design, electronics, and lightweight structures to explore aerodynamics and flight control systems.",
+  "thumbnail": "/projects/rc-airplane/images/rcplane.jpeg",
   "type": "engineering",
-  "tags": ["Electronics", "Fusion 360", "3D Printing"],
+  "tags": ["Electronics", "Fusion", "3D Printing"],
   "timeline": [
     {
       "heading": "Objective",
-      "description": "",
+      "description": "For this project, I wanted to build a RC airplane that I could fly in the sky. For my whole life, I have loved airplanes, but what caused me to pursue this project was the videos that I watched of people building and flying RC airplanes. I wanted to learn how to make one of my own, specificly the Bombardier Q400. Through this project, I wanted to gain more experience with 3D modeling, as well as explore electronics and flight control systems.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/rc-airplane/images/q400.jpg",
-          "caption": ""
+          "caption": "Bombardier Q400"
         }
       ]
     },
     {
       "heading": "Planning",
-      "description": "",
-      "resources": [
-       
-      ]
-    },
-    {
-      "heading": "Modeling: Wings & Tail",
-      "description": "",
-      "resources": [
-       
-      ]
-    },
-    {
-      "heading": "Modeling: Fuselage",
-      "description": "",
+      "description": "Before I start building, I needed to research how to build the plane. Typically, people build RC airplanes from foamboard or similar materials as they are light, cheap, and easy to work with. However, I wanted to 3D print the plane to gain experience with 3D modeling. I've seen people 3D print planes; however, common filaments like PLA tend to be heavy and easy to break in a crash. To solve the weight problem, I chose to use a filament called LW-PLA, which is roughly half the weight of regular PLA as it foams up after exiting the nozzle. With the material chosen, I needed to figure out the parts I needed to buy. After using an online calculator, I learned I needed to buy 1) 2, D2826 1400KV motors, 2) 2, 30A esc, 3) 3S 3000mAh Li battery, 4) controller + reciever, plus adapters to power the plane. I also needed 4, 9g servos for the flight control systems and landing gears.",
       "resources": [
         {
-          "type": "",
-          "path": "",
-          "caption": ""
+          "type": "image",
+          "path": "/projects/rc-airplane/images/motor.jpg",
+          "caption": "D2826 1400KV Motor"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/esc.jpg",
+          "caption": "30A ESC"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/batteries.jpg",
+          "caption": "3S 3000mAh Li batteries"
+        },
+         {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/controller.jpg",
+          "caption": "Controller + Reciever"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/servos.jpg",
+          "caption": "9g Servos"
         }
       ]
     },
     {
-      "heading": "System Design",
-      "description": "",
+      "heading": "Modeling: Wings",
+      "description": "I started creating the base shape of a wing by creating a sketch of the airfoil and wing shape using the outlines of the plane from images online and performing a sweep operation. Then, I used sketches and extrusions to seperate the aileron from the wing. To create the ribbing, I created a copy of the wing, created a rib-like structure using extrusions, and combined it with the original wing by negating the ribs. Doing this saves a lot of filament on the wings during printing while maintaining strength. To allow the ailerons to rotate, I added holes on the sides of the flaps and wing and inserted rods for it to rotate on. Afterwards, I created the engine component that will hold the motor during flight, as well as the servo controlling the alieron, which will go in the side pocket shown in the image. Finally, I mirrored the wing to create the other side of the plane.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/Dash8Outlines.gif",
+          "caption": "Q400 Outlines"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/Dash8Airfoil.jpg",
+          "caption": "Q400 Airfoil"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/wingsketch.png",
+          "caption": "Wing Sketches"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/wingribextrusion.png",
+          "caption": "Extrusions for ribbing"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/wingribpattern.png",
+          "caption": "Ribbing for the whole wing"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/wingunder.png",
+          "caption": "Engine Component"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/wingmodel.png",
+          "caption": "Model of the Wings"
+        }
+      ]
+    },
+    {
+      "heading": "Modeling: Tail",
+      "description": "The process for the tail was similar to the wings where I created a sketch of the tail, use sweep to create the base shape, and created the ribbing. The horizontal stabilizer is essentially the same as a wing, but tilted vertically and with a symmetrical airfoil. The vertical stabilizer is almost the same as the wings, but I connected the elevators flaps on both sides to form a single elevator that can be controlled by a single servo, rather than two. To connect both stabilizers, I modeled a simple form to serve as a connector between both components.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/tailmodel.png",
+          "caption": "Model of the tail"
+        }
+      ]
+    },
+    {
+      "heading": "Modeling: Fuselage",
+      "description": "For the fuselage, I mainly used forms to create the shape. Originally, I tried using sketches to model the fuselage, but I quickly realized how difficult it is to model the curvature of the fuselage. I went to the internet and found that forms were good for a situation like this. I learned the tools to model a form before I applied the knowledge on the fuselage, using the outline image as a guideline. Next, I modeled the component that connects the wings and fuselage using forms, cutting it using the wings so the wings will have a nice fit. Finally, I modeled the rear mount that connects the rear landing wheels to the fuselage. I combined all of these components to create a solid fuselage. Afterward, I hollowed the inside and added ribs to add strength to the fuselage.",
+      "resources": [
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/fuselagemodel.png",
+          "caption": "Model of the tail"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/rearmount.png",
+          "caption": "Rear Gear Mount"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/planemodel.png",
+          "caption": "Model of the plane"
+        }
+      ]
+    },
+    {
+      "heading": "Flight Control System Design",
+      "description": "The flight control system is fairly straightforward. First, the motors that control the propellers are each connected to an Electronic Speed Controller (ESC), which controls the speed of the motors. They receive user inputs from the controller via the receiver, which are connected to the ESCs, as well as the servos that control the ailerons, elevator, and rudder. All of these components are powered by the battery. Here is a video of the flight control system in action.",
       "resources": [
         {
           "type": "video",
           "id": "1gEum564kLkzT5zmqvxANclmeGibAl-NA",
-          "caption": ""
+          "caption": "Flight Control System Demonstration"
         }
       ]
     },
     {
       "heading": "3D Printing",
-      "description": "",
+      "description": "Prior to printing, I cut the plane into several smaller pieces that are small enough to print on the bed. To print the parts, I used LW-PLA filament to print the parts. For the print settings, I used the default settings for LW-PLA in OrcaSlicer and used the vase mode setting on OrcaSlicer to make the nozzle continuely extrude the filament to avoid the stringing issues that LW-PLA has, which is why I made the ribbing the way I did on the wings. Printing went smoothly, taking roughly 24 - 48 hours to print everything.",
       "resources": [ 
         {
           "type": "image",
           "path": "/projects/rc-airplane/images/parts.jpg",
-          "caption": ""
+          "caption": "Printed Parts"
         }
       ]
     },
     {
       "heading": "Assembly",
-      "description": "",
+      "description": "I used \"Zap-a-Gap\" glue to connect most of the parts together, and while it created a really strong bond between the parts, it also meant that I couldn't take it apart without destroying the plane. That's why I cut 2 rectangular holes on the top of the fuselage to make it possible to access the electronics inside. For the servos, I hot glued them into place and connected them to the flaps with control horns and push rods. I couldn't glue the motors or wheels to the plane, so I inserted threaded inserts with a soldering iron to allow the parts to be screwed onto the plane. Finally, I created a cardboard battery holder to make sure the battery doesn't move during flight and hot glued it to the place.",
       "resources": [
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/enginecomponent.jpg",
+          "caption": "Engine Component /w Threaded Inserts"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/gluingwings.jpg",
+          "caption": "Gluing Wings to Fuselage Connector"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/batteryholder.jpg",
+          "caption": "Cardboard Battery Holder"
+        },
         {
           "type": "video",
           "id": "1zGoADNCE-leQ9i8fLI0a7JssZhmP02Ea",
-          "caption": ""
+          "caption": "Plane Demonstration"
         }
       ]
     },
     {
       "heading": "Test Flight 1",
-      "description": "",
+      "description": "I went to the park to test the plane and it didn't go well as the video shows. After analyzing the video, I realized the plane had a few problems. First, the wings were really unstable as there wasn't a wing spar giving it stability. I thought it was unnecessary since the wings were fairly light, but it was clear it was really shakey. Second, the main issue that caused the crash was the collapse of the front landing gear, which caused the plane to get unstable and crash. This was because I didn't attact the gear properly enough to the fuselage.",
       "resources": [
         {
           "type": "video",
           "id": "1kIZSLJnT1RQjHEryOCM7VpOyvlQ5wUZw",
-          "caption": ""
+          "caption": "Test Flight 1 Video"
         },
         {
           "type": "image",
           "path": "/projects/rc-airplane/images/TestFlight1.jpg",
-          "caption": ""
+          "caption": "Aftermath of crash"
         }
       ]
     },
     {
       "heading": "Revision",
-      "description": "",
+      "description": "To solve the wing issue, I added a cylindrical opening inside the wing to allow for a wooden wing spar to be added, adding stability to the wing. I also made the wings longer by 20in, for a total wingspan of 56in, and made the wings rectangular to increase the lift produced by the wings. For the front gear, I created a front mount for the gear to sit in, which will increase the strength of the front gear.",
       "resources": [
         {
-          "type": "",
-          "path": "",
-          "caption": ""
+          "type": "image",
+          "path": "/projects/rc-airplane/images/frontmountmodel.png",
+          "caption": "Model of the Front Mount"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/frontmountmodelplane.png",
+          "caption": "Model of the Front Mount on fuselage"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/frontmount.jpg",
+          "caption": "Front Mount w/ gear"
+        },
+        {
+          "type": "image",
+          "path": "/projects/rc-airplane/images/revisedwingmodel.png",
+          "caption": "Revised Wing Model"
         }
       ]
     },
     {
-      "heading": "Test Flight 2",
-      "description": "",
+      "heading": "Final Results",
+      "description": "I haven't gotten the change to fly it yet, but overall, I believe this project was a success! I learned a lot about how RC planes work from an electronics and flight control systems standpoint. I also learned more about Fusion, like various operations like the sweep operation, and forms, and various techniques to create light, yet strong ribbed structures. Lastly, I also learned more about threaded inserts, which I can use in future builds to connect things together. However, a major issue I faced during this project was that the plane was glued together with limited opening, making routing wires through places like the wings difficult. In future projects, I would like to make the plane be able to be taken apart and reassembled to allow wires to be easily accessed.",
       "resources": [
         {
-          "type": "",
-          "path": "",
-          "caption": ""
+          "type": "image",
+          "path": "/projects/rc-airplane/images/rcplane.jpeg",
+          "caption": "RC Airplane"
         }
       ]
     }
   ],
   "resources": [
     {
-      "name": "Tutorial: How to 3D Model a Lego Brick in Fusion 360",
-      "icon": "/icons/youtube.svg",
-      "path": "https://www.youtube.com/watch?v=H9ShjT8wer4"
+      "name": "eCalc calculator",
+      "icon": "/icons/link.svg",
+      "path": "https://www.ecalc.ch/motorcalc.php"
     },
     {
-      "name": "Lego Brick STL File",
+      "name": "RC Airplane Fusion File",
       "icon": "/icons/file.svg",
-      "path": "/projects/3d-printed-brick/resources/Lego Brick.stl"
+      "path": "/projects/rc-airplane/resources/Dash_8_Airplane.f3d"
     }
   ]
 }

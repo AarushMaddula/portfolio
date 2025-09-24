@@ -8,6 +8,10 @@
   "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "In this project, we were asked to make a Lego Sumo robot that can defeat other robots in our class for two rounds of a sumo class competition where 2 robots fight to push each other off the table edge. However, our robot could only use three motors and has to fit within a 12 in cube."
+    },
+    {
       "heading": "Brainstorming",
       "description": "Me and Autumn had different ideas for our robot, with my designs consisting of a robot that \"punches\" the robot off the edge and a robot that scoops the other robot from underneath and flips it, both using a distance sensor to detect if an opponent is in front and activate the system. Autumn's idea was to use a rotating piece on the front to hit the other robots. We worked together and reached a compromise: to use my scoop design, but remove the sensor since we thought it would be more effective if we manually activated the scoop ourselves. We also wanted it to have 2 wheels in the front and a rolling ball in the back so it could maneuver properly, as well as some weight to ensure the robot doesn't flip itself over when flipping the opponent.",
       "resources": [

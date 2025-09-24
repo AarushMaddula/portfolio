@@ -18,6 +18,8 @@ export default function ResourceSection({ resources }) {
                 href={resource.path}
                 className="flex items-center gap-2"
                 download
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={resource.icon} alt="" className="invert size-6" />
                 {resource.name}

@@ -7,6 +7,10 @@
   "type": "engineering",
   "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
   "timeline": [
+     {
+      "heading": "Objective",
+      "description": "Our goal for this project was to build, test, and analyze 3 different popcicle truss structures (Warren, Howe, Pratt) to see which one could hold the most weight before breaking. Afterward, we would choose a truss design that would be used to build 2 full bridges, making improvements between both iterations. However, we were limited to use at most 80 popsicle sticks to build our bridges."
+    }, 
     {
       "heading": "Truss #1: Warren Truss",
       "description": "We first built the Warren Truss, which had a simple design based on the power of triangles. When we tested it, this truss only managed to hold around 6kg of weight, which made it the worst-performing bridge out of the three. Based on our truss analysis, we found that joints 3 and 5 had the greatest stress on it, so we thought that this joint would fail first. This truss experienced a joint failure at joints 3 and 5, which matched with our truss analysis.",

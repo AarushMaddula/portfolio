@@ -2,14 +2,14 @@
   "title": "Phone Case",
   "creators": ["Aarush Maddula"],
   "date": "October 4, 2024",
-  "description": "",
+  "description": "I designed and 3D-printed a custom iPhone 13 case in Fusion, using caliper measurements and iterative prototypes to refine dimensions for accuracy and functionality.",
   "thumbnail": "/projects/phone-case/images/case.jpeg",
   "type": "engineering",
   "tags": ["Fusion", "3D Printing"],
   "timeline": [
     {
       "heading": "Objective",
-      "description": "My phone case has two parts: the rubber cushioning and the plastic holding it all together. For this project, I wanted to 3D model and print the plastic part since it is a challenging design to replicate and I could modify the design to give extra functionality to the case, like a wallet holder.",
+      "description": "My phone case, the Otterbox Commuter case for the iPhone 13, has two parts: the rubber cushioning and the plastic holding it all together. For this project, I wanted to 3D model and print the plastic part since it is a challenging design to replicate and I could modify the design to give extra functionality to the case, like a wallet holder.",
       "resources": [
         {
           "type": "image",
@@ -25,7 +25,7 @@
     }, 
     {
       "heading": "Modeling",
-      "description": "At first, I tried to create a flat sheet and extend the edges to model it into the shape of the cover, but I found it was really tedious. I tried looking for different approaches when I realized that I could create a box with the dimensions of the case, hollowing it, and make cuts into it until it looks like the case. I quickly abandoned my original strategy and went ahead with that plan. Throughout the process, I used fillets and chamfers to polish the look.",
+      "description": "Prior to modeling, I used a digital caliper to measure the dimensions of the case. Then, I started modeling the case in Fusion. At first, I tried to create a flat sheet and extend the edges to model it into the shape of the cover, but I found it was really tedious. I tried looking for different approaches when I realized that I could create a box with the dimensions of the case, hollowing it, and make cuts into it until it looks like the case. I quickly abandoned my original strategy and went ahead with that plan. Throughout the process, I used fillets and chamfers to polish the look.",
       "resources": [
         {
           "type": "image",
@@ -40,18 +40,18 @@
         {
           "type": "image",
           "path": "/projects/phone-case/images/cadfinal.png",
-          "caption": "Final CAD model (outside)"
+          "caption": "Final CAD model (inside)"
         },
         {
           "type": "image",
           "path": "/projects/phone-case/images/cadfinalback.png",
-          "caption": "Final CAD model (inside)"
+          "caption": "Final CAD model (outside)"
         }
       ]
     }, 
     {
       "heading": "Modifications",
-      "description": "I 3D-printed the case and it looked ",
+      "description": "After modeling, I 3D-printed the case using PLA filament. The case ended up having the correct shape, but when I tried putting it on my phone, the case didn't fit as the dimensions were slightly off. I went back to the CAD model and tweak the dimensions to make it fit. This took a few attempts, but I eventually got it right. Halfway through the tweaking process, I decided to only print the edges of the case to save filament and printing time.",
       "resources": [
         {
           "type": "image",
@@ -62,27 +62,36 @@
     },
     {
       "heading": "Final product",
-      "description": "",
+      "description": "After I found the correct dimensions, I printed the final version of the case in black PLA, which managed to fit on my phone. Overall, I thought this project was a success. I gained experience with tools like digital calipers and printers and learned a lot about 3D modeling and printing. In the end, I was able to replicate the original phone case for my phone. I plan to modify this case to allow accessories like a wallet holder to be attached to it to give my phone more functionality.",
       "resources": [
         {
           "type": "image",
           "path": "/projects/phone-case/images/case.jpeg",
-          "caption": ""
+          "caption": "Final Phone Case"
         },
         {
           "type": "image",
           "path": "/projects/phone-case/images/caseflip.jpeg",
-          "caption": ""
+          "caption": "Final Phone Case (inside)"
         },
         {
           "type": "image",
           "path": "/projects/phone-case/images/caseon.jpeg",
-          "caption": ""
+          "caption": "Final Phone Case on phone"
         }
       ]
     }
   ],
   "resources": [
-    
+    {
+      "name": "Phone Case Fusion File",
+      "icon": "/icons/file.svg",
+      "path": "/projects/phone-case/resources/PhoneCase.f3d"
+    },
+    {
+      "name": "Phone Case STL File",
+      "icon": "/icons/file.svg",
+      "path": "/projects/phone-case/resources/PhoneCase.stl"
+    }
   ]
 }

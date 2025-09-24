@@ -8,6 +8,10 @@
   "tags": ["Fusion 360", "3D Printing"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "The objective of this project was to design and 3D print a 2x4 Lego Brick using Fusion 360, gaining valuable 3D modeling and printing skills in the process."
+    },
+    {
       "heading": "Designing the Brick",
       "description": "I launched the Fusion 360 app, created a file, and started designing my Lego brick. With the help of a tutorial, I quickly learned the basics of Fusion.\n\n I first created a box by making a rectangular sketch and extruding it to the appropriate height. I created the studs by creating a circular sketch and distanced it from the edge using the sketch dimension tool. I then extruded it to the proper stud height and created another sketch on top with 'Lego' written, which I then extruded. I selected the stud and used the Rectangular pattern action to create an array of the studs. To hollow out the bottom, I used the shell action, which completed the tutorial's version of the Lego Brick.",
       "resources": [
@@ -35,7 +39,7 @@
     }, 
     {
       "heading": "Adding Anti-studs",
-      "description": "I thought I could try using my new skills to design the underside of the Lego Brick so I could connect it properly with my other Lego Bricks at home. I started by looking up the dimensions of a Lego brick online and using that information to model. I created a few sketches, aligning them using the sketch dimensions feature, and extruding them to make the anti-studs and the notches along the edge. I eventually ended up with the design on the right.",
+      "description": "After finishing the tutorial, I thought I could try using my new skills to design the underside of the Lego Brick so I could connect it properly with my other Lego Bricks at home. I started by looking up the dimensions of a Lego brick online and using that information to model. I created a few sketches, aligning them using the sketch dimensions feature, and extruding them to make the anti-studs and the notches along the edge. I eventually ended up with the design on the right.",
       "resources": [
         {
           "type": "image",

@@ -2,11 +2,15 @@
   "title": "Lego Ball Sorter",
   "creators": ["Aarush Maddula", "Aiden Shanks"],
   "date": "April 24, 2025",
-  "description": "Our group built a fully functional ball-sorting machine using LEGO SPIKE Prime and a custom cardboard hopper. Programmed color detection and gate control to sort red, blue, and yellow balls with 100% accuracy, while handling jams automatically. Combined mechanical design, sensor integration, and coding to create an efficient, reliable system.",
+  "description": "Our group built a fully functional ball-sorting machine using LEGO SPIKE Prime and a custom cardboard hopper, programming color detection and gate control to sort red, blue, and yellow balls with 100% accuracy, while handling hopper jams automatically.",
   "thumbnail": "/projects/lego-ball-sorter/images/ballsorter.jpg",
   "type": "engineering",
   "tags": ["Code", "Collaboration", "Lego"],
   "timeline": [
+    {
+      "heading": "Objective",
+      "description": "For this project, our objective was to build a machine using the Lego SPIKE Prime kit that can sort red, blue, and yellow plastic toy balls into separate bins. These balls will be dropped into a cardboard hopper that we will have to also have to build. The balls should be sorted without any human intervention (meaning jams should be handled automatically), and with 100% accuracy"
+    },
     {
       "heading": "Brainstorming",
       "description": "We first starting brainstorming the system holding and controlling the flow of the balls. To store the balls, we opted to use a cardboard hopper. Going into the project, we knew that jamming would be a major issue so we made the hopper have a rectangular hole that is 3 balls wide to ensure the balls have room to fall through. To control the flow of the balls into the sorting system, we originally planned to use a turnstile to control the flow of the balls, but we decided to use two spinning tires to release the balls one at a time, similar to a pitching machine, as well as a color sensor to read the ball color. For the sorting system, we planned to use gates to knock the balls into their respective bins.",

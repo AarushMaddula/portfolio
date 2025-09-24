@@ -8,6 +8,10 @@
   "tags": ["Soldering", "Collaboration"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "The objective of this project was to learn how to solder a PCB with our group, using a kit to practice soldering and then soldering a PCB to create a fully functional board."
+    },
+    {
       "heading": "Learning to Solder",
       "description": "We worked together to assemble this PCB to learn how to solder components. Before assembling the components, we had to first practice how to solder as none of us had done it before. The kit we were using had practice strips of copper on the back of the PCB for us to practice on. Initially, I had some trouble figuring out how to apply the solder on the copper plates, but my group members helped me throughout the process. I soon got the hang of it and we started practicing other things, like separating bridges and soldering wires. Soon after that, we felt confident to start assembling the PCB, so we took turns soldering each piece onto the board until we finished.",
       "resources": [

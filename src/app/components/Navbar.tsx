@@ -98,7 +98,7 @@ function MobileNavbar() {
 
       {isOpen && (
         <>
-          <div className="sm:hidden relative top-8 flex flex-col gap-4 bg-dark/100 shadow-lg shadow-dark p-4 animate-[slide-in_300ms_ease-out]">
+          <div className="sm:hidden fixed left-4 top-12 p-4 flex flex-col gap-4 bg-gray-900/50 outline-2 outline-accent/70 backdrop-blur-lg rounded-xl z-50 animate-[slide-in_300ms_ease-out]">
             {/* <div className="absolute w-full h-full bg-dark/100 -z-10"></div> */}
 
             <div className="text-white font-bold text-lg">Aarush Maddula</div>

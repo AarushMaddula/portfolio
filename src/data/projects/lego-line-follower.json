@@ -8,6 +8,10 @@
   "tags": ["Code", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "Our goal was to create a Lego line follower robot designed to navigate through a course, staying within the boundaries of the course. The course was made with blue and green tape marking the course's outer and inner boundaries respectively. To achieve this, we had to use a color sensor to detect the boundaries and adjust our robot accordingly. Throughout the process, we raced three times with the class to see which robot could make it through the course the fastest."
+    },
+    {
       "heading": "Brainstorming",
       "description": "We worked together to come up with a small, lightweight, maneuverable design to reliably navigate through the course. We planned to put 2 wheels in the back with a rolling ball in the front to make turning easy with the color sensor was in front since we wanted to detect the tape ahead of time so the robot could turn before it went past the tape.",
       "resources": [

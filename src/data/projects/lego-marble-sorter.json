@@ -2,25 +2,29 @@
   "title": "Lego Marble Sorter",
   "creators": ["Aarush Maddula", "Aiden Shanks"],
   "date": "May 22, 2025",
-  "description": "",
+  "description": "Our group built a LEGO marble sorter with a custom hopper and conveyor system, capable of classifying and sorting seven different types of marbles using color and reflectivity.",
   "thumbnail": "/projects/lego-marble-sorter/images/marbleSorter.jpg",
   "type": "engineering",
   "tags": ["Code", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "This project is based on our ball sorter project, where instead of sorting balls, we sort marbles. The goal of this project is to create a fully functional marble-sorting machine using LEGO SPIKE Prime and a custom cardboard hopper; however we have to sort 7 different marbles: 3 plastic marbles (red, blue, yellow), 1 wooden marble, 1 metal marble, and 1 glass marble."
+    },
+    {
       "heading": "Brainstorming",
-      "description": "",
+      "description": "For the hopper, we decided to go for a \"v-shaped\" design where the hopper is angled from the horizontal so the marbles funnel into a single row as in the previous project, we saw a few groups use this with good success. From there, the marbles are read by a color sensor, which will classify the marble based on its readings. After classifying the marble, a chute underneath will drop the marble into the bin on the conveyor belt, which will move and drop the marble into its corresponding bin.",
       "resources": [
         {
           "type": "image",
-          "path": "/projects/lego-ball-sorter/images/brainstorm.jpg",
+          "path": "/projects/lego-marble-sorter/images/brainstorm.jpg",
           "caption": "Brainstorming"
         } 
       ]
     },
     {
       "heading": "Construction",
-      "description": "",
+      "description": "We followed our brainstormed design, but we encountered some issues that forced us to change some aspects of the build. The biggest issue we had during the project was getting the color sensor to read the marbles properly, as the sensor had to be in a very specific position to properly see the frontmost marble. We tried using only Lego to get the sensor into place, but it was unsuccessful. After asking our teacher for advice, he suggested for us to hot glue the sensor in place, which ended up working well. Another issue we faced was that after the marble drops through the chute, it would overshoot the bin on the belt. To fix this, we added a overhanging barrier that blocked the marble from overshooting. Other than those issues, we faced slight issues with the stability of the top section of the machine, but adding Lego reenforcements solved the issue.",
       "resources": [
         {
           "type": "image",
@@ -29,9 +33,13 @@
         } 
       ]
     },
+     {
+      "heading": "System Design",
+      "description": "After pouring the marbles into the hopper, they consolidate into a single row of marbles, which are read by the color sensor. Originally, we were stuck on how to classify each marble our color sensor couldn't read colors like brown, metal, and transparent properly, but we realized we can use the sensor to read the reflectivity of the wooden and metal marbles as wood has poor reflectivity and metal has high reflectivity, and place a pink piece behind a transparent marble as the sensor would read the same color as the background. This allowed us to read the marble colors and classify them, starting by seeing if the marble was red, blue, yellow, or pink, then we can check the reflectivity to see if the marble is wooden or metal. The belt will spin until it's aligned with a bin, when it will tilt to drop the marble and return back to the chute. If the marble is designated for a bin on either end of the belt, it rotates without tilting until the ball exits out of either end. Aiden took care of the code for the marble sorter, while I helped him debug errors."
+    },
     {
-      "heading": "Performance",
-      "description": "",
+      "heading": "Performance & Final Thoughts",
+      "description": "The marble sorter performed well, as it managed to sort the 7 types of marbles into different bins. However, there were still a few occasional errors that happened, likely due to sensor misreadings. As the school year was about to end, we weren't able to address those errors. Despite that, I believe this project was a success, as we were able to create a functional marble sorter using LEGO SPIKE Prime and a custom cardboard hopper. Unlike the last project, the hopper worked well from the start, due to the smaller balls or different design. I gained experience working in a team, as we worked together to design and build the marble sorter. Overall, I enjoyed the project, as it was a fun and engaging experience to work on with my teammate. I look forward to working on similar projects in the future.",
       "resources": [
         {
           "type": "video",
@@ -39,17 +47,6 @@
           "caption": "Brainstorming"
         } 
       ]
-    },
-    {
-      "heading": "Final Thoughts",
-      "description": ""
-    }
-  ],
-  "resources": [
-    {
-      "name": "Lego Ball Sorter Code",
-      "icon": "/icons/file.svg",
-      "path": "/projects/lego-ball-sorter/resources/Lego_Ball_Sorter.lms"
     }
   ]
 }

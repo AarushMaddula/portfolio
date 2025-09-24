@@ -8,6 +8,10 @@
   "tags": ["Code", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "Our goal was to create a Lego Rail-Mounted Robot designed to carry a small mass to a designated spot, drop it, and go back to its original position. This robot would be mounted on a PVC pipe with black tape on both ends of the pipes and 3 different color tapes in the middle of it marking the designated dropping spots. Thoughout the project, we completed a series of tasks to iteratively get closer to the final product."
+    },
+    {
       "heading": "Brainstorming",
       "description": "I proposed two designs: one with wheels holding PVC pipes from top and bottom, and another with four side wheels, a top brick, using a color sensor to detect colors. Clarence suggested a design with the baseplate on the top and a wheel on the bottom of the pipe to drive the robot, as well as a design with multiple side wheels for better stability. Jacob proposed a design with a wheel on the top of the pipe driving the robot. We compromised on a design with side wheels with the brick on top and the sensor underneath for reliable color detection.",
       "resources": [

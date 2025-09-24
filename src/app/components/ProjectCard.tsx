@@ -2,17 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import TextFormatter from "./TextFormatter";
 
-type ProjectCard = {
+type ProjectType =  "web" | "programming" | "engineering" | "featured";
+type Project = {
   title: string;
   description: string;
   thumbnail: string;
+  type: ProjectType[];
   tags: string[];
   path: string;
   github: string;
   website: string;
 };
 
-function ProjectCard({ title, description, thumbnail, tags, path, github, website }: ProjectCard) {
+function ProjectCard({ title, description, thumbnail, type, tags, path, github, website }: Project) {
   return (
     <div className="rounded-lg border-accent border-0 bg-normal shadow-md flex flex-col justify-between hover:transform hover:scale-[101%] transition-all duration-150 ease-out">
       <div className="flex flex-col">
@@ -23,6 +25,16 @@ function ProjectCard({ title, description, thumbnail, tags, path, github, websit
             fill
             className="object-cover rounded-t-lg"
           />
+
+          {
+            type.includes("featured") && (
+              <div className="absolute top-4 right-4 flex gap-2">  
+                <div className="px-4 py-2 rounded-lg bg-accent font-medium text-md text-gray-100">
+                  Featured
+                </div>
+              </div>
+            )
+          }
         </div>
 
         <div className="pt-4 px-6">

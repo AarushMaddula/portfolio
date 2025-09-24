@@ -8,6 +8,10 @@
   "tags": ["MATLAB", "Data Analysis", "Spreadsheets", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "Our goal was to build a Lego Drag Racer car that would win in a series of class races with other Lego drag racers to see which car is the fastest on 3-foot and 8-foot race tracks. Throughout the process, we would analyze various aspects of our car, such as wheel size, gear ratios, and the number of motors, and use MATLAB simulations to model the performance of different car configurations to optimize our car for maximum performance."
+    },
+    {
       "heading": "Investigating Wheel Size",
       "description": "After building our test rig, we found the top speeds for 4 different wheel sizes (68.8mm, 56mm, 43.2mm, 22.2mm) by running the car for 5 seconds and measuring the distance it travelled and time it took. We compared that to the theoretical top speeds, found using the formula (2 * pi * radius * rpm) in Google Sheets with the formulas feature to make data processing easier. We found that cars with larger wheels travel faster than ones with smaller wheels.",
       "resources": [

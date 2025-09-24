@@ -8,6 +8,10 @@
   "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "For this project, our goal was to build a Lego Mass Launcher designed to launch a projectile (the ball) away from the launcher using only potential energy, finding the initial launch velocity by collecting data and using basic principles of projectile motion."
+    },
+    {
       "heading": "Brainstorming",
       "description": "Initially, each group member came up with their design and we discussed with each other. Our ideas were similar, revolving around a catapult-like design with a few small differences, so we decided to build a catapult with an arm that pivots around a center beam holding a counterweight on the front to propel the ball forward and the projectile on the other end.",
       "resources": [

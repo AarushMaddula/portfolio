@@ -8,8 +8,12 @@
   "tags": ["Code", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "Our goal was to investigate the various sensors offered by the Lego Mindstorm system. These sensors were the distance sensor, touch sensor, gyroscope, and color sensor. Each group member was assigned a different set of 3 tasks that required us to use one of the mentioned sensors to perform the required action. We had to work individually to complete the tasks for this project, but we helped each other when needed."
+    },
+    {
       "heading": "Initial Build",
-      "description": "Since this project was mainly code-oriented, we decided to make the robot fairly basic. We opted to have 2 wheels and a rolling ball in the front to allow the robot to turn easily. We placed a touch sensor in the front, a color sensor pointing towards the ground, and a range sensor facing the side. The gyroscope was built in the brick.. This configuration worked well for most of the tasks, but if a sensor needs to be moved, then it could easily be removed and placed elsewhere.",
+      "description": "Since this project was mainly code-oriented, we decided to make the robot fairly basic. We opted to have 2 wheels and a rolling ball in the front to allow the robot to turn easily. We placed a touch sensor in the front, a color sensor pointing towards the ground, and a range sensor facing the side. The gyroscope was built in the brick. This configuration worked well for most of the tasks, but if a sensor needs to be moved, then it could easily be removed and placed elsewhere.",
       "resources": [
         {
           "type": "image",

@@ -8,6 +8,10 @@
   "tags": ["Laser Cutting", "Fusion"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "The objective of this project was to model a box in Fusion 360, laser cut the pattern from a sheet of cardboard, and assemble it into a clean box, gaining more experience with 3D modeling and laser cutting along the way."
+    },
+    {
       "heading": "The Design Process",
       "description": "For this project, I designed the box using Autodesk Fusion to gain a deeper understanding of the software. I started with a simple box by extruding a rectangular sketch. Then, I created the long and short walls by creating new sketches and extruding them. Throughout the process, I used tools I hadn't used before, like constraints, construction lines, and the mirror tool, to create the walls. After I finished, I verified that the dimensions of the box were correct and exported the project as a PDF for the laser cutter.",
       "resources": [

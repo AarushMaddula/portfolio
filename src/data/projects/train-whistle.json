@@ -2,11 +2,15 @@
   "title": "Train Whistle",
   "creators": ["Aarush Maddula"],
   "date": "November 22, 2024",
-  "description": "I crafted a functional train whistle by shaping a block of wood and a 2\" x 4\" x 8\" wooden dowel, utilizing a variety of woodworking tools to safely cut, drill, and refine the final product.",
+  "description": "I crafted a functional train whistle by shaping a block of wood and a wooden dowel, utilizing a variety of woodworking tools to safely cut, drill, and refine the final product.",
   "thumbnail": "/projects/train-whistle/images/whistle.jpeg",
   "type": "engineering",
   "tags": ["Woodworking"],
   "timeline": [
+    {
+      "heading": "Objective",
+      "description": "The objective is to create a functional train whistle by shaping a block of wood and a wooden dowel. Throughout this project, I'll use a variety of woodworking tools, such as the scroll saw, miter saw, band saw, drill press, and belt/disc sander, to safely cut, drill, and refine the final product."
+    },
     {
       "heading": "Safety Tests",
       "description": "In order to operate the woodworking tools safely, I completed the training videos and passed the tests on https://www.iteea-safety.org/index.htm to ensure I stay safe while operating these machines.",

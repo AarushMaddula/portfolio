@@ -8,6 +8,10 @@
   "tags": ["Code", "Arduino", "Collaboration", "Lego"],
   "timeline": [
     {
+      "heading": "Objective",
+      "description": "For our semester project, our objective was to create a LEGO Mars Rover designed to navigate a simulated Martian landscape and complete tasks like fueling a reactor, collecting samples, and activating a communications array, applying all the skills we learned throughout the semester to create a rover that could reliably complete these challenges within a 10-minute time limit. The rover begins centered on a black square, with it being randomly placed on 1 of the 4 different colored diagonals. The color won't be known prior to the start. From there, we will only be able to see a video stream of the robot every other minute during the mission starting from the 2nd minute for 1 minute at a time. During that minute, we can upload code to the robot. Activating the communcations array will allow us to see the robot for 80 seconds with a 40 second gap. Also, completing the fuel reactor task first will earn us extra credit."
+    },
+    {
       "heading": "Brainstorming",
       "description": "For this project, our robot had to complete a series of tasks in any order we'd like. So, we first had to figure out the order of the tasks. We decided to have the robot complete the tasks on the other side of the bridge before coming back and doing the rest since we got extra credit for doing so. We came up with this order based on how easy it was to transition between tasks:\n\n1) Drop ball into Fuel Reactor\n2) Push sample #1 (the bottle)\n3) Drill wall\n4) Activate Communications Array (Arduino)\n5) Collect Soil Sample\n6) Enter River Bed (enter & exit on different ramps)\n7) Push sample #2.\n\nI was tasked with coding 1 & 2, while Gavin coded 3 - 5, and Pranav coded 6 - 7.",
       "resources": [

@@ -4,38 +4,41 @@ type ExperienceCardProps = {
   date: string;
   location: string;
   hours: string;
+  image_url: string;
 };
+
+function Metric({metric, icon_url}) {
+  return metric && (
+    <div className="flex items-center gap-1.25">
+      <img src={icon_url} alt="" className="invert h-4" />
+      <p className="">{metric}</p>
+    </div>
+  )
+}
 
 export default function ExperienceCard({
   title,
   date,
   description,
   location,
-  hours
+  hours,
+  image_url
 }: ExperienceCardProps) {
   return (
-    <div className="flex items-start gap-4 bg-normal p-4 rounded-xl">
-      <div className="flex-1/6 md:flex-1/12 flex justify-center items-center p-3 relative aspect-square bg-radial from-light rounded-full">
-        <img src={"/icons/work.svg"} alt="" className="invert" />
+    <div className="flex flex-row bg-normal rounded-xl">
+      <div className="relative h-18 ml-6 mt-7 aspect-square rounded-xl overflow-hidden">
+        <img src={image_url} alt="" className="w-full h-full object-cover" />
       </div>
 
-      <div className="flex-5/6">
-        <h3 className="text-2xl font-semibold text-neutral mb-2">{title}</h3>
-        <p className="text-sm text-muted mb-2">{description}</p>
-        <div className="flex gap-4">
-          <div className="flex items-center gap-1">
-            <img src="/icons/calendar.svg" alt="" className="invert h-4" />
-            <p className="text-sm text-muted">{date}</p>
-          </div>
-          <div className="flex items-center gap-1">
-            <img src="/icons/pin.svg" alt="" className="invert h-4" />
-            <p className="text-sm text-muted">{location}</p>
-          </div>
-          <div className="flex items-center gap-1">
-            <img src="/icons/clock.svg" alt="" className="invert h-4" />
-            <p className="text-sm text-muted">{hours}</p>
-          </div>
+      <div className="flex-1 py-6 px-6 flex flex-col">
+        <h3 className="text-2xl text-neutral font-semibold mb-2">{title}</h3>
+        <div className="flex text-md text-muted font-medium mb-4 flex-wrap gap-x-4">
+          <Metric metric={date} icon_url="/icons/calendar.svg"/>
+          <Metric metric={location} icon_url="/icons/pin.svg"/>
+          <Metric metric={hours} icon_url="/icons/clock.svg"/>          
         </div>
+        <p className="text-sm text-muted mb-2">{description}</p>
+        
       </div>
     </div>
   );

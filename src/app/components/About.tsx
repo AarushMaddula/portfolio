@@ -8,23 +8,62 @@ function About() {
   return (
     <section
       id="about-me"
-      className="bg-dark py-8 px-8 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 overflow-y-clip"
+      className="bg-dark py-8 px-8 max-w-7xl mx-auto flex flex-col gap-8 overflow-y-clip"
     >
       <div className="flex flex-col-reverse lg:flex-row items-center gap-16 col-span-1 lg:col-span-2">
         <div className="relative">
           <div className="absolute w-full h-full bg-accent/10 blur-3xl rounded-2xl"></div>
-          <div className="relative">
+          <div className="relative flex flex-col">
             <h1 className="inline-block text-white font-semibold text-4xl mb-6 slide-in">
               About Me!
             </h1>
-            <p className="text-muted">
-             Hi! I’m Aarush Maddula, a high school student passionate about engineering, coding, and building cool, challenging projects. I love learning new things, whether it’s learning a new programming language, trying a new software, or experimenting with new tools like 3D printing and laser-cutting. I believe that being curious and eager to tackle unfamiliar challenges is the key to success, so I always try to problem solve through difficult situations while never giving up, knowing the journey will be worth it.
-             <br/>
-             <br/>
-             Outside of coding, you’ll find me biking around my community, lifting at the gym, trying new recipes, or exploring new places around my city. 
+            <p className="text-muted mb-4">
+              I’m an Electrical and Computer Engineering student at The Ohio State University with a passion for programming and electronics. I believe that problem-solving and a curiosity for the unfamiliar is the key to feeling fufilled, a mindset that drives my ultimate goal of designing electronics and PCBs for the aerospace industry. I'm always looking to expand my skillset. Whenever I want to take a break, you can usually find me lifting at the gym, exploring new places around the city, or simply unwinding by binging a good show.
             </p>
+
+            <div className="flex flex-col gap-4">
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-3">Languages</h3>
+                <div className="flex flex-wrap gap-2">
+                  {["C", "C++", "Java", "Python", "JavaScript", "HTML/CSS", "Lua"].map((tag) => {
+                    return (
+                      <div key={tag} className="px-2 py-1 rounded-lg bg-light font-medium text-xs text-gray-100">
+                        {tag}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-3">Software</h3>
+                <div className="flex flex-wrap gap-2">
+                  {["C", "C++", "Java", "Python", "JavaScript", "HTML/CSS", "Lua"].map((tag) => {
+                    return (
+                      <div key={tag} className="px-2 py-1 rounded-lg bg-light font-medium text-xs text-gray-100">
+                        {tag}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-3">Embedded & Hardware</h3>
+                <div className="flex flex-wrap gap-2">
+                  {["C", "C++", "Java", "Python", "JavaScript", "HTML/CSS", "Lua"].map((tag) => {
+                    return (
+                      <div key={tag} className="px-2 py-1 rounded-lg bg-light font-medium text-xs text-gray-100">
+                        {tag}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        
 
         <div className="">
           <div className="flex justify-center items-center relative w-96 aspect-square rotating-border overflow-hidden rounded-full p-1">
@@ -37,12 +76,14 @@ function About() {
               />
             </div>
           </div>
+
+          
         </div>
       </div>
 
       <div>
         <h2 className="text-3xl font-semibold text-white mb-6">Education</h2>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           {educationData.map((data) => {
             return <EducationCard key={data.title} {...data} />;
           })}

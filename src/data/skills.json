@@ -1,0 +1,14 @@
+[
+  {
+    "section_name": "Languages",
+    "skills": ["C", "C++", "Java", "Python", "JavaScript", "HTML/CSS", "Lua"]
+  },
+  {
+    "section_name": "Embedded & Hardware",
+    "skills": ["STM32", "Raspberry Pi", "Arduino", "FPGAs", "Sensor Integration", "Oscilloscope", "Multimeter", "Function Generator"]
+  },
+  {
+    "section_name": "Software",
+    "skills": ["Altium", "KiCad", "Fusion", "AutoCAD", "LTSpice", "Quartus Prime", "Claude", "MATLAB", "OrcaSlicer", "Git", "GitHub", "VS Code", "Microsoft Office", "Linux"]
+  }
+]

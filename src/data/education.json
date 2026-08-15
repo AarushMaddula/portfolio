@@ -3,12 +3,14 @@
     "title": "The Ohio State University",
     "description": "Dual Enrollment student working towards an Electrical and Computer Engineering Degree",
     "date": "2025 - Present",
-    "location": "Columbus, OH"
+    "location": "Columbus, OH",
+    "image_url": "/osu.jpg"
   },
   {
     "title": "Dublin Jerome High School",
     "description": "High School Diploma",
-    "date": "2022 - Present",
-    "location": "Dublin, OH"
+    "date": "2022 - 2026",
+    "location": "Dublin, OH",
+    "image_url": "/jerome.jpg"
   }
 ]

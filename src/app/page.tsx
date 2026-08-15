@@ -8,7 +8,7 @@ import projectsData from "@/data/projectList.json";
 export default function Home() {
   return (
     <>
-      <Hero/>
+      {/* <Hero/> */}
       <About/>
       <ProjectSection projectsData={projectsData}/>
       <Footer/>

@@ -43,7 +43,7 @@ function ProjectCard({ title, description, thumbnail, type, tags, path, github, 
             <TextFormatter text={description} />
           </div>
         </div>
-      </div>
+      </div>  
 
       <div className="flex flex-col gap-3 px-6 pb-4 mt-6">
 
@@ -88,7 +88,7 @@ function ProjectCard({ title, description, thumbnail, type, tags, path, github, 
             path && (
               <Link
                 href={path}
-                className="px-4 py-2 font-medium border border-accent rounded-md text-white duration-150 hover:bg-accent/50 hover:cursor-pointer"
+                className="px-4 py-2 font-medium border border-accent/20 rounded-md text-white duration-150 hover:bg-accent/50 hover:cursor-pointer"
               >
                 View Project
               </Link>

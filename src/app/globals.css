@@ -2,7 +2,8 @@
 
 @theme {
   --color-dark: oklch(0.13 0.03 248);
-  --color-normal: oklch(0.2 0.03 248);
+  --color-dark-2: oklch(0.17 0.03 248);
+  --color-normal: oklch(0.22 0.03 248);
   --color-light: oklch(0.35 0.03 248);
   --color-highlight: hsl(0, 0%, 95%);
   --color-neutral: hsl(0, 0%, 85%);

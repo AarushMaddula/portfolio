@@ -23,17 +23,17 @@ function Hero() {
         </h2>
         <div className="flex gap-4 justify-center items-center">
           <Link
-            href="/#projects"
+            href="/#about-me"
             className="px-4 py-2 font-medium border border-highlight rounded-md text-highlight duration-150 hover:scale-[105%] hover:border-accent hover:cursor-pointer"
           >
-            Projects
+            About Me
           </Link>
           <Link
-            href="/downloads/resume.pdf"
+            href="/#projects"
             className="px-4 py-2 font-medium border border-highlight rounded-md text-highlight duration-150 hover:scale-[105%] hover:border-accent hover:cursor-pointer"
             download={true}
           >
-            Resume
+            Projects
           </Link>
         </div>
       </div>

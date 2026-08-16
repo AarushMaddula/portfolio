@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import TextFormatter from "./TextFormatter";
 
-type ProjectType =  "web" | "programming" | "engineering" | "featured";
+type ProjectType = "Web Dev" | "Programming" | "Engineering" | "featured";
 type Project = {
   title: string;
   description: string;

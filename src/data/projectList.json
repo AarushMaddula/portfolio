@@ -1,9 +1,9 @@
 [
-   {
+  {
     "title": "RC Airplane",
     "description": "I designed and built a 3D-printed RC airplane modeled after the Bombardier Q400, integrating CAD design, electronics, and lightweight structures to explore aerodynamics and flight control systems.",
     "thumbnail": "/projects/rc-airplane/images/rcplane.jpeg",
-    "type": ["engineering", "featured"],
+    "type": ["Engineering", "featured"],
     "tags": ["Electronics", "Fusion", "3D Printing"],
     "path": "/projects/rc-airplane"
   },
@@ -11,7 +11,7 @@
     "title": "Phone Case",
     "description": "I designed and 3D-printed a custom iPhone 13 case in Fusion, using caliper measurements and iterative prototypes to refine dimensions for accuracy and functionality.",
     "thumbnail": "/projects/phone-case/images/case.jpeg",
-    "type": ["engineering", "featured"],
+    "type": ["Engineering", "featured"],
     "tags": ["Fusion 360", "3D Printing"],
     "path": "/projects/phone-case"
   },
@@ -19,7 +19,7 @@
     "title": "Laptop Stand",
     "description": "I designed and 3D-printed a custom laptop stand in Fusion 360 to improve ventilation during gaming, applying parametric modeling and 3D-printing techniques.",
     "thumbnail": "/projects/laptop-stand/images/finalBuild.jpg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Fusion 360", "3D Printing"],
     "path": "/projects/laptop-stand"
   },
@@ -27,7 +27,7 @@
     "title": "Lego Marble Sorter",
     "description": "Our group built a LEGO marble sorter with a custom hopper and conveyor system, capable of classifying and sorting seven different types of marbles using color and reflectivity.",
     "thumbnail": "/projects/lego-marble-sorter/images/marbleSorter.jpg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Code", "Collaboration", "Lego"],
     "path": "/projects/lego-marble-sorter"
   },
@@ -35,7 +35,7 @@
     "title": "Lego Ball Sorter",
     "description": "Our group built a fully functional ball-sorting machine using LEGO SPIKE Prime and a custom cardboard hopper, programming color detection and gate control to sort red, blue, and yellow balls with 100% accuracy, while handling hopper jams automatically.",
     "thumbnail": "/projects/lego-ball-sorter/images/ballsorter.jpg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Code", "Collaboration", "Lego"],
     "path": "/projects/lego-ball-sorter"
   },
@@ -43,7 +43,7 @@
     "title": "Bridges & Trusses",
     "description": "Our group designed, analyzed, and tested various truss structures to build two bridge prototypes, improving the design to increase load capacity from 2 kg to 10 kg while strengthening skills in truss analysis and iterative design.",
     "thumbnail": "/projects/bridge-and-truss/images/bridge2.jpg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Stress Analysis", "Collaboration"],
     "path": "/projects/bridges-and-trusses"
   },
@@ -51,7 +51,7 @@
     "title": "Soldering",
     "description": "We collaboratively learned how to soldered a PCB, first practicing on copper strips to master techniques like bridging and wire soldering, then successfully assembling all components to create a fully functional board.",
     "thumbnail": "/projects/soldering/images/soldering1.png",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Soldering", "Collaboration"],
     "path": "/projects/soldering"
   },
@@ -59,7 +59,7 @@
     "title": "Lego Mars Rover",
     "description": "Our group designed, built, and programmed a Lego Mars Rover to semi-autonomously traverse a \"Martian landscape\" to complete multiple tasks, including activating an Arduino communications array, within a five-minute limit, using color, touch, gyroscope, and range sensors to ensure accuracy and reliability.",
     "thumbnail": "/projects/lego-mars-rover/images/robot.jpg",
-    "type": ["engineering", "featured"],
+    "type": ["Engineering", "featured"],
     "tags": ["Code", "Arduino", "Collaboration", "Lego"],
     "path": "/projects/lego-mars-rover"
   },
@@ -67,7 +67,7 @@
     "title": "Train Whistle",
     "description": "I crafted a functional train whistle by shaping a block of wood and a 2\" x 4\" x 8\" wooden dowel, utilizing a variety of woodworking tools to safely cut, drill, and refine the final product.",
     "thumbnail": "/projects/train-whistle/images/whistle.jpeg",
-    "type": ["engineering", "featured"],
+    "type": ["Engineering", "featured"],
     "tags": ["Woodworking"],
     "path": "/projects/train-whistle"
   },
@@ -75,7 +75,7 @@
     "title": "Lego Sensor Activities",
     "description": "I programmed Lego Mindstorms robots to complete three sensor-specific tasks, exploring the capabilities of the distance, touch, gyroscope, and color sensors, collaborating within a group to help each other complete the tasks.",
     "thumbnail": "/projects/lego-sensor-activities/images/robot.jpeg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Code", "Lego"],
     "path": "/projects/lego-sensor-activities"
   },
@@ -83,7 +83,7 @@
     "title": "Laser-Cut Box",
     "description": "I created a box by designing a 3D model in Autodesk Fusion 360 and laser cutting a pattern from a sheet of cardboard, producing an accurately cut cardboard template that was assembled into a clean box.",
     "thumbnail": "/projects/laser-cut-box/images/box.jpeg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Laser Cutting", "Fusion 360"],
     "path": "/projects/laser-cut-box"
   },
@@ -91,7 +91,7 @@
     "title": "Lego Rail-Mounted Robot",
     "description": "Our group developed and programmed a Lego rail-mounted robot designed to transport a ball along a PVC pipe track, drop the object at the designated location, and autonomously return to its starting position using tape markers for navigation.",
     "thumbnail": "/projects/lego-rail-mounted-robot/images/task4robot.jpeg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Code", "Collaboration", "Lego"],
     "path": "/projects/lego-rail-mounted-robot"
   },
@@ -99,7 +99,7 @@
     "title": "Lego Line Follower",
     "description": "Our group built a Lego line-follower Robot designed to navigate a course without going off the edge, placing 1st place for the fastest robot in a class competition.",
     "thumbnail": "/projects/lego-line-follower/images/robot.jpeg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Code", "Collaboration", "Lego"],
     "path": "/projects/lego-line-follower"
   },
@@ -107,7 +107,7 @@
     "title": "3D Printed Brick",
     "description": "I designed and modeled a 2x4 Lego Brick using the Autodesk Fusion 360 software and 3D printing the brick using Afinia Studio and an Afinia H400+ 3D printer.",
     "thumbnail": "/projects/3d-printed-brick/images/brick.jpeg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Fusion 360", "3D Printing"],
     "path": "/projects/3d-printed-brick"
   },
@@ -115,7 +115,7 @@
     "title": "Lego Sumo Robot",
     "description": "Our group built a Lego Sumo Robot that successfully defeated numerous robots in a class competition, refining its effectiveness through multiple iterations while conforming to the 12\" x 12\" x 12\" size and 3 motor constraints.",
     "thumbnail": "/projects/lego-sumo-robot/images/robot.jpeg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Code", "Collaboration", "Lego"],
     "path": "/projects/lego-sumo-robot"
   },
@@ -123,15 +123,21 @@
     "title": "Lego Drag Racer",
     "description": "Our group built a Lego Drag Racer that placed 1st in our class competition for the fastest to cross the finish line, analyizing factors like wheel size, gear ratios, and motor quantities and modeling the performance of different car configuations using a MATLAB simulation to optimize our drag racer.",
     "thumbnail": "/projects/lego-drag-racer/images/improvements.jpeg",
-    "type": ["engineering"],
-    "tags": ["MATLAB", "Data Analysis", "Spreadsheets", "Collaboration", "Lego"],
+    "type": ["Engineering"],
+    "tags": [
+      "MATLAB",
+      "Data Analysis",
+      "Spreadsheets",
+      "Collaboration",
+      "Lego"
+    ],
     "path": "/projects/lego-drag-racer"
   },
   {
     "title": "Lego Mass Launcher",
     "description": "Our group built a Lego Mass Launcher designed to launch a projectile using only potential energy, as well as determined the initial launch velocity of the projectile by analyzing graphs generated by Vernier Video Analysis.",
     "thumbnail": "/projects/lego-mass-launcher/images/launcher.jpeg",
-    "type": ["engineering"],
+    "type": ["Engineering"],
     "tags": ["Physics", "Data Analysis", "Collaboration", "Lego"],
     "path": "/projects/lego-mass-launcher"
   },
@@ -139,8 +145,18 @@
     "title": "FileStore",
     "description": "A cloud storage website that allows you to upload, download, organize, and delete files to a Supabase database, including user authentication and authorization.",
     "thumbnail": "/projects/file-uploader/website.png",
-    "type": ["web", "featured"],
-    "tags": ["Prisma ORM", "Passport.js", "Express", "Supabase", "NodeJS", "React", "JS", "HTML", "CSS"],
+    "type": ["Web Dev", "featured"],
+    "tags": [
+      "Prisma ORM",
+      "Passport.js",
+      "Express",
+      "Supabase",
+      "NodeJS",
+      "React",
+      "JS",
+      "HTML",
+      "CSS"
+    ],
     "path": "",
     "github": "https://github.com/AarushMaddula/file-uploader",
     "website": ""
@@ -149,7 +165,7 @@
     "title": "Shopping Cart",
     "description": "A store that allows you to add items to a shopping cart and preview the total cost, using an API to fetch product data.",
     "thumbnail": "/projects/shopping-cart/website.png",
-    "type": ["web", "featured"],
+    "type": ["Web Dev", "featured"],
     "tags": ["API", "React", "JS", "HTML", "CSS"],
     "path": "",
     "github": "https://github.com/AarushMaddula/shopping-cart",
@@ -159,7 +175,7 @@
     "title": "Resume Builder",
     "description": "A React based website that allows you to create and preview your own resume.",
     "thumbnail": "/projects/resume-builder/website.png",
-    "type": ["web", "featured"],
+    "type": ["Web Dev", "featured"],
     "tags": ["React", "JS", "HTML", "CSS"],
     "path": "",
     "github": "https://github.com/AarushMaddula/resume-builder",
@@ -169,7 +185,7 @@
     "title": "Weather App",
     "description": "Tells you the weather of any city in the world through a fetch from the Visual Crossing API.",
     "thumbnail": "/projects/weather-app/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["API", "Webpack", "JS", "HTML", "CSS"],
     "path": "",
     "github": "https://github.com/AarushMaddula/weather-app",
@@ -179,7 +195,7 @@
     "title": "To-do List",
     "description": "A to-do list website that lets you create tasks, organize them into custom projects, and sort them by priority or due date, with data saved to local storage, all using vanilla JS and DOM manipulation.",
     "thumbnail": "/projects/to-do-list/website.png",
-    "type": ["web", "featured"],
+    "type": ["Web Dev", "featured"],
     "tags": ["JS", "Webpack", "HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/to-do-list",
     "website": "https://aarushmaddula.github.io/to-do-list/"
@@ -188,8 +204,8 @@
     "title": "Restaurant Page",
     "description": "A restaurant page for The Nuclear Option, the finest restaurant serving fusion cuisine. It also includes different pages and Webpack for the first time!",
     "thumbnail": "/projects/restaurant-page/website.png",
-    "type": ["web"],
-    "tags": ["JS", "Webpack","HTML", "CSS"],
+    "type": ["Web Dev"],
+    "tags": ["JS", "Webpack", "HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/restaurant-page",
     "website": "https://aarushmaddula.github.io/restaurant-page/"
   },
@@ -197,7 +213,7 @@
     "title": "Tic-Tac-Toe",
     "description": "A simple tic-tac-toe game using intermediate JS and DOM manipulation.",
     "thumbnail": "/projects/tic-tac-toe/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["JS", "HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/tic-tac-toe",
     "website": "https://aarushmaddula.github.io/tic-tac-toe/"
@@ -206,7 +222,7 @@
     "title": "Library Page",
     "description": "A place to keep track of the books you have read, are reading, and want to read.",
     "thumbnail": "/projects/library-page/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["JS", "HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/library-page",
     "website": "https://aarushmaddula.github.io/library-page/"
@@ -215,7 +231,7 @@
     "title": "Admin Dashboard",
     "description": "A simple admin dashboard layout using basic HTML and CSS, absolutely abusing flexbox and grid.",
     "thumbnail": "/projects/admin-dashboard/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/admin-dashboard",
     "website": "https://aarushmaddula.github.io/admin-dashboard/"
@@ -224,16 +240,16 @@
     "title": "Sign Up Form",
     "description": "A simple sign up form that allows you to enter your information. It doesn't actually sign you up, but it was a nice opportunity to practice page layouts & form validation.",
     "thumbnail": "/projects/sign-up-form/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/sign-up-form",
     "website": "https://aarushmaddula.github.io/sign-up-form/"
-  },  
+  },
   {
     "title": "Calculator",
     "description": "A simple calculator that allows you to perform basic arithmetic operations with PEMDAS order of operations.",
     "thumbnail": "/projects/calculator/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["JS", "HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/calculator",
     "website": "https://aarushmaddula.github.io/calculator/"
@@ -242,7 +258,7 @@
     "title": "Etch-a-Sketch",
     "description": "Based on the childhood game Etch-a-Sketch, this project allows you to draw on a grid with your cursor with options to change the grid size and color.",
     "thumbnail": "/projects/etch-a-sketch/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["JS", "HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/etch-a-sketch",
     "website": "https://aarushmaddula.github.io/etch-a-sketch/"
@@ -251,7 +267,7 @@
     "title": "Rock Paper Scissors",
     "description": "A website where you can play rock paper scissors against the computer, using basic JS & DOM manipulation for the game logic.",
     "thumbnail": "/projects/rock-paper-scissors/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["JS", "DOM", "HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/rock-paper-scissors",
     "website": "https://aarushmaddula.github.io/rock-paper-scissors/"
@@ -260,7 +276,7 @@
     "title": "Odin Recipes",
     "description": "That's How It Starts, Ya Know! Created my first website using basic HTML and CSS where you can find recipes for a few Indian dishes.",
     "thumbnail": "/projects/odin-recipes/website.png",
-    "type": ["web"],
+    "type": ["Web Dev"],
     "tags": ["HTML", "CSS"],
     "github": "https://github.com/AarushMaddula/odin-recipes",
     "website": "https://aarushmaddula.github.io/odin-recipes/"
@@ -269,15 +285,15 @@
     "title": "Tak",
     "description": "A 3D JavaFX version of the strategy board game Tak, featuring full rule enforcement, interactive gameplay, and multiplayer support.”",
     "thumbnail": "/projects/tak/game.png",
-    "type": ["programming", "featured"],
+    "type": ["Programming", "featured"],
     "tags": ["JavaFX", "WebSockets", "Java"],
-    "github": "https://github.com/AarushMaddula/Tak"    
+    "github": "https://github.com/AarushMaddula/Tak"
   },
   {
     "title": "Spider Solitaire",
     "description": "A JavaFX Spider Solitaire game, featuring a user-friendly drag-and-drop interface and a simple game logic utilizing Object Oriented Programming.",
     "thumbnail": "/projects/spider-solitaire/game.png",
-    "type": ["programming", "featured"],
+    "type": ["Programming", "featured"],
     "tags": ["JavaFX", "Java"],
     "github": "https://github.com/AarushMaddula/SpiderSolitaire"
   }

@@ -1,16 +1,16 @@
 [
   {
     "title": "The Ohio State University",
-    "description": "Dual Enrollment student working towards an Electrical and Computer Engineering Degree",
+    "description": "Honors Undergraduate student working towards a B.S. in Electrical and Computer Engineering\nGPA: 4.0/4.0",
     "date": "2025 - Present",
     "location": "Columbus, OH",
-    "image_url": "/osu_logo.jpg"
+    "image_url": "/logos/osu_logo.jpg"
   },
   {
     "title": "Dublin Jerome High School",
-    "description": "High School Diploma",
+    "description": "Graduated earning a High School Diploma\nGPA: 4.0/4.0",
     "date": "2022 - 2026",
     "location": "Dublin, OH",
-    "image_url": "/djhs_logo.jpg"
+    "image_url": "/logos/djhs_logo.jpg"
   }
 ]

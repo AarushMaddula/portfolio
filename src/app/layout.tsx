@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aarush Maddula",
+  title: "Aarush Maddula | Portfolio",
   description: "Portfolio of Aarush Maddula, an aspiring computer engineer.",
   other: {    
     "google-site-verification": "hvWgxr21EWTqTlVeyukPOtDc4t9gDviX9UuFdzd_92I"

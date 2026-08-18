@@ -1,3 +1,5 @@
+import TextFormatter from "./TextFormatter";
+
 type ExperienceCardProps = {
   title: string;
   role: string;
@@ -11,10 +13,10 @@ type ExperienceCardProps = {
 function Metric({ metric, icon_url }) {
   return (
     metric && (
-    <div className="flex items-center gap-1.25">
-      <img src={icon_url} alt="" className="invert h-4" />
-      <p className="">{metric}</p>
-    </div>
+      <div className="flex items-center gap-1.25">
+        <img src={icon_url} alt="" className="invert h-4" />
+        <p className="">{metric}</p>
+      </div>
     )
   );
 }
@@ -42,8 +44,10 @@ export default function ExperienceCard({
           <Metric metric={location} icon_url="/icons/pin.svg" />
           <Metric metric={hours} icon_url="/icons/clock.svg" />
         </div>
-        <p className="text-sm text-muted mb-2">{description}</p>
-        
+
+        <div className="text-sm text-muted mb-2">
+          <TextFormatter text={description} />
+        </div>
       </div>
     </div>
   );

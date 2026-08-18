@@ -1,3 +1,5 @@
+import TextFormatter from "./TextFormatter";
+
 type EducationCardProps = {
   title: string;
   description: string;
@@ -10,7 +12,7 @@ function Metric({metric, icon_url}) {
   return metric && (
     <div className="flex items-center gap-1.25">
       <img src={icon_url} alt="" className="invert h-4" />
-      <p className="">{metric}</p>
+      <p>{metric}</p>
     </div>
   )
 }
@@ -34,7 +36,9 @@ export default function EducationCard({
           <Metric metric={date} icon_url="/icons/calendar.svg"/>
           <Metric metric={location} icon_url="/icons/pin.svg"/>
         </div>
-        <p className="text-md text-muted mb-2">{description}</p>
+        <div className="text-md text-muted mb-2">
+          <TextFormatter text={description}/>
+        </div>
       </div>
     </div>
   );

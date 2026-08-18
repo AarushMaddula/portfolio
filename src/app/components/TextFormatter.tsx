@@ -9,7 +9,7 @@ function tokenizer(text: string) {
 }
 
 function parseNewLines(tokens: string[]) {
-  let firstToken = tokens.pop();
+  const firstToken = tokens.pop();
   if (firstToken !== "\n") {
     console.error(`Text Formatter: expected \\n, got ${firstToken}`);
   } 
@@ -72,7 +72,7 @@ function parser(tokens: string[]) {
   const elements: React.ReactNode[] = [];
 
   while (tokens.length > 0) {
-    let token = tokens.at(-1);
+    const token = tokens.at(-1);
 
     switch (token) {
       case "\n":

@@ -20,9 +20,9 @@ function About() {
             <h1 className="inline-block text-white font-semibold text-4xl mb-6 slide-in">
               About Me!
             </h1>
-            <p className="text-muted">
+            <div className="text-muted">
               <TextFormatter text={bioData.bio}/>
-            </p>
+            </div>
           </div>
         </div>
         

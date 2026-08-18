@@ -9,7 +9,7 @@ export default function Navbar() {
     <>
       <MobileNavbar />
 
-      <nav className="fixed sm:block hidden left-1/2 -translate-x-1/2 top-4 w-[38rem] z-50 px-6 py-3 bg-gray-900/50 rounded-xl outline-2 outline-accent/70 backdrop-blur-lg animate-[slide-down_300ms_ease-out] shadow-[inset_0_2px_5px_rgba(177,177,177,0.25)] whitespace-nowrap">
+      <nav className="fixed sm:block hidden left-1/2 -translate-x-1/2 top-4 w-[38rem] z-50 px-6 py-3 bg-dark/90 rounded-xl outline-2 outline-accent/70 backdrop-blur-lg animate-[slide-down_300ms_ease-out] whitespace-nowrap">
         <div className="flex items-center justify-center">
           <div className="text-white font-bold text-lg">Aarush Maddula</div>
 
@@ -98,8 +98,7 @@ function MobileNavbar() {
 
       {isOpen && (
         <>
-          <div className="sm:hidden fixed left-4 top-12 p-4 flex flex-col gap-4 bg-gray-900/50 outline-2 outline-accent/70 backdrop-blur-lg rounded-xl z-50 animate-[slide-in_300ms_ease-out]">
-            {/* <div className="absolute w-full h-full bg-dark/100 -z-10"></div> */}
+          <div className="sm:hidden fixed left-4 top-12 p-4 flex flex-col gap-4 z-50 bg-dark/90 rounded-xl outline-2 outline-accent/70 backdrop-blur-lg animate-[slide-in_300ms_ease-out]">
 
             <div className="text-white font-bold text-lg">Aarush Maddula</div>
 

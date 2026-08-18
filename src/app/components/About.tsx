@@ -3,7 +3,9 @@ import EducationCard from "./EducationCard";
 import ExperienceCard from "./ExperienceCard";
 import educationData from "@/data/education.json";
 import experienceData from "@/data/experience.json";
+import bioData from "@/data/bio.json";
 import skillsData from "@/data/skills.json";
+import TextFormatter from "./TextFormatter";
 
 function About() {
   return (
@@ -19,7 +21,7 @@ function About() {
               About Me!
             </h1>
             <p className="text-muted">
-              I’m an Electrical and Computer Engineering student at The Ohio State University with a passion for programming and electronics. I believe that problem-solving and a curiosity for the unfamiliar is the key to feeling fufilled, a mindset that drives my ultimate goal of designing electronics and PCBs for the aerospace industry. I'm always looking to learn and grow as a person. Whenever I want to take a break, you can usually find me lifting at the gym, exploring new places around the city, or simply unwinding by binging a good show.
+              <TextFormatter text={bioData.bio}/>
             </p>
           </div>
         </div>
@@ -29,7 +31,7 @@ function About() {
           <div className="flex justify-center items-center relative w-72 aspect-square rotating-border overflow-hidden rounded-full p-1">
             <div className="relative w-full h-full aspect-square rounded-full">
               <Image
-                src={"/profile.jpg"}
+                src={bioData.profile_image_url}
                 alt=""
                 fill
                 className="object-cover rounded-full"

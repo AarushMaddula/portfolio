@@ -47,7 +47,7 @@ function SelectorButton<T>({
   return (
     <button
       onClick={() => onSelect(buttonType)}
-      className={`px-4 py-2 rounded-md hover:bg-accent/70 transition ${
+      className={`px-4 py-2 rounded-md hover:bg-accent/80 transition ${
         currentType === selectionType ? "bg-accent" : "bg-light"
       }`}
     >
@@ -117,7 +117,7 @@ export default function ProjectSection({ projectsData }) {
           <div className="flex items-center text-white font-semibold">
             <button
               onClick={() => setPage(Math.max(1, page - 1))}
-              className="w-8 h-8 rounded-md hover:bg-accent/70 transition bg-light"
+                className="w-8 h-8 rounded-md hover:bg-accent/80 transition bg-light"
             >
               {"<"}
             </button>
@@ -126,7 +126,7 @@ export default function ProjectSection({ projectsData }) {
             </div>
             <button
               onClick={() => setPage(Math.min(totalPages, page + 1))}
-              className="w-8 h-8 rounded-md hover:bg-accent/70 transition bg-light"
+                className="w-8 h-8 rounded-md hover:bg-accent/80 transition bg-light"
             >
               {">"}
             </button>

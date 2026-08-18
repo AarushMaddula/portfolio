@@ -66,7 +66,7 @@ function ProjectCard({ title, description, thumbnail, type, tags, path, github, 
                 href={github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-2 py-2 font-medium rounded-md text-white duration-150 hover:bg-accent/50 hover:cursor-pointer"
+                className="px-2 py-2 font-medium rounded-md text-white duration-150 hover:bg-accent/80 hover:cursor-pointer"
               >
                 <img src="/icons/github-white.svg" alt="view github" className="w-5 h-5" />
               </Link>
@@ -78,7 +78,7 @@ function ProjectCard({ title, description, thumbnail, type, tags, path, github, 
                 href={website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-2 py-2 font-medium rounded-md text-white duration-150 hover:bg-accent/50 hover:cursor-pointer"
+                className="px-2 py-2 font-medium rounded-md text-white duration-150 hover:bg-accent/80 hover:cursor-pointer"
               >
                 <img src="/icons/new-tab.svg" alt="view website" className="invert w-5 h-5" />
               </Link>
@@ -88,7 +88,7 @@ function ProjectCard({ title, description, thumbnail, type, tags, path, github, 
             path && (
               <Link
                 href={path}
-                className="px-4 py-2 font-medium border border-accent/20 rounded-md text-white duration-150 hover:bg-accent/50 hover:cursor-pointer"
+                className="px-4 py-2 font-medium border border-accent/20 rounded-md text-white duration-150 hover:bg-accent/80 hover:cursor-pointer"
               >
                 View Project
               </Link>

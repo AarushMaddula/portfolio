@@ -1,18 +1,28 @@
 [
   {
-    "title": "City of Dublin Volunteer",
-    "description": "Assisted festival attendees at the Dublin Irish Festival by selling tickets, managing crowd flow, and providing friendly, efficient support.",
+    "title": "Buckeye Space Launch Initiative (BSLI)",
+    "role": "Payload Engineer",
+    "description": ">Collaborated with teammates to develop payload electronics and firmware for an International Rocket Engineering Competition (IREC) rocket targeting high-altitude flight>Developed a mid-flight laser communication system to wirelessly transmit telemetry data from the rocket to a ground station in real time>Wrote embedded C firmware for an STM32, interfacing with an IMU, GNSS module, and servos over UART & RS-485 communication>Implemented Kalman filtering and MPC for state estimation and control in Python and Linux",
+    "date": "2025 - Current",
+    "location": "Columbus, OH",
+    "image_url": "/logos/bsli.jpg"
+  },
+  {
+    "title": "City of Dublin",
+    "role": "Community Volunteer",
+    "description": ">Managed ticket sales and bike parking for the Dublin Irish Festival (100,000+ attendees), handling transactions accurately and efficiently processing hundreds of patrons per shift>Delivered friendly, professional assistance to festival-goers, consistently creating a welcoming and organized experience>Recognized with the \"Best of the Fest\" award for 100+ hours of outstanding **communication**, *service*, and dedication across multiple volunteer seasons",
     "date": "2023 - Current",
     "location": "Dublin, OH",
     "hours": "100+ Hours",
-    "image_url": "/city_of_dublin.jpg"
+    "image_url": "/logos/city_of_dublin.jpg"
   },
   {
     "title": "Dublin Jerome Tech Club",
-    "description": "Taught elementary students Python at coding camps, guiding them through troubleshooting with patience and support.",
-    "date": "2022 - Present",
+    "role": "Volunteer Instructor, Club Member",
+    "description": ">Taught Python to 20+ elementary students through multiple coding camps, guiding them through core concepts and hands-on projects>Provided patient, one-on-one debugging support to help students troubleshoot and resolve issues in their code",
+    "date": "2022 - 2025",
     "location": "Dublin, OH",
     "hours": "15+ Hours",
-    "image_url": "/dublin_tech_club.jpg"
+    "image_url": "/logos/dublin_tech_club.jpg"
   }
 ]

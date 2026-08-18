@@ -16,7 +16,7 @@ type Project = {
 
 function ProjectCard({ title, description, thumbnail, type, tags, path, github, website }: Project) {
   return (
-    <div className="rounded-lg border-accent border-0 bg-normal shadow-md flex flex-col justify-between hover:transform hover:scale-[101%] transition-all duration-150 ease-out">
+    <div className="rounded-lg border-accent border-0 bg-normal shadow-md flex flex-col justify-between pop appear fade-in">
       <div className="flex flex-col">
         <div className="relative w-full aspect-5/3">
           <Image

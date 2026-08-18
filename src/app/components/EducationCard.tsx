@@ -23,7 +23,7 @@ export default function EducationCard({
   image_url
 }: EducationCardProps) {
   return (
-    <div className="flex-1 flex flex-row bg-normal rounded-xl">
+    <div className="flex-1 flex flex-row bg-normal rounded-xl appear pop">
       <div className="relative h-18 ml-6 mt-7 aspect-square rounded-xl overflow-hidden">
         <img src={image_url} alt="" className="h-full w-full object-cover"/>
       </div>

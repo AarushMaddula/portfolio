@@ -125,3 +125,41 @@ html {
   border-radius: 50%;
   background: radial-gradient(circle, white);
 }
+
+.pop {
+  transition: transform 100ms ease-out;
+}
+
+.pop:hover {
+  transform: scale(1.02);
+}
+
+
+@keyframes appear {
+  from { opacity: 0; translate: 0 1rem; scale: 97% }
+}
+
+.appear {
+  animation: appear ease-out both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 100%;
+}
+
+.fade-in {
+  animation: fade-in 0.1s ease-in both;
+}
+@keyframes fade-in {
+  from { opacity: 0%; scale: 99%  }
+}
+
+.appear.fade-in {
+  animation: 
+    appear ease-in both,
+    fade-in 0.1s ease-in both;
+  animation-timeline: 
+    view(),
+    auto;
+  animation-range: 
+    entry 0% entry 100%,
+    normal;
+}

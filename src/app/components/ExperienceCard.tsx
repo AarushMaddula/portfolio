@@ -25,7 +25,7 @@ export default function ExperienceCard({
   image_url
 }: ExperienceCardProps) {
   return (
-    <div className="flex flex-row bg-normal rounded-xl">
+    <div className="flex flex-row bg-normal rounded-xl pop appear">
       <div className="relative h-18 ml-6 mt-7 aspect-square rounded-xl overflow-hidden">
         <img src={image_url} alt="" className="w-full h-full object-cover" />
       </div>

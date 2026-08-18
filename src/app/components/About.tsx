@@ -11,7 +11,7 @@ function About() {
       id="about-me"
       className="py-8 px-8 max-w-7xl mx-auto flex flex-col gap-12 overflow-y-clip"
     >
-      <div className="flex flex-col-reverse lg:flex-row items-center gap-16 mb-4">
+      <div className="flex flex-col-reverse lg:flex-row items-center gap-16 mb-4 appear">
         <div className="relative">
           <div className="absolute w-full h-full bg-accent/10 blur-3xl rounded-2xl"></div>
           <div className="relative flex flex-col">
@@ -41,7 +41,7 @@ function About() {
         </div>
       </div>
 
-      <div className="flex flex-wrap md:flex-nowrap gap-4">
+      <div className="flex flex-wrap md:flex-nowrap gap-4 appear">
         {
           skillsData.map(({section_name, skills}) => {
             return (

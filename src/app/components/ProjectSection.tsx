@@ -23,7 +23,7 @@ interface SelectorButtonProps<T> {
   onSelect: (value: T) => void;
 }
 
-const PROJECT_TYPES = ["Engineering", "Web Dev", "Programming"];
+const PROJECT_TYPES: ProjectType[] = ["Engineering", "Web Dev", "Programming"];
 
 function getFilteredProjects(
   type: ProjectType,
@@ -59,9 +59,9 @@ function SelectorButton<T>({
 export default function ProjectSection({ projectsData }) {
   const [type, setType] = useState<ProjectType>("Engineering");
   const [isFeatured, setFeatured] = useState<boolean>(true);
-  
+
   const projects = getFilteredProjects(type, isFeatured, projectsData);
- 
+
   const itemsPerPage = 3;
   const totalPages = Math.max(Math.ceil(projects.length / itemsPerPage), 1);
 
@@ -84,21 +84,20 @@ export default function ProjectSection({ projectsData }) {
       className="bg-dark-2 py-8 max-w-384 mx-auto min-h-200 2xl:mask-x-from-95%"
     >
       <div className="max-w-7xl px-8 mx-auto">
-        <h1 className="inline-block text-white font-semibold text-4xl mb-8">
-          Projects
-        </h1>
-        <div className="flex justify-between flex-wrap mb-8 gap-4">
-          <div className="text-white flex flex-wrap gap-4">
-            <SelectorButton
-              text={"Featured"}
-              buttonType={!isFeatured}
-              currentType={isFeatured}
-              selectionType={true}
-              onSelect={setFeatured}
-            />
-            <span className="w-px mx-2 bg-white"></span>
-            {
-              PROJECT_TYPES.map((projectType) => {
+          <h1 className="inline-block text-white font-semibold text-4xl mb-8">
+            Projects
+          </h1>
+          <div className="flex justify-between flex-wrap mb-8 gap-4">
+            <div className="text-white flex flex-wrap gap-4">
+              <SelectorButton
+                text={"Featured"}
+                buttonType={!isFeatured}
+                currentType={isFeatured}
+                selectionType={true}
+                onSelect={setFeatured}
+              />
+              <span className="w-px mx-2 bg-white"></span>
+              {PROJECT_TYPES.map((projectType) => {
                 return (
                   <SelectorButton
                     key={projectType}
@@ -108,28 +107,25 @@ export default function ProjectSection({ projectsData }) {
                     selectionType={projectType}
                     onSelect={setType}
                   />
-                )
-              })
-            }
-
-          </div>
-
-          <div className="flex items-center text-white font-semibold">
-            <button
-              onClick={() => setPage(Math.max(1, page - 1))}
-                className="w-8 h-8 rounded-md hover:bg-accent/80 transition bg-light"
-            >
-              {"<"}
-            </button>
-            <div className="w-16 py-2 text-center">
-              {page} of {totalPages}
+                );
+              })}
             </div>
-            <button
-              onClick={() => setPage(Math.min(totalPages, page + 1))}
+            <div className="flex items-center text-white font-semibold">
+              <button
+                onClick={() => setPage(Math.max(1, page - 1))}
                 className="w-8 h-8 rounded-md hover:bg-accent/80 transition bg-light"
-            >
-              {">"}
-            </button>
+              >
+                {"<"}
+              </button>
+              <div className="w-16 py-2 text-center">
+                {page} of {totalPages}
+              </div>
+              <button
+                onClick={() => setPage(Math.min(totalPages, page + 1))}
+                className="w-8 h-8 rounded-md hover:bg-accent/80 transition bg-light"
+              >
+                {">"}
+              </button>
           </div>
         </div>
 

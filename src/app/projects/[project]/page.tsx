@@ -4,6 +4,13 @@ import Footer from "../../components/Footer";
 import Header from "../components/Header";
 import PageThumbnail from "../components/PageThumbnail";
 
+export const metadata = {
+  robots: {
+    index: false,
+    follow: true,
+  },
+}
+
 export default async function Page({
   params,
 }: {

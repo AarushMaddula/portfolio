@@ -5,6 +5,14 @@ import About from './components/About';
 
 import projectsData from "@/data/projectList.json";
 
+export const metadata = {
+  robots: {
+    index: true,
+    follow: true,
+  },
+}
+
+
 export default function Home() {
   return (
     <>
